@@ -1,10 +1,15 @@
-body {font-family:helvetica;font-size:12px}
-H1 {font-family:helvetica;color:#888}
-H2 {font-family:"lucida grande",tahoma,verdana,arial,sans-serif;color:#888}
-#container {text-align:center}
-#header {}
-#mainbod {}
-#menu {}
-#main {}
-#footer {}
-#bottom {}
+body {font-family:arial;font-size:12px;}
+H1 {font-family:airal;color:#888;}
+H2 {font-family:"lucida grande",tahoma,verdana,arial,sans-serif;color:#888;}
+img.beta {display:block;margin-left:auto;margin-right:auto;padding:10px;}
+li {font-size:15px;}
+li.menu {list-style:none;font-family:arial;font-size:25px;padding-bottom:10px}
+#container {text-align:center;width:900px;margin:0px auto;border:1px solid #bbb;padding:10px;}
+#header {border:1px solid #bbb;height:80px;padding:10px;}
+#mainbody {margin-top:10px;padding-bottom:10px;}
+#mainbody div {padding:5px;float:left;}
+#leftside {width:180px;height:250px;border:1px solid #bbb;}
+#main {width:670px;margin-top:10px;padding-bottom:10px;}
+#footer {float:left;margin-top:10px;margin-bottom:10px;padding:10px;border:1px solid #bbb;width:800px;}
+#bottom {clear:both;text-align:right;}
+#content-box1, #content-box2, #content-box3 {width:200px;height:120px;}
