@@ -1,0 +1,14 @@
+ul li ol {display:inline;}
+#main2 {float:left;position:relative;margin-top:5px;margin-bottom:10px;padding:5px;border:0px solid #bbb;width:930px;}
+
+/* Project DM */
+#thumbs {width:100%;text-align:left;display:inline}
+#thumbs img, #lgrImage {border:1px solid gray;padding:0px;}
+#thumbs img {margin:0px 0px 0px 0px;cursor:pointer;}
+#picinfo {font-size:12px;font-weight:normal;letter-spacing:1px;padding:5px 5px;width:600px;margin:5px;}
+div.panel, div.dmdetails {float:left;display:inline;}
+div.panel {width:600px;height:450px;}
+.dmdetails li {font-size:11px;list-style:square;width:290px;margin:30px 0px 20px 0px;font-weight:normal;letter-spacing:2px;line-height:17px}
+.dmdetails h3 {margin-left:30px;}
+.dmdetails img {margin:10px 0px 0px 30px;}
+img.dmsound {display:inline;position:relative;}
