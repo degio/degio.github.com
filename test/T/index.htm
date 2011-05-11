@@ -27,11 +27,9 @@
 </script>
 
 <script type="text/javascript">
-function preload(arrayOfImages) {
+	function preload(arrayOfImages) {
     $(arrayOfImages).each(function(){
         $('<img/>')[0].src = this;
-        // Alternatively you could use:
-        // (new Image()).src = this;
     });
 }
 
@@ -41,7 +39,7 @@ preload([
     '02_large.jpg',
     '03_large.jpg',
     '04_large.jpg',
-    '05_large.jpg',
+    '05_large.jpg'
 ]);
 </script>
 
