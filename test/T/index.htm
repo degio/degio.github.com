@@ -23,14 +23,26 @@
 			$('#lgrImage').hide().attr('src',$(this).attr('src').replace('tn','large')).fadeIn(800);
 			$('#picinfo').html($(this).attr('title'));
 		});
+});
+</script>
 
-$.fn.preload = function() {
-    this.each(function(){
+<script type="text/javascript">
+function preload(arrayOfImages) {
+    $(arrayOfImages).each(function(){
         $('<img/>')[0].src = this;
+        // Alternatively you could use:
+        // (new Image()).src = this;
     });
 }
-$(['02_large.jpg','03_large.jpg','04_large.jpg','05_large.jpg']).preload();
-});
+
+// Usage:
+
+preload([
+    '02_large.jpg',
+    '03_large.jpg',
+    '04_large.jpg',
+    '05_large.jpg',
+]);
 </script>
 
 
