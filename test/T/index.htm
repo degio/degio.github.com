@@ -23,21 +23,14 @@
 			$('#lgrImage').hide().attr('src',$(this).attr('src').replace('tn','large')).fadeIn(800);
 			$('#picinfo').html($(this).attr('title'));
 		});
-});	
-</script>
 
-<script type="text/javascript">
-function preload(arrayOfImages) {
-    $(arrayOfImages).each(function(){
+$.fn.preload = function() {
+    this.each(function(){
         $('<img/>')[0].src = this;
     });
 }
-preload([
-    '02_large.jpg',
-    '03_large.jpg',
-    '04_large.jpg',
-    '05_large.jpg',
-]);
+$(['02_large.jpg','03_large.jpg','04_large.jpg','05_large.jpg']).preload();
+});
 </script>
 
 
