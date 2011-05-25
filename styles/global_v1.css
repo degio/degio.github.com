@@ -19,8 +19,8 @@
 
 /* Social Buttons */
 .twitter {}
-.tumblr {margin-right:16px;}
-.facebook {top:-2px;margin:0;padding:0;}
+.tumblr {margin-right:15px;}
+.facebook {top:-3px;margin:0;padding:0;}
 
 a, a:link, a:visited{text-decoration:none;color:#569AD1;}
 a:hover{text-decoration:underline;color:#2E74B4;}
@@ -30,7 +30,7 @@ H3 {margin:0;padding:0;letter-spacing:2px;}
 H4 {color:#999;font-weight:normal;letter-spacing:2px;}
 .maingrid{padding:0;margin-left:0;margin-top:0;border:0}
 #container {display:block;width:950px;padding:10px;background-color:#fff;}
-.subcontainer {border:1px solid #e3e3e3;margin:5px auto 0px;}
+.subcontainer {border:1px solid #ddd;margin:5px auto 0px;}
 #mainbody {display:block;clear:both;width:950px;height:400px;margin-top:20px;}
 #mainbody div {padding:0px;float:left;}
 #menu{width:180px;text-align:left;margin:0;padding:0;border:0px solid #bbb;}
@@ -45,23 +45,23 @@ H4 {color:#999;font-weight:normal;letter-spacing:2px;}
 .slink a:hover, .slink a:active{color:#A7A7A7;text-decoration:none;}
 .small {font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#ccc;font-size:10px;}
 #main {width:765px;height:400px;}
-.imgholder img{border:1px solid #444;}
+.imgholder img{border:1px solid #333;}
 .subsecmain {vertical-align:top;display:inline-block;}
 /* #main img{display:inline;border:0;padding:0;margin:0px 0px -6px 0px;border:1px solid #444} */
 #footer {float:left;margin-top:0px;margin-bottom:0px;padding:0px;border:0px solid #bbb;width:930px;height:1px;}
 #bottom {clear:both;text-align:right;}
 .shadow {
-	box-shadow: rgba(0,0,0,0.60) 0 1px 3px;
-	-webkit-box-shadow: rgba(0,0,0,0.60) 0 1px 3px;
-	-moz-box-shadow: rgba(0,0,0,0.60) 0 1px 3px;
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fdfdfd), to(#e5e5e5));
-	background: -moz-linear-gradient(100% 100% 90deg, #e1e1e1, #fdfdfd);
+	box-shadow: rgba(0,0,0,0.60) 0 1px 4px;
+	-webkit-box-shadow: rgba(0,0,0,0.60) 0 1px 4px;
+	-moz-box-shadow: rgba(0,0,0,0.60) 0 1px 4px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fdfdfd), to(#d9d9d9));
+	background: -moz-linear-gradient(100% 100% 90deg, #d9d9d9, #fdfdfd);
 }
 
 /* Front Page Box Info Popups*/
 
 #popcontain {margin-left:50px;}
-.popgrid{width:220px;height:165px;margin:0px 0px 10px 10px;background:#333;border:1px solid #444;overflow:hidden;position:relative;}
+.popgrid{width:220px;height:165px;margin:0px 0px 10px 10px;background:#333;border:1px solid #333;overflow:hidden;position:relative;}
 .popgrid img{position:absolute;top:0;border:0;}
 .pop .boxpop{top:165px;}
 .boxpop{float:left;position:absolute;background:#222;height:25px;width:100%;opacity:.8; 
