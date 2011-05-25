@@ -3,29 +3,29 @@
 
 /* Header Main */
 #header-main {margin:0;padding:0;border:0px solid #bbb;width:950px;height:100px;border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#ddd;}
-#headright-main {display:inline-block;width:767px;height:100px;padding:0;margin:0;}
+#headright-main {display:inline-block;width:765px;height:100px;padding:0;margin:0;}
 #headright-main div {display:block;float:right;clear:both;}
 #headright-main ul {margin:0;padding:0;}
-#headright-main li {position:static;display:inline;list-style:none;}
+#headright-main li {position:relative;display:inline;list-style:none;}
 
 /* Header */
 #header {margin:0px auto 7px;border:0px solid #bbb;width:970px;height:100px;}
 #headleft {display:inline-block;width:180px;height:100px;padding:0;margin:0;}
 #headleft img {margin-bottom:10px;border:0px;}
-#headright {display:inline-block;width:787px;height:100px;padding:0;margin:0;}
+#headright {display:inline-block;width:785px;height:100px;padding:0;margin:0;}
 #headright div {display:block;float:right;clear:both;}
-#headright li {position:static;display:inline;list-style:none;}
+#headright li {position:relative;display:inline;list-style:none;}
 #headright img{margin-right:20px;margin-top:8px;}
 
 /* Social Buttons */
 .twitter {}
 .tumblr {margin-right:16px;}
-.facebook {top:-3px;margin:0;padding:0;}
+.facebook {top:-2px;margin:0;padding:0;}
 
 a, a:link, a:visited{text-decoration:none;color:#569AD1;}
 a:hover{text-decoration:underline;color:#2E74B4;}
 a:active{text-decoration:underline;color:#2E74B4;}
-body{font-family:Arial,Helvetica,sans-serif;font-size:12px;text-decoration:none;color:#555;background-color:#f3f3f3;}
+body{font-family:Arial,Helvetica,sans-serif;font-size:12px;text-decoration:none;color:#444;background-color:#f3f3f3;}
 H3 {margin:0;padding:0;letter-spacing:2px;}
 H4 {color:#999;font-weight:normal;letter-spacing:2px;}
 .maingrid{padding:0;margin-left:0;margin-top:0;border:0}
