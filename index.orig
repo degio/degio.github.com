@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-language" content="en" />
+<meta name="description" content="Deg.io is a site created to showcase most of my current and past projects." />
+<meta property="fb:admins" content="100002065058080" />
+<link rel="icon" href="http://deg.io/icons/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="http://deg.io/icons/favicon.png" type="image/png" />
+<link type="text/css" rel="stylesheet" href="styles/v1.css" />
+
+<title>deg.io :: Coming Soon</title>
+
+</head>
+
+<body>
+
+	<div>
+    <img src="deg.io_beta.gif" class="beta" alt="deg.io Coming Soon - March 20, 2011" />
+	</div>
+
+
+
+</body>
+</html>

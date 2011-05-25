@@ -1,14 +1,47 @@
-ul li ol {display:inline;}
-#main2 {float:left;position:relative;margin-top:5px;margin-bottom:10px;padding:5px;border:0px solid #bbb;width:930px;}
+#main2 {display:block;clear:both;margin-top:0px;padding:0px;border:0px solid #bbb;}
+.main3 {display:block;clear:both;margin-top:0px;padding-bottom:20px;}
+.main3-5 {display:block;clear:both;margin-top:30px;padding-bottom:20px;}
+.main4 {display:block;clear:both;margin-top:30px;padding-bottom:30px;}
+.break {border-bottom-width:1px;border-bottom-style:solid;border-bottom-color:#ddd;}
+.description {width:290px;margin-right:20px;}
+.description p {line-height:1.50em;text-align:justify;}
+.descriptionright {width:290px;margin-left:20px;}
+.descriptionright p {line-height:1.50em;text-align:justify;}
+
 
 /* Project DM */
-#thumbs {width:100%;text-align:left;display:inline}
-#thumbs img, #lgrImage {border:1px solid gray;padding:0px;}
-#thumbs img {margin:0px 0px 0px 0px;cursor:pointer;}
-#picinfo {font-size:12px;font-weight:normal;letter-spacing:1px;padding:5px 5px;width:600px;margin:5px;}
+.thumbsAll {text-align:left;display:inline}
+.thumbsAll img, .lgrImageAll {border:1px solid #444;padding:0px;}
+img.lgrImageAll {text-align:right;}
+.thumbsAll img {margin:0px 0px 0px 0px;cursor:pointer;display:inline}
+.picInfoAll {display:block;font-size:12px;font-weight:normal;letter-spacing:1px;padding:5px 5px;width:600px;margin:5px;}
 div.panel, div.dmdetails {float:left;display:inline;}
 div.panel {width:600px;height:450px;}
-.dmdetails li {font-size:11px;list-style:square;width:290px;margin:30px 0px 20px 0px;font-weight:normal;letter-spacing:2px;line-height:17px}
+.dmdetails li {font-size:11px;list-style:square;width:300px;margin:30px 0px 20px 0px;font-weight:normal;letter-spacing:2px;line-height:17px}
 .dmdetails h3 {margin-left:30px;}
 .dmdetails img {margin:10px 0px 0px 30px;}
-img.dmsound {display:inline;position:relative;}
+img.dmsound {display:inline;}
+
+/* Project OMC */
+.picholder {width:632px;height:475px;}
+
+
+
+
+
+/*
+.shadow {
+	box-shadow: rgba(0,0,0,0.80) 0 2px 1px;
+	-webkit-box-shadow: rgba(0,0,0,0.80) 0 2px 1px;
+	-moz-box-shadow: rgba(0,0,0,0.40) 8px 8px 10px;
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fdfdfd), to(#eee));
+	background: -moz-linear-gradient(100% 100% 90deg, #eee, #fdfdfd);
+	*background-color: #f8f8f8;
+}
+
+.mainshadow {
+	box-shadow: rgba(0,0,0,0.40) 0 1px 3px;
+	-webkit-box-shadow: rgba(0,0,0,0.40) 0 1px 3px;
+	-moz-box-shadow: rgba(0,0,0,0.30) 0px 1px 3px;
+}
+*/

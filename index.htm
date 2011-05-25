@@ -1,26 +1,151 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
 <head>
 <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-language" content="en" />
-<meta name="description" content="Deg.io is a site created to showcase most of my current and past projects." />
-<meta property="fb:admins" content="100002065058080" />
+<meta name="description" content="Deg.io was created to display most of my current and past projects, photography, and a little web development." />
 <link rel="icon" href="http://deg.io/icons/favicon.ico" type="image/x-icon" />
 <link rel="icon" href="http://deg.io/icons/favicon.png" type="image/png" />
-<link type="text/css" rel="stylesheet" href="styles/v1.css" />
+<link type="text/css" rel="stylesheet" href="styles/global_v1.css" />
 
-<title>deg.io :: Coming Soon</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('#menu:eq(0)> ul').hide();
+		$('#menu:eq(0)> p').click(function() {
+			$(this).next('ul:hidden').slideDown('fast')
+			.siblings('ul:visible').slideUp('fast');
+		});
+	});
+
+	jQuery(document).ready(function($) {
+		$('.popgrid.pop').hover(function() {
+			$(".shade", this).stop().animate({top:'140px'},{queue:false,duration:160});
+			}, function() {
+			$(".shade", this).stop().animate({top:'165px'},{queue:false,duration:160});
+		});
+	});
+</script>
+
+<!-- tumblr code -->
+<script type="text/javascript">
+    var tumblr_link_url = "http://www.deg.io/";
+    var tumblr_link_name = "deg.io";
+    var tumblr_link_description = "Deg.io was created to display most of my current and past projects, photography, and a little web development.";
+</script>
+
+<title>deg.io</title>
 
 </head>
 
 <body>
 
-	<div>
-    <img src="deg.io_beta.gif" class="beta" alt="deg.io Coming Soon - March 20, 2011" />
+<div id="container" class="shadow" style="margin:0px auto;">
+<div id="header-main">
+	<div id="headleft"><a href="http://deg.io"><img src="images/header.png" /></a></div>
+	<div id="headright-main">
+		<div>
+			<ul>
+				<li class="tumblr"><span id="tumblr_button_abc123"></span></li>
+				<li><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://deg.io" data-text="Take a look at this site: deg.io" data-count="horizontal" data-via="deg_io">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></li>
+				<li class="facebook"><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=105144472909708&amp;xfbml=1"></script><fb:like href="http://www.facebook.com/pages/degio/174113185978488" send="true" layout="button_count" width="100" show_faces="false" font="lucida grande"></fb:like></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+
+	<div id="mainbody">
+	<div id="menu">
+			<p class="menubold"><a href="http://blog.deg.io">Blog</a></p>
+			<p class="menubold"><a href="#projects">Projects</a></p>
+				<ul class="submenu slink">
+				<li><a href="projects/omc/">Project OMC</a></li>
+				<li><a href="projects/dm/">Project DM</a></li>
+				<li><a href="projects/hac/">Project HAC</a></li>
+				</ul>
+			<p class="menubold"><a href="#photography">Photography</a></p>
+				<ul class="submenu slink">
+				<li><a href="photo/technology/">Tech</a></li>
+				<li><a href="photo/aviation/">Aviation</a></li>
+				<li><a href="photo/space-shuttle-endeavour/">Space Shuttle</a></li>
+				<li><a href="photo/misc/">Misc.</a></li>
+				</ul>
+			<p class="menubold"><a href="#webdev">WebDev</a></p>
+				<ul class="submenu slink">
+				<li>Fonts</li>
+				<li>HTML5</li>
+				<li>CSS3</li>
+				</ul>
+			<p class="menubold"><a href="contact/">Contact</a></p>
+	</div>
+	<div id="main">
+	
+	<div id="popcontain">
+	
+		<div class="popgrid pop shadowpop">  
+				<a href="photo/technology/"><img src="images/1main.jpg" /></a>
+			<div class="shade boxpop">
+				<h5><a href="photo/technology/">Photography - Tech</a></h5>
+			</div>  
+		</div>
+
+		<div class="popgrid pop shadowpop">  
+				<a href="photo/aviation/"><img src="images/2main.jpg" /></a>
+			<div class="shade boxpop">
+				<h5><a href="photo/aviation/">Photography - Aviation</a></h5>
+			</div>  
+		</div>
+		
+		<div class="popgrid pop shadowpop">  
+				<a href="projects/dm/"><img src="images/3main.jpg" /></a> 
+			<div class="shade boxpop">
+				<h5><a href="projects/dm/">Project DM</a></h5>
+			</div>  
+		</div>
+		
+		<div class="popgrid pop shadowpop">  
+				<a href="photo/misc/"><img src="images/4main.jpg" /></a>
+			<div class="shade boxpop">
+				<h5><a href="photo/misc/">Photography - Misc.</a></h5>
+			</div>  
+		</div>		
+		
+		<div class="popgrid pop shadowpop">  
+				<a href="projects/omc/"><img src="images/5main.jpg" /></a>
+			<div class="shade boxpop">
+				<h5><a href="projects/omc/">Project OMC</a></h5>
+			</div>  
+		</div> 
+	
+		<div class="popgrid pop shadowpop">  
+				<a href="photo/space-shuttle-endeavour/"><img src="images/6main.jpg" /></a>
+			<div class="shade boxpop">
+				<h5><a href="photo/Space-Shuttle-Endeavour/">Space Shuttle Endeavour</a></h5>
+			</div>  
+		</div> 
+		
+	</div>
+	
+	</div>
 	</div>
 
+	<div id="footer"></div>
+	<div id="bottom"></div>
+</div>
 
 
+<!-- tumblr code -->
+<script type="text/javascript">
+    var tumblr_button = document.createElement("a");
+    tumblr_button.setAttribute("href", "http://www.tumblr.com/share/link?url=" + encodeURIComponent(tumblr_link_url) + "&name=" + encodeURIComponent(tumblr_link_name) + "&description=" + encodeURIComponent(tumblr_link_description));
+    tumblr_button.setAttribute("title", "Share on Tumblr");
+    tumblr_button.setAttribute("style", "display:inline-block; vertical-align:top; text-indent:-9999px; overflow:hidden; width:81px; height:20px; background:url('http://platform.tumblr.com/v1/share_1.png') top left no-repeat transparent;");
+    tumblr_button.innerHTML = "Share on Tumblr";
+    document.getElementById("tumblr_button_abc123").appendChild(tumblr_button);
+</script>
+<script type="text/javascript" src="http://platform.tumblr.com/v1/share.js"></script>
 </body>
 </html>

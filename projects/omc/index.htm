@@ -1,0 +1,291 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US">
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-language" content="en" />
+<meta name="description" content="Deg.io is a site created to display most of my current and past projects, photography, and a little web development." />
+<link rel="icon" href="http://deg.io/icons/favicon.ico" type="image/x-icon" />
+<link rel="icon" href="http://deg.io/icons/favicon.png" type="image/png" />
+<link type="text/css" rel="stylesheet" href="../../styles/global_v1.css" />
+<link type="text/css" rel="stylesheet" href="../../styles/subsec.css" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$('#menu:eq(0)> ul.hide').hide();
+		$('#menu:eq(0)> p').click(function() {
+			$(this).next('ul:hidden').slideDown('fast')
+			.siblings('ul:visible').slideUp('fast');
+		});
+
+		$('#thumbs').delegate('img','click', function() {
+			$('#lgrImage').hide().attr('src',$(this).attr('src').replace('tn','large')).fadeIn(800);
+			$('#picinfo').html($(this).attr('alt'));
+		});
+		
+		$('#thumbs1').delegate('img','click', function() {
+			$('#lgrImage1').hide().attr('src',$(this).attr('src').replace('tn','large')).fadeIn(800);
+			$('#picinfo1').html($(this).attr('alt'));
+		});
+		
+		$('#thumbs2').delegate('img','click', function() {
+			$('#lgrImage2').hide().attr('src',$(this).attr('src').replace('tn','large')).fadeIn(800);
+			$('#picinfo2').html($(this).attr('alt'));
+		});
+});
+
+</script>
+
+<script type="text/javascript">
+function preload(arrayOfImages) {
+    $(arrayOfImages).each(function(){
+        $('<img/>')[0].src = this;
+    });
+}
+
+preload([
+    '02_large.jpg',
+    '03_large.jpg',
+	'04_large.jpg',
+    '05_large.jpg',
+	'06_large.jpg',
+    '07_large.jpg',
+    '08_large.jpg',
+    '09_large.jpg',
+    '10_large.jpg',
+    '11_large.jpg',
+    '12_large.jpg',
+    '13_large.jpg',
+	'14_large.jpg',
+    '15_large.jpg',
+	'16_large.jpg',
+	'17_large.jpg',
+	'18_large.jpg',
+	'19_large.jpg'
+]);
+</script>
+
+<!-- tumblr code -->
+<script type="text/javascript">
+    var tumblr_link_url = "http://www.deg.io/";
+    var tumblr_link_name = "deg.io";
+    var tumblr_link_description = "Deg.io was created to display most of my current and past projects, photography, and a little web development.";
+</script>
+
+<title>deg.io - Project OMC</title>
+
+</head>
+
+<body>
+
+
+<div id="header" class="shadow">
+	<div id="headleft"><a href="http://deg.io"><img src="../../images/header.png" alt="deg.io logo" /></a></div>
+	<div id="headright">
+			<div>
+				<ul>
+					<li class="tumblr"><span id="tumblr_button_abc123"></span></li>
+					<li><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://deg.io" data-text="Take a look at this site: deg.io" data-count="horizontal" data-via="deg_io">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></li>
+					<li class="facebook"><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=105144472909708&amp;xfbml=1"></script><fb:like href="http://www.facebook.com/pages/degio/174113185978488" send="true" layout="button_count" width="100" show_faces="false" font="lucida grande"></fb:like></li>
+				</ul>
+			</div>
+		<div>
+		<img src="project_omc.png" alt="Project OMC" />
+		</div>
+	</div>
+</div>
+
+<div id="container" class="subcontainer">
+	
+	<div id="mainbody">
+	<div id="menu">
+			<p class="menubold"><a href="http://blog.deg.io">Blog</a></p>
+			<p class="menubold"><a href="#projects">Projects</a></p>
+				<ul class="submenu slink">
+				<li class="bold">Project OMC</li>
+				<li><a href="http://deg.io/projects/dm/">Project DM</a></li>
+				<li><a href="http://deg.io/projects/hac/">Project HAC</a></li>
+				</ul>
+			<p class="menubold"><a href="#photography">Photography</a></p>
+				<ul class="submenu slink hide">
+				<li><a href="http://deg.io/photography/technology/">Tech</a></li>
+				<li><a href="http://deg.io/photography/aviation/">Aviation</a></li>
+				<li><a href="http://deg.io/photography/space-shuttle-endeavour/">Space Shuttle</a></li>
+				<li><a href="http://deg.io/photography/misc/">Misc.</a></li>
+				</ul>
+			<p class="menubold"><a href="#webdev">WebDev</a></p>
+				<ul class="submenu slink hide">
+				<li>Fonts</li>
+				<li>HTML5</li>
+				<li>CSS3</li>
+				</ul>
+			<p class="menubold"><a href="https://twitter.com/#!/deg_io/">Contact</a></p>
+	</div>
+	<div id="main" class="subsecmain">
+	
+		<div class="description">
+		<h3>Project OMC</h3>
+		<h4>Status: In Progress</h4>
+		<p>This project is my attempt at making my own version of a pergola that is adjustable to various needs with zero 
+		maintenance. The original plan involved a non-removable top made out of canvas and held down with stainless steel hardware.
+		I also wanted it to be very sturdy with little or no wobble for the posts. Everything that Home Depot and Lowe's had was 
+		either too ugly or just not sturdy enough. My only choice was to make something from scratch.</p>
+		<p>The total cost for this project was very low at under $250. I can't provide an exact figure because I bought more screws
+		than I actually needed to get it built. Buying them in bulk was cheaper and I now have screws for future projects. I also have
+		some Spar Varnish and UV/sealer left over for future use.</p>
+		</div>
+	
+		<div class="imgholder"><img src="omc0.jpg" alt="Pergola with canvas top." /></div>
+		
+	</div>
+	</div>
+	
+	<div class="main3 break">
+				
+			<div class="subsecmain">
+			
+				<div class="picholder">	
+					<img id="lgrImage" class="lgrImageAll" src="01_large.jpg" alt="Work area before preparing for the footings." />
+				</div>
+			
+				<div id="picinfo" class="picInfoAll">Work area before preparing for the footings.</div> 
+			
+				<div id="thumbs" class="thumbsAll"> 
+					<img src="01_tn.jpg" alt="Work area before preparing for the footings." />
+					<img src="02_tn.jpg" alt="Seven 3.5in. x 1ft. Stainless Steel flat bars. One of them is 304 & the other six are 316L." />
+					<img src="03_tn.jpg" alt="Close up of the mill finish on the 316L Stainless Steel flat bar." />
+					<img src="04_tn.jpg" alt="This is only the first phase of the finish. Twelve Stainless Steel screws secure each post." />
+					<img src="05_tn.jpg" alt="First footing complete and lining up the second one." />
+					<img src="06_tn.jpg" alt="Second footing poured with about 200 lbs. of concrete." />
+				</div>
+			
+			</div>
+			
+			<div class="descriptionright subsecmain">
+			<h3>Mmmmm Stainless Steel...</h3>
+			<p>The most expensive part of this project was all of the stainless steel involved. I don't live near the ocean so
+			rust was not an issue. Well sort of... For some reason, Hot-dip Galvanized fasteners start rusting within one 
+			year in my backyard. I am actually conducting a test right now and the screws I placed out there are starting to rust 
+			after only 9 months! I didn't want my footings to look old and tarnished after only 1 year. Also, stainless steel just looks 
+			nicer than the galvanized products that most hardware stores carry.
+			</p>
+			<p>Each footing is comprised of 250lbs. of steel reinforced concrete. Each footing is exposed 6 inches above ground 
+			and 12 inches underground. I used 3.5 inch stainless steel flat bars, embedded in the concrete, to hold each post in place.
+			Seven of them were 316L and one was 304 just for fun. Each screw hole was hand drilled with a corded handheld 950rpm 
+			power drill. If you've ever tried to drill in hard metals by hand, you know exactly how hard it is to do it accurately. 
+			But I got very good at it in a hurry. I am proud to say that except for the first two, every hole was within 1mm of its 
+			target. By the time I worked on the last flat bar, all of those holes were within 1/2mm of their target. I used cobalt steel 
+			drill bits that are used for aircraft manufacturing. They cut through the stainless steel like butter. Each flat bar ended up 
+			with a matte finish that was just shy of mirror. I went against a mirror finish because finger prints and smudges were too 
+			visible.</p>
+			</div>	
+	</div>
+	
+
+	<div class="main4 break">
+			<div class="description subsecmain">
+			<h3>Passivation</h3>
+			<p>A few weeks after completing 3 of the footings I noticed that a few of the embedded flat bars started showings signs of rust. 
+			And one of them in particular had some large dark blotch stains. Obviously, they had been 
+			contaminated by my supplier when they were cut to my desired length. Also, in the process of lapping the flat bars, I may 
+			have removed the passive film that protects stainless steel from further oxidation. Stainless steel is different from normal
+			carbon steel because it contains about 11% chromium. This chromium forms a passive film of chromium oxide, which helps prevent 
+			further surface corrosion and blocks corrosion from spreading into the steel's internal structure. Solution? Passivation.</p>
+			<p>ASTM A380 defines passivation as "“the removal of exogenous iron or iron compounds from the surface of a stainless steel 
+			by means of a chemical dissolution, most typically by a treatment with an acid solution that will remove the surface 
+			contamination but will not significantly affect the stainless steel itself.” Although nitric acid is typically used in the process,
+			using such a toxic chemical was not an option in my backyard. In my case, I only used citric acid and the 
+			results were exactly what I needed. Rust and the blotches that I was seeing never materialized again.</p>
+			</div>	
+				
+			<div class="subsecmain">
+				<div class="picholder">	
+					<img id="lgrImage1" class="lgrImageAll" src="07_large.jpg" alt="Gloves required. 100% PURE Citric acid will irritate your skin." />
+				</div>
+			
+				<div id="picinfo1" class="picInfoAll">Gloves required. 100% PURE Citric acid will irritate your skin.</div> 
+			
+				<div id="thumbs1" class="thumbsAll"> 
+					<img src="07_tn.jpg" alt="Gloves required. 100% PURE Citric acid will irritate your skin." />
+					<img src="08_tn.jpg" alt="Citric acid is much safer to use than nitric acid." />
+					<img src="09_tn.jpg" alt="A close up look at the finish." />
+					<img src="10_tn.jpg" alt="Each screw was used in a predrilled hole injected with silicon for a water tight seal." />
+					<img src="11_tn.jpg" alt="A look at the final finish after passivation." />
+				</div>
+			</div>
+	</div>
+	
+	
+	
+	<div class="main4 break">
+			<div class="subsecmain">
+				<div class="picholder">	
+					<img id="lgrImage2" class="lgrImageAll" src="12_large.jpg" alt="Close up of the finished redwood with stainless steel hardware." />
+				</div>
+			
+			<div id="picinfo2" class="picInfoAll">Close up of the finished redwood with stainless steel hardware.</div> 
+			
+				<div id="thumbs2" class="thumbsAll"> 
+					<img src="12_tn.jpg" alt="Close up of finished redwood with stainless steel hardware." />
+					<img src="13_tn.jpg" alt="The Douglas-fir posts after 2 coats of UV sealer and 6 coats of Spar Varnish." />
+					<img src="14_tn.jpg" alt="Each post has a reflector on the top to help reduce surface temperature fluctuations." />
+					<img src="15_tn.jpg" alt="What better way to survive those Santa Ana winds than to use parts made for sailboats." />
+					<img src="16_tn.jpg" alt="Stainless Steel grommets for the canvas." />
+					<img src="17_tn.jpg" alt="Fully assembled and perfectly level." />
+					<img src="18_tn.jpg" alt=" Each hardware has a silicon gasket and each screw hole was also injected with silicon." />
+					<img src="19_tn.jpg" alt=" Time to go sailing?" />
+				</div>
+			</div>
+			
+			<div class="descriptionright subsecmain">
+			<h3>Spar Varnish + Canvas</h3>
+			<p>I used four 8ft Douglas-fir posts, two 10ft. x 5in. pieces of redwood, and two 8ft. x 5in. redwood pieces. Each of one 
+			is protected from the elements by two coats of UV sealer and six coats of spar varnish. The application of the spar varnish 
+			was the most time consuming process. Each coat had to be very thin and I had to wait a few days for each coat to fully cure. 
+			I hope that this process will last about 5 years before I have to do any kind of maintenance on the wood.</p>
+			<p>I chose canvas for the first version because it was cheap (about $30) but I never expected them to last long. To secure the canvas, I used parts that were specifically made for sale boats because they were the most cost 
+			effective stainless steel (SS) parts I could find. I used SS 2-3/8" carabiners and 5/16" SS folding pad eyes that have 
+			a safe working load of 7,000 lbs! For the canvas I used SS grommets. This makes the canvas very easy to remove. It only 
+			takes about 5 minutes to remove it. So far the canvas is already suffering from decay. I hope to make other versions that 
+			are made out of more durable materials.</p>
+			</div>	
+	</div>
+	
+	
+	
+		<div class="main4">
+			<div class="description subsecmain">
+			<h3>What's left?</h3>
+			<p>For the most part, this project is done. The finish on the wood and the stainless steel are both still flawless. The only 
+			issue so far is the canvas. Many of the pieces didn't do very well during this past season's <a href="http://en.wikipedia.org/wiki/Santa_Ana_winds">Santa Ana winds</a>. 
+			They have started to tear around the grommets. I am currently looking at other materials that would be more durable for 
+			this situation. I also plan to use techniques that are used on sails in order to prevent any tears in the fabric. I am 
+			looking for something that is durable and rot proof.</p>
+			<p></p>
+			</div>	
+				
+			<div style="width:630px;" class="imgholder subsecmain">
+				<img style="float:right;" src="omc1.jpg" alt="Stain" />
+			</div>
+	</div>
+	
+	
+	
+	
+	<div id="footer"></div>
+	<div id="bottom"></div>
+</div>
+
+<!-- tumblr code -->
+<script type="text/javascript">
+    var tumblr_button = document.createElement("a");
+    tumblr_button.setAttribute("href", "http://www.tumblr.com/share/link?url=" + encodeURIComponent(tumblr_link_url) + "&name=" + encodeURIComponent(tumblr_link_name) + "&description=" + encodeURIComponent(tumblr_link_description));
+    tumblr_button.setAttribute("title", "Share on Tumblr");
+    tumblr_button.setAttribute("style", "display:inline-block; vertical-align:top; text-indent:-9999px; overflow:hidden; width:81px; height:20px; background:url('http://platform.tumblr.com/v1/share_1.png') top left no-repeat transparent;");
+    tumblr_button.innerHTML = "Share on Tumblr";
+    document.getElementById("tumblr_button_abc123").appendChild(tumblr_button);
+</script>
+<script type="text/javascript" src="http://platform.tumblr.com/v1/share.js"></script>
+</body>
+</html>
