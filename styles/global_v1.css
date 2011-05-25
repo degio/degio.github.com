@@ -6,7 +6,7 @@
 #headright-main {display:inline-block;width:767px;height:100px;padding:0;margin:0;}
 #headright-main div {display:block;float:right;clear:both;}
 #headright-main ul {margin:0;padding:0;}
-#headright-main li {position:relative;display:inline;list-style:none;}
+#headright-main li {position:static;display:inline;list-style:none;}
 
 /* Header */
 #header {margin:0px auto 7px;border:0px solid #bbb;width:970px;height:100px;}
@@ -14,7 +14,7 @@
 #headleft img {margin-bottom:10px;border:0px;}
 #headright {display:inline-block;width:787px;height:100px;padding:0;margin:0;}
 #headright div {display:block;float:right;clear:both;}
-#headright li {position:relative;display:inline;list-style:none;}
+#headright li {position:static;display:inline;list-style:none;}
 #headright img{margin-right:20px;margin-top:8px;}
 
 /* Social Buttons */
