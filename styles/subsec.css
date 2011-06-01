@@ -25,8 +25,14 @@ img.dmsound {display:inline;}
 /* Project OMC */
 .picholder {width:632px;height:475px;}
 
-
-
+/* Photos sections */
+.thumbs {margin-left:30px;}
+.thumbs img {border:1px solid #333;padding:0px;margin:4px;display:inline;}
+.shadow_tn img {
+	box-shadow: rgba(0,0,0,0.40) 2px 2px 4px;
+	-webkit-box-shadow: rgba(0,0,0,0.40) 2px 2px 4px;
+	-moz-box-shadow: rgba(0,0,0,0.60) 2px 2px 4px;
+}
 
 
 /*

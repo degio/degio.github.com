@@ -40,7 +40,7 @@ H4 {color:#999;font-weight:normal;letter-spacing:2px;}
 .menubold a:hover, .menubold a:active{color:#A7A7A7;text-decoration:none;}
 .submenu{clear:both;font-size:10px;padding:0;margin-top:0px;}
 .submenu li{list-style:none;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#ccc;font-size:14px;margin-bottom:10px;margin-left:35px;}
-.submenu li.bold {text-decoration:none;color:#555;font-weight:none;}
+.submenu li.bold {text-decoration:none;color:#555;font-weight:normal;}
 .slink a, .slink a:link, .slink a:visited{text-decoration:none;color:#777;}
 .slink a:hover, .slink a:active{color:#A7A7A7;text-decoration:none;}
 .small {font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#ccc;font-size:10px;}
