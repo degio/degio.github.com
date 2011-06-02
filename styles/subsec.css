@@ -26,8 +26,9 @@ img.dmsound {display:inline;}
 .picholder {width:632px;height:475px;}
 
 /* Photos sections */
-.thumbs {display:block;margin:0px 0px 30px 30px;}
-.thumbs img {border:1px solid #333;padding:0px;margin:4px;display:inline;}
+.picholder720px {width:720px;height:540px;}
+.thumbs75px {display:block;margin:0px 0px 30px 30px;}
+.thumbs75px img {border:1px solid #333;padding:0px;margin:4px;display:inline;}
 H3.photo {margin:0 0 0 5px;padding:0 0 5px 0;}
 .shadow_tn img {
 	box-shadow: rgba(0,0,0,0.40) 2px 2px 4px;
