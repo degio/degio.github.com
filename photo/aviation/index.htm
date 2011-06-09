@@ -8,8 +8,10 @@
 <link rel="icon" href="http://deg.io/icons/favicon.png" type="image/png" />
 <link type="text/css" rel="stylesheet" href="../../styles/global_v1.css" />
 <link type="text/css" rel="stylesheet" href="../../styles/subsec.css" />
+<link type="text/css" rel="stylesheet" href="../../styles/colorbox.css" />
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript" src="../../scripts/colorbox.js"></script>
 
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
@@ -19,6 +21,7 @@
 			.siblings('ul:visible').slideUp('fast');
 		});
 		
+		$(".boxit a").colorbox({transition:"elastic", rel:"group1"});
 });	
 </script>
 
@@ -83,22 +86,22 @@
 	</div>
 	<div id="main" class="subsecmain">
 		
-		<div class="thumbs75px shadow_tn">	
-			<a href="01_large.jpg"><img src="01_tn.jpg" alt="NASA F-18 Hornet" /></a>
-			<a href="02_large.jpg"><img src="02_tn.jpg" alt="F-14 Tomcat" /></a>
-			<a href="03_large.jpg"><img src="03_tn.jpg" alt="F-14 Tomcat" /></a>
-			<a href="04_large.jpg"><img src="04_tn.jpg" alt="F-14 Tomcat" /></a>
-			<a href="05_large.jpg"><img src="05_tn.jpg" alt="F-15E Strike Eagle" /></a>
-			<a href="06_large.jpg"><img src="06_tn.jpg" alt="F/A-18C Hornet" /></a>
-			<a href="07_large.jpg"><img src="07_tn.jpg" alt="F-117 Stealth Fighter" /></a>
-			<a href="08_large.jpg"><img src="08_tn.jpg" alt="F-117 Stealth Fighter" /></a>
+		<div class="thumbs75px shadow_tn boxit">	
+			<a href="01_large.jpg" title="NASA F-18  Hornet"><img src="01_tn.jpg" alt="NASA F-18 Hornet" /></a>
+			<a href="02_large.jpg" title="F-14A Tomcat"><img src="02_tn.jpg" alt="F-14A Tomcat" /></a>
+			<a href="03_large.jpg" title="F-14A Tomcat"><img src="03_tn.jpg" alt="F-14A Tomcat" /></a>
+			<a href="04_large.jpg" title="F-14A Tomcat"><img src="04_tn.jpg" alt="F-14A Tomcat" /></a>
+			<a href="05_large.jpg" title="F-15E Strike Eagle"><img src="05_tn.jpg" alt="F-15E Strike Eagle" /></a>
+			<a href="06_large.jpg" title="F/A-18C Hornet"><img src="06_tn.jpg" alt="F/A-18C Hornet" /></a>
+			<a href="07_large.jpg" title="F-117 Stealth Fighter"><img src="07_tn.jpg" alt="F-117 Stealth Fighter" /></a>
+			<a href="08_large.jpg" title="F-117 Stealth Fighter"><img src="08_tn.jpg" alt="F-117 Stealth Fighter" /></a>
 		</div>
 		
-		<div class="thumbs75px shadow_tn">	
-			<a href="09_large.jpg"><img src="09_tn.jpg" alt="F-14 Tomcat" /></a>
-			<a href="10_large.jpg"><img src="10_tn.jpg" alt="A-10" /></a>
-			<a href="11_large.jpg"><img src="11_tn.jpg" alt="X-45C" /></a>
-			<a href="12_large.jpg"><img src="12_tn.jpg" alt="F-22 Raptor" /></a>
+		<div class="thumbs75px shadow_tn boxit">	
+			<a href="09_large.jpg" title="F-14A Tomcat - Black Aces"><img src="09_tn.jpg" alt="F-14 Tomcat" /></a>
+			<a href="10_large.jpg" title="A-10"><img src="10_tn.jpg" alt="A-10" /></a>
+			<a href="11_large.jpg" title="X-45C"><img src="11_tn.jpg" alt="X-45C" /></a>
+			<a href="12_large.jpg" title="F-22 Raptor"><img src="12_tn.jpg" alt="F-22 Raptor" /></a>
 		</div>
 		
 		
