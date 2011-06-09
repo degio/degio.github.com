@@ -8,8 +8,11 @@
 <link rel="icon" href="http://deg.io/icons/favicon.png" type="image/png" />
 <link type="text/css" rel="stylesheet" href="../../styles/global_v1.css" />
 <link type="text/css" rel="stylesheet" href="../../styles/subsec.css" />
+<link type="text/css" rel="stylesheet" href="../../styles/colorbox.css" />
+
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://deg.io/scripts/colorbox.js"></script>
 
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
@@ -18,6 +21,8 @@
 			$(this).next('ul:hidden').slideDown('fast')
 			.siblings('ul:visible').slideUp('fast');
 		});
+		
+		$(".boxit a").colorbox({transition:"elastic", rel:"group1"});
 		
 });	
 </script>
@@ -83,14 +88,14 @@
 	</div>
 	<div id="main" class="subsecmain">
 		
-		<div class="thumbs75px shadow_tn">	
-			<a href="01_large.jpg"><img src="01_tn.jpg" alt="Dual Opteron under UV light" /></a>
-			<a href="02_large.jpg"><img src="02_tn.jpg" alt="UV painted heatsink" /></a>
-			<a href="03_large.jpg"><img src="03_tn.jpg" alt="Geforce 6800 GT GPU" /></a>
-			<a href="04_large.jpg"><img src="04_tn.jpg" alt="Custom GPU heatsink" /></a>
-			<a href="05_large.jpg"><img src="05_tn.jpg" alt="Custom GPU heatsink" /></a>
-			<a href="06_large.jpg"><img src="06_tn.jpg" alt="Custom GPU heatsink" /></a>
-			<a href="07_large.jpg"><img src="07_tn.jpg" alt="80mm UV Fans" /></a>
+		<div class="thumbs75px shadow_tn boxit">	
+			<a href="01_large.jpg" title="Dual Opteron under UV light"><img src="01_tn.jpg" alt="Dual Opteron under UV light" /></a>
+			<a href="02_large.jpg" title="UV painted heatsink"><img src="02_tn.jpg" alt="UV painted heatsink" /></a>
+			<a href="03_large.jpg" title="Geforce 6800 GT GPU"><img src="03_tn.jpg" alt="Geforce 6800 GT GPU" /></a>
+			<a href="04_large.jpg" title="Custom GPU heatsink that I built."><img src="04_tn.jpg" alt="Custom GPU heatsink" /></a>
+			<a href="05_large.jpg" title="Custom GPU heatsink for a wind tunnel type design and copper RAM heatsinks."><img src="05_tn.jpg" alt="Custom GPU heatsink" /></a>
+			<a href="06_large.jpg" title="Custom GPU heatsink used to cool a 6800GT"><img src="06_tn.jpg" alt="Custom GPU heatsink" /></a>
+			<a href="07_large.jpg" title="80mm UV Fans"><img src="07_tn.jpg" alt="80mm UV Fans" /></a>
 		</div>
 		
 	</div>

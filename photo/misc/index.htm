@@ -8,8 +8,10 @@
 <link rel="icon" href="http://deg.io/icons/favicon.png" type="image/png" />
 <link type="text/css" rel="stylesheet" href="../../styles/global_v1.css" />
 <link type="text/css" rel="stylesheet" href="../../styles/subsec.css" />
+<link type="text/css" rel="stylesheet" href="../../styles/colorbox.css" />
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://deg.io/scripts/colorbox.js"></script>
 
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
@@ -18,6 +20,8 @@
 			$(this).next('ul:hidden').slideDown('fast')
 			.siblings('ul:visible').slideUp('fast');
 		});
+		
+		$(".boxit a").colorbox({transition:"elastic", rel:"group1"});
 });	
 </script>
 
@@ -79,27 +83,27 @@
 	</div>
 	<div id="main" class="subsecmain">
 	
-		<div class="thumbs75px shadow_tn">
+		<div class="thumbs75px shadow_tn boxit">
 			<h3 class="photo">Architecture</h3>			
-			<a href="01_large.png"><img src="01_tn.png" alt="City Center - Las Vegas, NV" /></a>
-			<a href="02_large.png"><img src="02_tn.png" alt="City Center - Las Vegas, NV" /></a>
-			<a href="03_large.png"><img src="03_tn.png" alt="City Center - Las Vegas, NV" /></a>
-			<a href="04_large.png"><img src="04_tn.png" alt="City Center - Las Vegas, NV" /></a>
-			<a href="05_large.png"><img src="05_tn.png" alt="City Center - Las Vegas, NV" /></a>
-			<a href="06_large.png"><img src="06_tn.png" alt="City Center - Las Vegas, NV" /></a>
-			<a href="07_large.png"><img src="07_tn.png" alt="City Center - Las Vegas, NV" /></a>
-			<a href="08_large.png"><img src="08_tn.png" alt="City Center - Las Vegas, NV" /></a>
+			<a href="01_large.png" title="City Center - Las Vegas, NV"><img src="01_tn.png" alt="City Center - Las Vegas, NV" /></a>
+			<a href="02_large.png" title="Harmon Hotel, City Center - Las Vegas, NV"><img src="02_tn.png" alt="City Center - Las Vegas, NV" /></a>
+			<a href="03_large.png" title="City Center - Las Vegas, NV"><img src="03_tn.png" alt="City Center - Las Vegas, NV" /></a>
+			<a href="04_large.png" title="Veer Towers, City Center - Las Vegas, NV"><img src="04_tn.png" alt="City Center - Las Vegas, NV" /></a>
+			<a href="05_large.png" title="Aria, City Center - Las Vegas, NV"><img src="05_tn.png" alt="City Center - Las Vegas, NV" /></a>
+			<a href="06_large.png" title="Harmon Hotel, City Center - Las Vegas, NV"><img src="06_tn.png" alt="City Center - Las Vegas, NV" /></a>
+			<a href="07_large.png" title="City Center - Las Vegas, NV"><img src="07_tn.png" alt="City Center - Las Vegas, NV" /></a>
+			<a href="08_large.png" title="Crystals, City Center - Las Vegas, NV"><img src="08_tn.png" alt="City Center - Las Vegas, NV" /></a>
 		</div>
 		
-		<div class="thumbs75px shadow_tn">
+		<div class="thumbs75px shadow_tn boxit">
 			<h3 class="photo">Nature</h3>			
-			<a href="09_large.png"><img src="09_tn.png" alt="Lady Bug in French Lavender" /></a>
-			<a href="10_large.png"><img src="10_tn.png" alt="French Lavender" /></a>
-			<a href="11_large.png"><img src="11_tn.png" alt="French Lavender" /></a>
-			<a href="12_large.png"><img src="12_tn.png" alt="Baby Avocado Tree" /></a>
-			<a href="13_large.png"><img src="13_tn.png" alt="Baby Avocado Tree" /></a>
-			<a href="14_large.png"><img src="14_tn.png" alt="Lady Bug" /></a>
-			<a href="15_large.png"><img src="15_tn.png" alt="Lady Bug takes flight" /></a>
+			<a href="09_large.png" title="Lady Bug in French Lavender"><img src="09_tn.png" alt="Lady Bug in French Lavender" /></a>
+			<a href="10_large.png" title="French Lavender"><img src="10_tn.png" alt="French Lavender" /></a>
+			<a href="11_large.png" title="French Lavender"><img src="11_tn.png" alt="French Lavender" /></a>
+			<a href="12_large.png" title="Baby Avocado Tree"><img src="12_tn.png" alt="Baby Avocado Tree" /></a>
+			<a href="13_large.png" title="Baby Avocado Tree"><img src="13_tn.png" alt="Baby Avocado Tree" /></a>
+			<a href="14_large.png" title="Lady Bug"><img src="14_tn.png" alt="Lady Bug" /></a>
+			<a href="15_large.png" title="Lady Bug takes flight!"><img src="15_tn.png" alt="Lady Bug takes flight" /></a>
 		</div>
 		
 	</div>
