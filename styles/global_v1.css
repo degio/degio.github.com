@@ -31,7 +31,7 @@ H4 {color:#999;font-weight:normal;letter-spacing:2px;}
 .maingrid{padding:0;margin-left:0;margin-top:0;border:0}
 #container {display:block;width:950px;padding:10px;background-color:#fff;}
 .subcontainer {border:1px solid #ddd;margin:5px auto 0px;}
-#mainbody {display:block;clear:both;width:950px;height:400px;margin-top:20px;}
+#mainbody {display:block;clear:both;width:950px;height:400px;margin-top:25px;}
 #mainbody div {padding:0px;float:left;}
 
 /* Main Menu */
@@ -47,6 +47,7 @@ H4 {color:#999;font-weight:normal;letter-spacing:2px;}
 .slink a:hover, .slink a:active{color:#A7A7A7;text-decoration:none;}
 .small {font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#ccc;font-size:10px;}
 #main {width:765px;height:400px;}
+#main_no_height {width:765px;}
 .imgholder img{border:1px solid #333;}
 .subsecmain {vertical-align:top;display:inline-block;}
 /* #main img{display:inline;border:0;padding:0;margin:0px 0px -6px 0px;border:1px solid #444} */
@@ -74,7 +75,7 @@ filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
 .boxpop a, .boxpop a:link, .boxpop a:visited{font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#fff;text-decoration:none;}
 .shade H5 {margin:0;padding:4px 0px 0px 10px;font-size:1em;letter-spacing:1px;font-weight:normal;}
 .shadowpop {
-	box-shadow: rgba(0,0,0,0.60) 1px 2px 3px;
-	-webkit-box-shadow: rgba(0,0,0,0.60) 1px 2px 3px;
-	-moz-box-shadow: rgba(0,0,0,0.60) 1px 2px 3px;
+	box-shadow: rgba(0,0,0,0.40) 2px 2px 6px;
+	-webkit-box-shadow: rgba(0,0,0,0.40) 2px 2px 6px;
+	-moz-box-shadow: rgba(0,0,0,0.40) 2px 2px 6px;
 }

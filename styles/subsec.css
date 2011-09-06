@@ -33,7 +33,7 @@ H3.photo {margin:0 0 0 5px;padding:0 0 5px 0;}
 .shadow_tn img {
 	box-shadow: rgba(0,0,0,0.40) 2px 2px 4px;
 	-webkit-box-shadow: rgba(0,0,0,0.40) 2px 2px 4px;
-	-moz-box-shadow: rgba(0,0,0,0.60) 2px 2px 4px;
+	-moz-box-shadow: rgba(0,0,0,0.40) 2px 2px 4px;
 }
 
 
