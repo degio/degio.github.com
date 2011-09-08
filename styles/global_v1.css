@@ -72,10 +72,10 @@ H4 {color:#999;font-weight:normal;letter-spacing:2px;}
 filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
 /* For IE 8 */
 -MS-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";}
-.boxpop a, .boxpop a:link, .boxpop a:visited{font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#fff;text-decoration:none;}
-.shade H5 {margin:0;padding:4px 0px 0px 10px;font-size:1em;letter-spacing:1px;font-weight:normal;}
+.boxpop a, .boxpop a:link, .boxpop a:visited{font-family:'Open Sans',sans-serif;font-size:12px;letter-spacing:1px;font-weight:600;color:#fff;text-decoration:none;}
+.shade p{margin:0;padding:4px 0px 0px 10px;}
 .shadowpop {
-	box-shadow: rgba(0,0,0,0.40) 2px 2px 6px;
-	-webkit-box-shadow: rgba(0,0,0,0.40) 2px 2px 6px;
-	-moz-box-shadow: rgba(0,0,0,0.40) 2px 2px 6px;
+	box-shadow: rgba(0,0,0,0.50) 2px 2px 6px;
+	-webkit-box-shadow: rgba(0,0,0,0.50) 2px 2px 6px;
+	-moz-box-shadow: rgba(0,0,0,0.50) 2px 2px 6px;
 }
