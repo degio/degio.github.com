@@ -61,7 +61,7 @@ H4 {color:#999;font-weight:normal;letter-spacing:2px;}
 	background: -moz-linear-gradient(100% 100% 90deg, #d9d9d9, #fdfdfd);
 }
 
-/* Front Page Box Info Popups*/
+/* Front Page Box Info Popups */
 
 #popcontain {margin-left:50px;}
 .popgrid{width:220px;height:165px;margin:0px 0px 10px 10px;background:#333;border:1px solid #333;overflow:hidden;position:relative;}
@@ -79,3 +79,30 @@ filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
 	-webkit-box-shadow: rgba(0,0,0,0.50) 2px 2px 6px;
 	-moz-box-shadow: rgba(0,0,0,0.50) 2px 2px 6px;
 }
+
+/* CONTACT */
+#main div.contact {border:0px solid #999;font-family:'Open Sans',sans-serif;color:#999;}
+
+.philos {width:300px;}
+
+.philos li {list-style:none;font-size:12px;font-weight:400;color:#999;letter-spacing:1.5px;margin:0 0 10px 0;padding:0;}
+
+.philos h4 {font-weight:600;}
+
+.contact {margin-top:-10px;margin-left:90px;padding:0;}
+
+.contact H2 {letter-spacing:2px;}
+
+.contact p {font-size:15px;margin:10px 0px;padding:0;letter-spacing:2px;}
+
+.twit_con {
+	font-size:15px;
+	font-weight:400;
+	margin:20px 0 20px 0;
+	padding:0;
+	text-indent:40px;
+	background:url(../contact/blue.png) left center no-repeat;
+	width:60px;
+	display:block;
+	letter-spacing:2px;
+	}
