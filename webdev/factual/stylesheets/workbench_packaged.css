@@ -1,0 +1,709 @@
+.gridTabsContainer {position: relative; background-color: #e1e9f6; padding-top: 8px}
+.gridTabsContainer .caution {position: absolute; width: 100%; text-align: center}
+.gridTabsContainer .caution span.icon {padding-left: 18px; background-image: url(../images/sprites/icon_vertical.png?1316658790); background-repeat: no-repeat; background-position: 0 -119px}
+.page-grid .universe {position: relative}
+.page-grid .universe .gridLoading .message {margin-top: 60px}
+.page-grid .universe .mainGrid0 .grid, .page-grid .universe .mainGrid0 .mainLeft, .page-grid .universe .mainGrid0 .mainRight, .page-grid .universe .mainGrid0 .mainHeader, .page-grid .universe .mainGrid0 .mainFooter {position: relative}
+.page-grid .universe .mainGrid0 .mainLeft, .page-grid .universe .mainGrid0 .mainRight {display: none}
+.page-grid .universe .mainGrid0 .mainHeader, .page-grid .universe .mainGrid0 .mainFooter {position: relative}
+.page-grid .universe .mainGrid0 .filterUniverse {position: relative; min-height: 38px; border-top: 1px solid #c3c3c3}
+.page-grid .universe .mainGrid0 .filterTrayContainer {position: relative; padding: 0 110px 0 12px}
+.page-grid .universe .mainGrid0 .filterTray li {float: left; position: relative; line-height: 22px}
+.page-grid .universe .mainGrid0 .filterTray .menuItem {margin: 8px 12px}
+.page-grid .universe .mainGrid0 .filterTray .menuItem .icon {vertical-align: middle; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 20px; height: 20px; line-height: 20px}
+.page-grid .universe .mainGrid0 .filterTray li.menuItem.geo .icon {background-position: -700px -450px}
+.page-grid .universe .mainGrid0 .filterTray li.menuItem.geo:hover .icon {background-position: -700px -500px}
+.page-grid .universe .mainGrid0 .filterTray li.menuItem.column .icon {background-position: -750px -450px}
+.page-grid .universe .mainGrid0 .filterTray li.menuItem.column:hover .icon {background-position: -750px -500px}
+.page-grid .universe .mainGrid0 .filterTray li.menuItem.vote .icon {background-position: -800px -450px; width: 22px; height: 20px}
+.page-grid .universe .mainGrid0 .filterTray li.menuItem.vote:hover .icon {background-position: -800px -500px}
+.page-grid .universe .mainGrid0 .filterTray li.menuItem.clearAll .icon {background-position: -850px -448px}
+.page-grid .universe .mainGrid0 .filterTray li.menuItem.clearAll:hover .icon {background-position: -850px -498px}
+.page-grid .universe .mainGrid0 .filterTray li.menuItem.search {margin: 8px 12px 8px 0; background-position: right -100px; background-repeat: no-repeat; line-height: 20px}
+.page-grid .universe .mainGrid0 .filterTray li.menuItem.search .searchIcon {background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -350px -150px; width: 13px; height: 13px; position: absolute; top: 6px; left: 6px; cursor: pointer}
+.page-grid .universe .mainGrid0 .filterTray li.menuItem.search .query {line-height: 19px; font-size: 11px; padding: 0px 12px 0 20px; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -750px -250px}
+.page-grid .universe .mainGrid0 .filterTray li.menuItem.search input {display: inline-block; width: 125px; background: transparent; border: 0; line-height: 19px; font-size: 11px; outline-style: none}
+.page-grid .universe .mainGrid0 .filterTray li.menuItem.search input[placeholder] {color: #666666}
+.page-grid .universe .mainGrid0 .filterTray li.filter {margin: 8px 4px; border: 1px solid #999999; -moz-border-radius: 5px; -webkit-border-radius: 5px; max-width: 450px; overflow: hidden; padding: 0px 8px 0px 8px; white-space: nowrap; line-height: 20px}
+.page-grid .universe .mainGrid0 .filterTray li.filter .delete {display: inline-block; padding-right: 8px; cursor: pointer; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 12px; height: 12px; background-position: 0px -200px}
+.page-grid .universe .mainGrid0 .filterTray li.filter .delete:hover {background-position: -100px -200px}
+.page-grid .universe .mainGrid0 .filterTray li.filter label {display: inline-block; padding-right: 4px}
+.page-grid .universe .mainGrid0 .filterTray li.filter .edit .value {font-weight: bold}
+.page-grid .universe .mainGrid0 .filterTray li.filter.search, .page-grid .universe .mainGrid0 .filterTray li.filter.column {background: url(../images/grid0/filters/bg.gif?1316658790) repeat-x 0px 3px}
+.page-grid .universe .mainGrid0 .filterTray li.filter.geo {background: url(../images/grid0/filters/bg.gif?1316658790) repeat-x 0px -33px}
+.page-grid .universe .mainGrid0 .filterTray li.filter.vote {background: url(../images/grid0/filters/bg.gif?1316658790) repeat-x 0px -33px}
+.page-grid .universe .mainGrid0 .filterTray li.filter.placeHolder {padding: 0; margin: 0; visibility: hidden}
+.page-grid .universe .mainGrid0 .filterForm {position: absolute; z-index: 3; background-image: url(../images/grid0/filters/bg.jpg?1316658790); background-repeat: repeat-x; display: none; -moz-border-radius: 5px; -webkit-border-radius: 5px; padding: 0px 8px 8px 8px; margin-right: 10px; margin-top: 8px; width: 200px}
+.page-grid .universe .mainGrid0 .filterForm h5 {margin: 2px 8px 8px 0px; text-align: center; font-weight: normal}
+.page-grid .universe .mainGrid0 .filterForm .selectBox {background-color: white; width: 100%}
+.page-grid .universe .mainGrid0 .filterForm .selectBox .disabled {color: grey; cursor: auto}
+.page-grid .universe .mainGrid0 .filterForm .selectBoxDropped {z-index: 1000}
+.page-grid .universe .mainGrid0 .filterForm .textField {width: 98%}
+.page-grid .universe .mainGrid0 .filterForm .value .searchSuggestContainer {width: 200px}
+.page-grid .universe .mainGrid0 .filterForm .buttons {text-align: center; margin-top: 5px}
+.page-grid .universe .mainGrid0 .filterForm .geo .actions input {width: 100px; margin: 2px}
+.page-grid .universe .mainGrid0 .filterForm .geo .buttons {margin-bottom: 5px}
+.page-grid .universe .mainGrid0 .summary {background-color: #f2f2f2; border: 1px solid #949597; background-position: 0px 0px}
+.page-grid .universe .mainGrid0 .filterForm.vote {background-color: #dfffb1; border: 1px solid #a8c45e; background-position: 0px -485px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu {height: 36px; position: relative; z-index: 6}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu {padding-top: 6px; height: 30px; float: left; background-image: url(../images/sprites/icon_vertical.png?1316658790); background-repeat: no-repeat; background-position: right -74px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > li {position: relative; float: left; margin-right: 12px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > li > a {display: block; line-height: 27px; font-size: 12px; font-weight: bold; text-decoration: none; margin: 1px 2px 0px 1px; padding: 0px 8px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > li > a:focus {outline: none}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > li span.smallDownArrow {background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -450px 0px; width: 9px; height: 6px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > li .subMenu {position: absolute; top: 27px; display: none; background-color: white; padding: 8px; border-top: 1px solid #cccccc; border-right: 2px solid #cccccc; border-bottom: 2px solid #cccccc; border-left: 1px solid #cccccc; -moz-border-radius-bottomleft: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-left-radius: 5px; -webkit-border-bottom-right-radius: 5px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > li .subMenu li {margin: 4px 0px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > li .subMenu li span a {color: blue}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > li .subMenu li.cellValueFormatSetting > label {display: block}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > li .subMenu li.disabled, .page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > li .subMenu li.reverted {color: grey}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > li .subMenu li.disabled > a, .page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > li .subMenu li.reverted > a {color: grey; cursor: default}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > li .subMenu li:hover {background-color: #f8fed1}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > li .subMenu li.cellValueFormatSetting:hover {background-color: white}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > li .subMenu li.cellValueFormatSetting:hover label:hover {background-color: #f8fed1}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > li .subMenu .revisions li:hover {background-color: #f8fed1}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > .selected > a {margin: 0px; border-top: 1px solid #cccccc; border-right: 2px solid #cccccc; border-left: 1px solid #cccccc; background-color: white; -moz-border-radius-topright: 5px; -moz-border-radius-topleft: 5px; -webkit-border-top-right-radius: 5px; -webkit-border-top-left-radius: 5px; position: relative; z-index: 4}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu > .selected .subMenu {display: block; z-index: 3}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .file .subMenu, .page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .display .subMenu {width: 340px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .filters .subMenu, .page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .fields .subMenu, .page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .admin .subMenu {width: 240px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .admin .subMenu .bottomSpliter {border-bottom: 1px dotted #cccccc}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .admin .subMenu input {margin: 0 5px 0 0}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .display .subMenu .garbageSetting, .page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .display .subMenu .expandCell, .page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .display .subMenu .cellValueFormatSetting, .page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .display .subMenu .showHideFieldsSetting {border-bottom: 1px dotted #cccccc}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .display .subMenu li {padding: 4px 0px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .display .subMenu li input {margin: 0 5px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .improve {white-space: nowrap; padding-right: 4px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .improve .magicIcon {padding-right: 15px; background-image: url(../images/sprites/icon_vertical.png?1316658790); background-repeat: no-repeat; background-position: right -168px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .admin {white-space: nowrap}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .admin .state {color: #999999; padding-left: 10px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .admin .state span {padding-left: 5px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .improve .subMenu li span.smallIndicator, .page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .filters .subMenu li span.smallIndicator, .page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .fields .subMenu li span.smallIndicator, .page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .admin .subMenu li span.smallIndicator {background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -300px 0px; width: 5px; height: 6px; margin-right: 5px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .reference {padding-left: 12px; background-image: url(../images/sprites/icon_vertical.png?1316658790); background-repeat: no-repeat; background-position: -24px -80px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .reference .referenceState {display: inline-block; vertical-align: middle; padding: 0px 6px; line-height: 23px; margin-left: 6px; border: 1px solid #c3c3c3; color: #4d4e53; background-color: white; text-decoration: none; font-weight: bold}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .reference .referenceState:focus {outline: none}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .reference .referenceState span.smallDownArrow {vertical-align: middle; margin-left: 2px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .reference .dropdownMenu {display: none; position: absolute; left: 37px; top: 27px; z-index: 9}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .reference .dropdownMenu .content {background-color: white; border: 1px solid #8c8d8e; padding: 12px; width: 240px; line-height: 18px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .reference .dropdownMenu .content li:first-line {margin-left: 15px}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .reference .dropdownMenu .content input {float: left; margin: 2px 4px 10px 0}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .reference .dropdownMenu .content label {cursor: pointer}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .reference .correctionHint {display: none; color: #b92025}
+.page-grid .universe .mainGrid0 .mainHeader .gridMenu .menu .reference .correctionExists {background-color: #fedddd}
+.page-grid .universe .mainGrid0 .mainHeader .mainMenu {float: right; padding-right: 12px}
+.page-grid .universe .mainGrid0 .mainHeader .downloadCSV, .page-grid .universe .mainGrid0 .mainHeader .apiQuery {float: left; margin: 6px 0 0 10px}
+.page-grid .universe .mainGrid0 .mainHeader .downloadCSV .icon, .page-grid .universe .mainGrid0 .mainHeader .apiQuery .icon {vertical-align: middle; margin: 0; padding: 0; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 18px; height: 20px; line-height: 20px}
+.page-grid .universe .mainGrid0 .mainHeader .downloadCSV .icon {background-position: -600px -500px}
+.page-grid .universe .mainGrid0 .mainHeader .apiQuery .icon {background-position: -550px -500px}
+.page-grid .universe .mainGrid0 .quartzError .gridMenu.admin {z-index: 11}
+.page-grid .universe .mainGrid0 .mainHeader.tableUnCached .filterUniverse, .page-grid .universe .mainGrid0 .mainHeader.tableUnCached .joinHeader, .page-grid .universe .mainGrid0 .mainHeader.tableUnCached .downloadCSV, .page-grid .universe .mainGrid0 .mainHeader.quartzError .filterUniverse, .page-grid .universe .mainGrid0 .mainHeader.quartzError .joinHeader, .page-grid .universe .mainGrid0 .mainHeader.quartzError .downloadCSV {display: none}
+.page-grid .universe .mainGrid0 .mainHeader.tableUnCached .gridMenu .bigTableGuide, .page-grid .universe .mainGrid0 .mainHeader.quartzError .gridMenu .bigTableGuide {display: none}
+.page-grid .universe .mainGrid0 .mainHeader.tableUnCached .gridMenu .menu li, .page-grid .universe .mainGrid0 .mainHeader.quartzError .gridMenu .menu li {display: none}
+.page-grid .universe .mainGrid0 .mainHeader.tableUnCached .gridMenu.admin .menu li.admin, .page-grid .universe .mainGrid0 .mainHeader.quartzError .gridMenu.admin .menu li.admin {display: block}
+.page-grid .universe .mainGrid0 .mainHeader.tableUnCached .gridMenu.admin .menu li.admin li, .page-grid .universe .mainGrid0 .mainHeader.quartzError .gridMenu.admin .menu li.admin li {display: block}
+.page-grid .universe .mainGrid0 .mainFooter .lowerControls {height: 36px}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent ul.mainFooterContainer {height: 28px; padding-top: 8px; float: left; overflow: hidden}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent ul.mainFooterContainer a.disabled {cursor: default; color: #666666; font-weight: normal; text-decoration: none}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent ul.mainFooterContainer .totalRows {padding-left: 12px}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent ul.mainFooterContainer li {float: left; padding-left: 12px}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent ul.mainFooterContainer li .sortsInfo {margin: 8px 0px}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent ul.mainFooterContainer li .sortsInfo .fieldNames {font-weight: bold}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent ul.mainFooterContainer li span {margin: 8px 0px 0px 5px; line-height: 14px}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent ul.mainFooterContainer li.addRowButton, .page-grid .universe .mainGrid0 .mainFooter .mainFooterContent ul.mainFooterContainer li.addSubjectButton {margin-top: -2px}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent ul.mainFooterContainer li.addRowButton span, .page-grid .universe .mainGrid0 .mainFooter .mainFooterContent ul.mainFooterContainer li.addSubjectButton span {margin: 0}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent ul.mainFooterContainer li.addRowButton span a, .page-grid .universe .mainGrid0 .mainFooter .mainFooterContent ul.mainFooterContainer li.addSubjectButton span a {line-height: 23px}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent .pagination {line-height: 36px; position: absolute; right: 12px; bottom: 0}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent .pagination input {width: 30px; height: 16px; margin: 0px 6px}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent .pagination a {font-weight: bold; text-decoration: none; padding: 0}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent .pagination a.disabled {cursor: default; color: #666666; font-weight: normal}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent .pagination a.first {padding-left: 12px}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent .pagination input, .page-grid .universe .mainGrid0 .mainFooter .mainFooterContent .pagination span {margin: 0px 4px}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent .paging {position: absolute; right: 12px; bottom: 5px}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent .paging select.limit {margin-right: 5px}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent .paging .pages {margin-left: 12px; color: #4d4e53}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent .paging .pages li {display: inline}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent .paging .pages li a {margin: 0 2px}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent .paging .pages li a.current {color: #111c24}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent .paging .pages li.moreOption {position: relative}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent .paging .pages li.moreOption .moreTooltip {position: absolute; z-index: 99; right: 2px; top: 18px; border: 1px solid #e3ae46; background: #fefbaa; white-space: nowrap; padding: 2px 5px}
+.page-grid .universe .mainGrid0 .mainFooter .mainFooterContent .paging .pages li.moreOption .moreTooltip .icon {position: absolute; top: -6px; right: 10px; width: 16px; height: 12px; background-image: url(../images/sprites/icon_vertical.png?1316658790); background-repeat: no-repeat; background-position: 2px -215px}
+.page-grid .universe .mainGrid0 .grid {border-top: 1px solid #778793; background-image: url(../images/grid/grid_background.gif?1316658790)}
+.page-grid .universe .mainGrid0 .grid .scroller {position: absolute; overflow: scroll}
+.page-grid .universe .mainGrid0 .grid .hMask, .page-grid .universe .mainGrid0 .grid .bMask {overflow: hidden; position: absolute}
+.page-grid .universe .mainGrid0 .grid .resizerLine {position: absolute; border-left: 1px dashed black; display: none; z-index: 151}
+.page-grid .universe .mainGrid0 .grid .showFields, .page-grid .universe .mainGrid0 .grid .hMask .columnNavigatorIcon {border-left: 2px solid #e7e7e7; border-bottom: 1px solid #e7e7e7; cursor: pointer; background-color: #efefef; z-index: 100; position: absolute; right: 0; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block}
+.page-grid .universe .mainGrid0 .grid .hMask .columnNavigatorIcon {top: 0px; width: 13px; height: 17px; background-position: -400px -598px; z-index: 2}
+.page-grid .universe .mainGrid0 .grid .hMask .columnNavigatorIcon:hover {background-position: -350px -598px}
+.page-grid .universe .mainGrid0 .grid .showFields {padding: 0 0 0px 1px; bottom: 0; width: 13px; height: 15px; background-position: -149px -347px}
+.page-grid .universe .mainGrid0 .grid .hMask {background-color: #eeeceb}
+.page-grid .universe .mainGrid0 .grid .hMask .header {position: absolute; clear: both}
+.page-grid .universe .mainGrid0 .grid .hMask .header .column:last-child .cell {border-right: 1px solid #cccccc}
+.page-grid .universe .mainGrid0 .grid .hMask .header .column {float: left; position: relative; background-color: #908e8e}
+.page-grid .universe .mainGrid0 .grid .hMask .header .column .cell {border-right: 1px solid white}
+.page-grid .universe .mainGrid0 .grid .hMask .header .column .sortAsc .sortIndicator, .page-grid .universe .mainGrid0 .grid .hMask .header .column .sortDesc .sortIndicator {background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 12px; height: 7px; display: inline; position: absolute; top: 5px; left: 3px}
+.page-grid .universe .mainGrid0 .grid .hMask .header .column .sortAsc .sortIndicator {background-position: -900px 0px}
+.page-grid .universe .mainGrid0 .grid .hMask .header .column .sortDesc .sortIndicator {background-position: -850px 0px}
+.page-grid .universe .mainGrid0 .grid .hMask .header .column .resizer {background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -450px -600px; border: 1px solid #778793; position: absolute; right: 0px; top: -1px; width: 5px; cursor: e-resize; height: 17px}
+.page-grid .universe .mainGrid0 .grid .hMask .header .column .content {color: white; margin-right: 18px; font-weight: bold; padding: 0px 0px 0px 18px; height: 18px; white-space: nowrap; overflow: hidden; cursor: default}
+.page-grid .universe .mainGrid0 .grid .hMask .header .column .fulltextSearchEnabled .searchIndicator {position: absolute; top: 3px; right: 22px; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -200px -400px; width: 12px; height: 12px}
+.page-grid .universe .mainGrid0 .grid .hMask .header .column .fulltextSearchEnabled .content {margin-right: 36px}
+.page-grid .universe .mainGrid0 .grid .hMask .header .column .hide {position: absolute; top: 3px; right: 8px; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -50px -200px; width: 12px; height: 12px; cursor: pointer}
+.page-grid .universe .mainGrid0 .grid .hMask .header .column .hide:hover {background-position: -100px -200px}
+.page-grid .universe .mainGrid0 .grid .hMask .header .primaryColumn {background-color: #403f3e}
+.page-grid .universe .mainGrid0 .grid .hMask .header .primaryColumn .sorter {border-top: 1px solid #2c2a2b}
+.page-grid .universe .mainGrid0 .grid .hMask .header .hover, .page-grid .universe .mainGrid0 .grid .hMask .header .selected {background-color: #d1f39d}
+.page-grid .universe .mainGrid0 .grid .hMask .header .hover .content, .page-grid .universe .mainGrid0 .grid .hMask .header .selected .content {color: black; cursor: pointer}
+.page-grid .universe .mainGrid0 .grid .hMask .header .hover .hide, .page-grid .universe .mainGrid0 .grid .hMask .header .selected .hide {background-position: 0px -200px}
+.page-grid .universe .mainGrid0 .grid .hMask .header .hover .sortAsc .sortIndicator, .page-grid .universe .mainGrid0 .grid .hMask .header .selected .sortAsc .sortIndicator {background-position: -900px -50px}
+.page-grid .universe .mainGrid0 .grid .hMask .header .hover .sortDesc .sortIndicator, .page-grid .universe .mainGrid0 .grid .hMask .header .selected .sortDesc .sortIndicator {background-position: -850px -50px}
+.page-grid .universe .mainGrid0 .grid .hMask .header .joinKeyText {display: inline-block; float: left}
+.page-grid .universe .mainGrid0 .grid .hMask .disabled .sorter {background-position: 0px -1410px !important}
+.page-grid .universe .mainGrid0 .grid .body {position: absolute; clear: both}
+.page-grid .universe .mainGrid0 .grid .body .column.Double .data, .page-grid .universe .mainGrid0 .grid .body .column.Integer .data {text-align: right; padding-right: 10px}
+.page-grid .universe .mainGrid0 .grid .body .column {float: left; color: black}
+.page-grid .universe .mainGrid0 .grid .body .column .cell {position: relative; border-right: 1px solid #cccccc; border-bottom: 1px solid #cccccc; padding-left: 12px; background-color: #f2f2f3; height: 23px; line-height: 23px; overflow: hidden}
+.page-grid .universe .mainGrid0 .grid .body .column .data {overflow: hidden; white-space: nowrap}
+.page-grid .universe .mainGrid0 .grid .body .column.first .primaryCell {padding-left: 25px}
+.page-grid .universe .mainGrid0 .grid .body .column.first .garbageIcon {background-image: url(../images/sprites/icon_vertical.png?1316658790); background-repeat: no-repeat; background-position: 5px -476px}
+.page-grid .universe .mainGrid0 .grid .body .primaryCol .cell {background-color: #cacaca; color: black; border-right: 1px solid white; border-bottom: 1px solid white}
+.page-grid .universe .mainGrid0 .grid .body .primaryCol .cell .gradient {background-position: right -180px}
+.page-grid .universe .mainGrid0 .grid .body .primaryCol .pkHighLight {border-top: 2px solid #2eaa00 !important; border-bottom: 2px solid #2eaa00 !important; border-left: none !important; border-right: none !important; color: black !important; height: 20px; background-color: white; line-height: 18px}
+.page-grid .universe .mainGrid0 .grid .body .primaryCol .pkHighLightLeft {border-left: 2px solid #2eaa00 !important}
+.page-grid .universe .mainGrid0 .grid .body .primaryCol .pkHighLightRight {padding-left: 2px; border-right: 2px solid #2eaa00 !important}
+.page-grid .universe .mainGrid0 .grid .bodyEventHandler {position: absolute; overflow: hidden; -webkit-user-select: none}
+.page-grid .universe .mainGrid0 .grid .bodyEventHandler .highlights div {position: absolute}
+.page-grid .universe .mainGrid0 .grid .bodyEventHandler .highlights .col {border-top: none; border-right: 1px dotted #2eaa00; border-bottom: none; border-left: 1px dotted #2eaa00}
+.page-grid .universe .mainGrid0 .grid .bodyEventHandler .highlights .row {border-top: 1px dotted #2eaa00; border-right: none; border-bottom: 1px dotted #2eaa00; border-left: none}
+.page-grid .universe .mainGrid0 .grid .bodyEventHandler .highlights .cell {border: 1px solid #2eaa00; margin: -1px}
+.page-grid .universe .mainGrid0 .grid .bodyEventHandler .highlights .input > div {width: 100%}
+.page-grid .universe .mainGrid0 .grid .bodyEventHandler .highlights .input input {width: 100%}
+.page-grid .universe .mainGrid0 .grid .bodyEventHandler .highlights .input .textField {height: 17px}
+.page-grid .universe .mainGrid0 .grid .bodyEventHandler .highlights .input .Enum select {width: 100%}
+.page-grid .universe .mainGrid0 .grid .bodyEventHandler .highlights em {display: none}
+.page-grid .universe .mainGrid0 .grid .cellForm {z-index: 2; overflow: visible; position: absolute}
+.page-grid .universe .mainGrid0 .grid .cellForm form {width: 250px; -moz-border-radius: 5px; -webkit-border-radius: 5px; background-color: white; border: 1px solid #cccccc; padding: 10px}
+.page-grid .universe .mainGrid0 .grid .cellForm form .valueInput input, .page-grid .universe .mainGrid0 .grid .cellForm form .valueInput select {width: 240px}
+.page-grid .universe .mainGrid0 .grid .cellForm form .inputIndicator {font-style: italic; font-size: 10px}
+.page-grid .universe .mainGrid0 .grid .cellForm form .inputIndicator .invalidInput {color: red}
+.page-grid .universe .mainGrid0 .grid .cellForm form .buttons {padding: 5px 0}
+.page-grid .universe .mainGrid0 .grid .cellForm form .buttons .explorer {margin-left: 4px}
+.page-grid .universe .mainGrid0 .grid .cellForm form .buttons .explain {padding-left: 6px}
+.page-grid .universe .mainGrid0 .grid .cellForm form fieldset {border: 1px solid #c3c3c3; padding: 10px}
+.page-grid .universe .mainGrid0 .grid .cellForm form fieldset legend {font-style: italic; font-size: 10px; color: #4d4e53}
+.page-grid .universe .mainGrid0 .grid .cellForm form fieldset .comment {margin-top: 8px}
+.page-grid .universe .mainGrid0 .grid .cellForm form fieldset label {color: #4d4e53; display: block; line-height: 12px}
+.page-grid .universe .mainGrid0 .grid .cellForm form fieldset .textArea, .page-grid .universe .mainGrid0 .grid .cellForm form fieldset .textField {width: 215px}
+.page-grid .universe .mainGrid0 .grid .columnMenu, .page-grid .universe .mainGrid0 .grid .columnNavigator {float: left}
+.page-grid .universe .mainGrid0 .grid .columnMenu .content, .page-grid .universe .mainGrid0 .grid .columnNavigator .content {background-color: white; border: 1px solid #4d4e53}
+.page-grid .universe .mainGrid0 .grid .columnMenu {position: absolute; z-index: 20}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu {padding: 6px 0}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li {position: relative; height: 20px; border: 1px solid white; padding: 0px 6px; cursor: pointer}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li:hover {background-color: #d1f39d; border: 1px solid #9cd940}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li .icon, .page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li .rightArrow {background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 13px; height: 13px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li .icon {top: 2px; margin-right: 6px; position: relative}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li .rightArrow {background-position: -300px 0px; right: 0; top: 6px; position: absolute}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter .icon {background-position: -200px -400px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter .rightArrow {display: none}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter .content {margin-top: -13px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter ul {min-width: 200px; position: relative; z-index: 2; padding: 0}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter ul li {background-image: none; padding-left: 24px; overflow: hidden}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter .enumerationList {max-height: 200px; overflow: hidden; border-width: 0 1px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter .up {border-bottom: 1px solid #c3c3c3}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter .down {border-top: 1px solid #c3c3c3}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter .up li, .page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter .down li {padding: 3px 0 0; height: 14px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter .up .arrow, .page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter .down .arrow {background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 13px; height: 13px; margin: 0px auto; display: block}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter .up .one .arrow {background-position: -750px 0px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter .up .smart .arrow {background-position: -800px 0px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter .down .one .arrow {background-position: -750px -50px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter .down .smart .arrow {background-position: -800px -50px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.quickFilter.isEnumerated .rightArrow {display: block}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.sortByItem ul {margin-top: -13px; width: 230px; position: relative; z-index: 2}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.sortByItem ul li {background-image: none; padding-left: 24px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.sortByItem ul li.checked {background-image: url(../images/sprites/icon_vertical.png?1316658790); background-repeat: no-repeat; background-position: 0 -189px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.sortByItem .icon {background-position: 0px -400px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.filter .icon {background-position: -250px -400px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.aggregation ul {margin-top: -13px; width: 320px; position: relative; z-index: 2}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.aggregation ul li {background-image: none; padding-left: 24px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.aggregation ul li.checked {background-image: url(../images/sprites/icon_vertical.png?1316658790); background-repeat: no-repeat; background-position: 0 -189px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.aggregation .icon {background-position: -350px -400px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.hideColumn .icon {background-position: -400px -400px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.fieldEditor .icon {background-position: -650px -400px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.fieldViewer {background-image: none}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu .deleteFieldButton .icon, .page-grid .universe .mainGrid0 .grid .columnMenu ul.menu .removeFieldFromViewButton .icon {background-position: -300px -450px}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.label {background-image: none; padding-left: 10px; cursor: default}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu .content {border: none}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu .content ul {background-color: white; border: 1px solid #151410; padding: 6px 0}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.title {border-width: 0 0 1px 0; border-bottom: 1px solid #cccccc; font-style: italic; color: #999999}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.title .icon {display: none}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.title:hover {background: none; border-width: 0 0 1px 0; border-bottom: 1px solid #cccccc; cursor: default}
+.page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.joinField, .page-grid .universe .mainGrid0 .grid .columnMenu ul.menu li.joinField:hover {display: none}
+.page-grid .universe .mainGrid0 .grid .primaryMenu ul.menu li.aggregation {display: none}
+.page-grid .universe .mainGrid0 .grid .primaryMenu ul.menu li.deleteFieldButton {display: none}
+.page-grid .universe .mainGrid0 .grid .columnNavigator {position: absolute; top: 20px; right: 0; background: url(../images/shadow.png?1316658790) no-repeat right bottom; padding: 0 0 5px 0; z-index: 100}
+.page-grid .universe .mainGrid0 .grid .columnNavigator .header {text-align: center; background-color: #cccccc; line-height: 22px; position: static; clear: none}
+.page-grid .universe .mainGrid0 .grid .columnNavigator .columns {padding: 3px; overflow: auto}
+.page-grid .universe .mainGrid0 .grid .columnNavigator .columns li {padding: 0 5px; border: 1px solid white; overflow: hidden; white-space: nowrap; cursor: default}
+.page-grid .universe .mainGrid0 .grid .columnNavigator .columns li:hover {background-color: #d1f39d; border: 1px solid #9cd940}
+.page-grid .universe .mainGrid0 .grid .expandedCell {position: absolute}
+.page-grid .universe .mainGrid0 .grid .expandedCell .content {position: relative; z-index: 1; border: 2px solid #2eaa00; background-color: white; padding: 0 10px; line-height: 22px; min-height: 22px}
+.page-grid .universe .mainGrid0 .grid .cellOptions {z-index: 111; position: absolute; text-align: center; padding-top: 4px; height: 24px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content {position: relative; z-index: 2; padding: 0px 8px; color: white}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content a {color: white}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content a:hover {color: #ff5b00}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .explain .icon, .page-grid .universe .mainGrid0 .grid .cellOptions .content .disagree .icon, .page-grid .universe .mainGrid0 .grid .cellOptions .content .expand .icon, .page-grid .universe .mainGrid0 .grid .cellOptions .content .link .icon, .page-grid .universe .mainGrid0 .grid .cellOptions .content .correct .icon, .page-grid .universe .mainGrid0 .grid .cellOptions .content .garbage .icon, .page-grid .universe .mainGrid0 .grid .cellOptions .content .develop .icon, .page-grid .universe .mainGrid0 .grid .cellOptions .content .endpoint .icon {background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .explain .icon {width: 12px; height: 13px; background-position: -150px -50px; position: relative; top: 1.5px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .explain:hover .icon {background-position: -200px -50px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .disagree .icon {width: 15px; height: 12px; background-position: -150px -450px; position: relative; top: 2px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .disagree:hover .icon {background-position: -200px -450px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .expand .icon {width: 17px; height: 14px; background-position: -250px -600px; position: relative; top: 1px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .expand:hover .icon {background-position: -300px -600px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .link .icon {width: 20px; height: 12px; background-position: -300px -300px; position: relative; top: 2px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .link:hover .icon {background-position: -250px -300px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .develop .icon {width: 14px; height: 14px; background-position: -600px -300px; position: relative; top: 3px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .develop:hover .icon {background-position: -550px -300px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .endpoint .icon {width: 14px; height: 14px; background-position: -800px -300px; position: relative; top: 3px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .endpoint:hover .icon {background-position: -850px -300px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .correct .icon {width: 13px; height: 11px; background-position: -400px -300px; position: relative; top: 2.5px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .correct:hover .icon {background-position: -350px -300px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .garbage .icon {width: 15px; height: 11px; background-position: -500px -300px; position: relative; top: 2.5px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .content .garbage:hover .icon {background-position: -450px -300px}
+.page-grid .universe .mainGrid0 .grid .cellOptions .factOptionsBubble {position: absolute; top: 0px; left: 0px; width: 100%; height: 24px; z-index: 1; background-color: black; -moz-border-radius: 5px; -webkit-border-radius: 5px; -moz-opacity: 0.8; opacity: 0.8; border: 2px solid white}
+.page-grid .universe .mainGrid0 .grid .cellOptions .pointer {opacity: 0.75; -moz-opacity: 0.75; -webkit-opacity: 0.75; filter: "alpha(opacity=75)"; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -500px 0px; width: 12px; height: 7px; filter: alpha(opacity=75); position: absolute; top: 25px; z-index: 3}
+.page-grid .universe .mainGrid0 .grid .subColumn {position: absolute; top: 0px; right: 16px; background-color: #555555; color: white; width: 34px; height: 22px; padding-left: 4px}
+.tooltip {position: absolute; display: none}
+.tooltip .fieldConnector {background-image: url(../images/sprites/icon_vertical.png?1316658790); background-repeat: no-repeat; background-position: 0 0; position: absolute}
+.tooltip .up, .tooltip .down {width: 9px; height: 5px}
+.tooltip .left, .tooltip .right {width: 6px; height: 9px}
+.tooltip .up {background-position: 2px -296px}
+.tooltip .down {background-position: 2px -256px}
+.tooltip .left {background-position: 0px -276px}
+.tooltip .right {background-position: 0px -236px}
+#tooltips .hdrTip {background-color: #fefbaa; border: 1px solid #e3ae46; padding: 0px 5px; z-index: 90; width: 210px}
+#tooltips .hdrTip ul {overflow-x: hidden}
+#tooltips .hdrTip ul ol {max-height: 36px; overflow-x: hidden; overflow-y: auto; margin-buttom: 5px}
+#tooltips .hdrTip ul ol li {white-space: nowrap; overflow-x: hidden; overflow-y: auto}
+#tooltips .hdrTip .fieldConnector {height: 9px; background-position: 8px -256px; bottom: -9px; left: 10px; width: 100%}
+#tooltips .firstRunTip {z-index: 2; background: url(../images/shadow.png?1316658790) no-repeat right bottom; padding: 0 5px 5px 0}
+#tooltips .firstRunTip .firstRunTip-container {width: 300px; padding: 6px; border: #c3c3c3; background-color: #f4f3f2}
+#tooltips .firstRunTip .fieldConnector {top: -5px; left: 40px; width: 12px}
+#tooltips .firstRunTip .close {position: absolute; top: 4px; right: 9px; cursor: pointer; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 12px; height: 12px; background-position: 0px -200px}
+#tooltips .firstRunTip .close:hover {background-position: -100px -200px}
+#tooltips .firstRunTip .content {padding: 6px 12px 6px 6px}
+#tooltips .firstRunTip .content .icon {float: left; width: 35px; height: 35px; margin-right: 12px; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: 0px -700px}
+#tooltips .firstRunTip.registered .icon {margin-top: 12px}
+.qlispText {position: absolute; right: 0px; top: 100px; background-color: #eeeeee; z-index: 900}
+.svgPointer {position: absolute; z-index: 10001}
+.svgPointerCircle {position: absolute; z-index: 10000}
+body {overflow-y: hidden}
+body .page-grid #page-container {width: 100%}
+.titleWrapper {color: white; position: absolute; top: 5px; left: 145px; z-index: 2}
+.titleWrapper table {table-layout: fixed; margin-top: 2px; height: 24px; width: 100%; background-color: #6f8199; -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; border-collapse: separate; position: relative}
+.titleWrapper table td {vertical-align: middle}
+.titleWrapper table a, .titleWrapper table a:hover {color: #75f8f3}
+.titleWrapper table a:hover {text-decoration: underline}
+.titleWrapper .name-cell {padding-left: 8px; border-right: 1px solid #263552}
+.titleWrapper .name-cell div {overflow: hidden; white-space: nowrap}
+.titleWrapper .name-cell .fade {display: inline-block; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -250px -150px; width: 15px; height: 18px; position: absolute; right: 59px; top: 3px}
+.titleWrapper .name-cell.fulltextSearchEnabled .searchIndicator {position: absolute; top: 5px; left: 5px; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -200px -400px; width: 12px; height: 12px}
+.titleWrapper .name-cell.fulltextSearchEnabled h1 {margin-left: 12px}
+.titleWrapper .details-cell {width: 58px; text-align: center}
+.titleWrapper h1 {font-size: 12px; padding: 4px 0px; display: inline; overflow: hidden; white-space: nowrap}
+.titleWrapper h1 .submitter {font-weight: normal}
+.gridTabsContainer .fact-tabList {margin-left: 6px}
+.gridTabsContainer .fact-tabList .labIcon {background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -300px -100px; width: 13px; height: 11px}
+#share {float: right; position: relative; z-index: 12; margin-right: 15px}
+#share .links {margin-top: 6px}
+#share .links .href-icon, #share .links .email-icon {margin-left: 6px; display: inline-block; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 20px; height: 11px}
+#share .links .href-icon {background-position: -250px -300px}
+#share .links .email-icon {background-position: -150px -300px}
+#share .close {position: absolute; top: 4px; right: 4px; cursor: pointer; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 12px; height: 12px; background-position: 0px -200px}
+#share .close:hover {background-position: -100px -200px}
+#share .share-dialog {display: none; position: absolute; top: 25px; right: 2px; background: url(../images/shadow.png?1316658790) no-repeat left bottom; padding: 0px 0px 5px 5px}
+#share .share-href, #share .share-email {padding: 12px; display: none; background-color: white; border: 1px solid #cccccc}
+#share .share-href h3, #share .share-email h3 {color: #b92025; border-bottom: 1px dotted #cccccc; margin-bottom: 8px}
+#share .share-href {width: 550px}
+#share .share-href input {width: 450px; padding: 2px 0px 0px 2px; border: 1px solid #cccccc; height: 22px; margin-top: 6px}
+#share .share-href .saveName {display: none; margin-top: 10px; padding-top: 5px; border-top: 1px dotted #cccccc}
+#share .share-href .saveName input.name {padding-right: 24px}
+#share .share-href input.stateUrl {padding-left: 24px}
+#share .share-href .linkIcon {background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -250px -300px; width: 20px; height: 11px; position: absolute; top: 90px; left: 22px}
+#share .share-email {width: 770px}
+#share .share-email table {table-layout: fixed; width: 100%; border-collapse: separate}
+#share .share-email table td {padding: 2px 0px}
+#share .share-email table td .url {color: blue}
+#share .share-email .share-email-label {width: 140px; text-align: right; vertical-align: top}
+#share .share-email .messaging {width: 375px; padding-left: 18px}
+#share .share-email .showMessage {position: relative}
+#share .share-email .textArea, #share .share-email .textField {width: 220px}
+#share .share-email .ico {width: 20px; position: absolute; top: 1px; left: -20px}
+#share .share-email #simple_captcha img {margin: 5px 0}
+#share .share-email span {line-height: 18px; height: 18px; display: inline-block; vertical-align: middle}
+#share .share-email .error {color: red}
+#share .share-email .error .ico {background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -350px -450px}
+#share .share-email .pass .ico {background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -400px -450px}
+#share .share-embed {display: none}
+#visualizations {height: 100%; min-height: 100%}
+#releaseNotes {padding: 18px 36px 0; max-height: 500px; overflow-y: auto}
+#releaseNotes h2 {margin: 12px 0; border-bottom: 1px solid #cccccc; padding-bottom: 3px; width: 40%; clear: both}
+#releaseNotes h3 {font-size: 13px; font-weight: normal}
+#releaseNotes p {margin: 0 0 20px}
+#releaseNotes pre {font-size: 12px; font-family: Arial, "Helvetica Neue", Helvetica, sans-serif}
+#releaseNotes input.textField, #releaseNotes textarea {font-size: 13px; width: 50%}
+#releaseNotes textarea {min-height: 60px}
+#releaseNotes ul, #releaseNotes ol {margin: 5px 25px 20px}
+#releaseNotes ol li {list-style: decimal outside}
+#releaseNotes ul li {list-style: disc outside}
+#releaseNotes div.edit {border-top: 1px solid #e1e1e1; padding: 15px 0 0 0; margin: 15px 0 0 0}
+#schema {padding: 18px 36px 0}
+#schema .details {padding-bottom: 12px}
+#schema .details .key {font-weight: bold}
+#schema .details .value {padding-left: 3px}
+#schema .fields {position: relative; margin: 0 55px}
+#schema .fields .subjectIndicator {position: absolute; top: 24px; left: -55px; width: 55px}
+#schema .fields .subjectIndicator img {float: right}
+#schema .fields .subjectIndicator .text {float: left; position: relative}
+#schema .fields .fieldsGrid .header .sorter {cursor: auto}
+#schema .fields .fieldsGrid .body .virtualField {background-color: #f4f3f2; color: #8c8d8e}
+#schema .fields .fieldsGrid .body .primaryKey {background-color: #8c8d8e}
+#schema .fields .fieldsGrid .body .primaryKey td {border-bottom: 1px solid white; border-right: 1px solid white}
+#schema .fields .fieldsGrid .body .primaryKey.virtualField td {color: #111c24; border-bottom: 1px solid #cccccc; border-right: 1px solid #cccccc}
+#schema .fields .fieldsGrid .body .edit {text-align: center}
+.explorerTitle em {color: grey}
+.explorer {position: relative}
+.explorer table {width: 100%}
+.explorer table td {padding: 5px}
+.explorer table .key, .explorer table .label {text-align: right; width: 30%}
+.explorer table .value {width: 70%}
+.explorer .voteOptionalInputs fieldset {border: 1px solid #969891; color: #969891}
+.explorer .voteOptionalInputs fieldset legend {margin: 0px 10px; padding: 0px 6px}
+.explorer .seeFullHistory {padding-top: 10px; text-align: left; float: left}
+.explorer .counted, .explorer .backToHistory {padding-top: 10px; text-align: right; float: right}
+.explorer .subjectMetadata, .explorer .factMetadata {width: 100%; border: 1px solid black; padding: 1px; overflow: auto; background-color: #eeeceb}
+.explorer .garbageInfo {padding-top: 10px; text-align: center}
+.explorer #subj-tab-developer select, .explorer #fact-tab-developer select {margin: 0 5px 1.5em 0; width: 80%}
+.explorer #subj-tab-developer textarea, .explorer #fact-tab-developer textarea {margin-bottom: 1.5em; width: 100%}
+.explorer #subj-tab-developer textarea, .explorer #fact-tab-developer textarea {height: 50px}
+.explorer #subj-tab-developer .keySpan, .explorer #fact-tab-developer .keySpan {font-family: Courier New}
+.explorer #subj-tab-developer .domains, .explorer #fact-tab-developer .domains {margin: 5px 0 5px 10px}
+.explorer #subj-tab-developer .subjectKey, .explorer #fact-tab-developer .subjectKey {margin: 4px 0 10px 0}
+.explorer .gridSimple .expandSource {display: inline-block; width: 14px; height: 14px; cursor: pointer; margin-top: 5px; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -550px -450px; width: 14px; height: 14px}
+.factExplorer .value span {font-weight: bold}
+.factExplorer .voteOptionalInputs {margin-bottom: 1em}
+.factExplorer .selectBox .value {width: auto}
+.factExplorer .factSummary .userFactInput {margin-bottom: 15px}
+.factExplorer .factSummary .factInput .voteInput .textField {width: 100%}
+.factExplorer .factSummary .factInput .voteInput .selectBox {width: 200px}
+.factExplorer .factSummary .factInput .voteInput .invalidInput {color: red}
+.factExplorer .factSummary .factInput .buttons {padding-left: 12px}
+.factExplorer .factSummary .correct, .factExplorer .factSummary .update {margin-left: 6px; font-weight: normal; white-space: nowrap}
+.factExplorer .factSummary table td {vertical-align: top}
+.factExplorer .factSummary table td.key {height: 18px}
+.factExplorer .factSummary table td.key label {display: block; text-align: right; margin-right: 4px}
+.factExplorer .factSummary h3 {border-bottom: 1px solid #969891; margin-bottom: 4px; font-size: 1em}
+.subjectExplorer .value {color: #999999}
+.subjectExplorer .shortcuts {text-align: center; padding: 10px 0px}
+.subjectExplorer .firstVote td {padding: 5px}
+.subjectExplorer .firstVote td .comment {overflow: hidden; height: 18px}
+.subjectExplorer #subj-tab-labels .key, .subjectExplorer #subj-tab-labels .value {float: left}
+.subjectExplorer #subj-tab-labels .key {clear: left}
+.subjectExplorer #subj-tab-labels .key label {display: block; text-align: right; padding-right: 4px}
+.subjectExplorer #subj-tab-labels table {width: 100%}
+.subjectExplorer #subj-tab-labels table td {vertical-align: top; padding-bottom: 5px}
+.subjectExplorer #subj-tab-labels ul {margin-top: 15px}
+.subjectExplorer #subj-tab-labels ul li {float: left; width: 250px; height: 50px; border: 1px solid #cccccc; padding-left: 50px; margin-right: 10px; margin-bottom: 10px; background-image: url(../images/grid/big_icons.png?1316658790); background-repeat: no-repeat}
+.subjectExplorer #subj-tab-labels ul .text {height: 50px; background-color: #f4f4f4; cursor: pointer; padding: 0px 6px; line-height: 24px}
+.subjectExplorer #subj-tab-labels ul .text:hover {background-color: #dddddd}
+.subjectExplorer #subj-tab-labels ul li.garbage {background-position: 14px 12px}
+.subjectExplorer #subj-tab-labels ul li.suggest {background-position: 14px -42px}
+.subjectExplorer #subj-tab-labels ul li.discuss {background-position: 14px -85px}
+.subjectExplorer #subj-tab-labels ul li.discuss .text {line-height: 50px}
+.subjectExplorer #subj-tab-input .voteInput .selectBox {width: 200px}
+.subjectExplorer #subj-tab-input ul li {margin-bottom: 6px}
+.subjectExplorer #subj-tab-input .buttonField {position: relative; left: 50%; float: left; margin-top: 15px}
+.subjectExplorer #subj-tab-input .buttonField .buttons {position: relative; left: -50%; float: left}
+#fact-tab-developer .helpLink, #subj-tab-developer .helpLink {float: right}
+#fact-tab-developer .helpLink .icon, #subj-tab-developer .helpLink .icon {background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 15px; height: 13px; background-position: -150px -50px}
+#fact-tab-developer label, #subj-tab-developer label {display: block}
+#fact-tab-developer select.apiKeys, #subj-tab-developer select.apiKeys {width: 40%}
+#fact-tab-developer textarea.textArea, #subj-tab-developer textarea.textArea {width: 99%; height: 60px}
+#fact-tab-developer .actions, #subj-tab-developer .actions {text-align: right}
+.infobox .join, .infobox .normal {border: 1px solid #e3ae46; background-color: #fefbaa; padding: 0.5em 1em; margin: 0.5em; color: black}
+.infobox .join a, .infobox .normal a {display: block}
+.explorer fieldset {padding: 8px}
+.explorer .voteInput fieldset {padding: 8px}
+.explorer .voteInput .row {position: relative; padding-left: 180px; padding-right: 8px; margin-top: 8px; margin-bottom: 8px}
+.explorer .voteInput .label {width: 180px; position: absolute; top: 0px; left: 0px}
+.explorer .voteInput .label label {display: block; text-align: right; padding-right: 8px}
+.explorer .voteInput .input input, .explorer .voteInput .input textarea {width: 100%; margin-bottom: 3px}
+.explorer .voteInput .input .inputIndicator {height: 10px; line-height: 10px; font-style: italic; font-size: 10px; margin-top: 3px}
+.explorer .voteInput .input .inputIndicator .invalidInput {color: red}
+.metadataInput table {width: 100%}
+.metadataInput table td {text-align: right; vertical-align: top; padding-right: 3px}
+.metadataInput table .source input {width: 100%}
+.metadataInput table .comment textarea {width: 100%}
+.metadataInput table .submit {float: left}
+.metadataExplorer .source {text-align: right}
+.metadataExplorer .source .textField {width: 100%}
+.metadataExplorer .comment {text-align: right}
+.metadataExplorer .comment .textArea {width: 100%}
+.valueSelector {position: absolute; background-color: white; border: 1px solid #4d4e53; line-height: 26px; padding-left: 5px; padding-right: 15px; margin-right: 3px; margin-bottom: 3px}
+.valueSelector .smallClose {position: absolute; top: 2px; right: 2px; cursor: pointer; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: 0px -200px; width: 12px; height: 12px}
+.valueSelector .smallCloseHover {background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -100px -200px; width: 12px; height: 12px}
+.valueSelector .fieldConnector.bottom {background-image: url(../images/sprites/icon_vertical.png?1316658790); background-repeat: no-repeat; background-position: 0 0; background-position: left -336px; background-repeat: no-repeat; position: absolute; bottom: -3px; height: 6px; width: 100%; left: 7px}
+.ui-dialog .ui-dialog-content {padding: 12px 14px}
+.ui-dialog .dataImprover .statusInfo span {font-weight: bold}
+.ui-dialog .dataImprover .controls li {margin: 12px 0px}
+.ui-dialog .dataImprover .buttons {text-align: right}
+.ui-dialog .joinDataset .loading {position: absolute; left: 0; top: 0; width: 100%; height: 100%; text-align: center; background-image: url(../images/grid/white_opacity_50.png?1316658790); z-index: 999}
+.ui-dialog .joinDataset .loading .message {display: inline-block; background: url(../images/animation/spinner_29.gif?1316658790) no-repeat 0px center; line-height: 60px; margin-top: 24px; padding-left: 34px; margin-top: 184px}
+.ui-dialog .joinDataset .selectBox .list .completeSubject {background-color: #dde8e8}
+.ui-dialog .joinDataset .selectBox .list .primarySelection {background-color: #dde8e8}
+.ui-dialog .joinDataset .results, .ui-dialog .joinDataset .chsnBox, .ui-dialog .joinDataset .miniList {margin: 5px 0px}
+.ui-dialog .joinDataset .joinTo {position: relative; z-index: 50}
+.ui-dialog .joinDataset .joinTo .selectBox {width: 200px}
+.ui-dialog .joinDataset .joinTo .selector {float: right}
+.ui-dialog .joinDataset ul.searchType li {float: left; margin: 10px 10px 10px 0px}
+.ui-dialog .joinDataset ul.searchType li a {padding-left: 12px}
+.ui-dialog .joinDataset ul.searchType li.selected a {color: black; background-image: url(../images/sprites/icon_vertical.png?1316658790); background-repeat: no-repeat; background-position: 0 -397px; text-decoration: none}
+.ui-dialog .joinDataset .searchPanes {background-image: url(../images/sprites/xsprite.png?1316658790); background-repeat: repeat-x; background-position: 0 -1051px; width: 100%; height: 30px; border-top: 1px solid #5697c8; border-right: 1px solid #5697c8; border-left: 1px solid #5697c8}
+.ui-dialog .joinDataset .searchPanes table {width: 100%}
+.ui-dialog .joinDataset .searchPanes table td.label {text-align: right; padding: 5px 0 0 5px; font-size: 11px; white-space: nowrap}
+.ui-dialog .joinDataset .search {width: 100%; padding: 3px 5px 0px 5px}
+.ui-dialog .joinDataset .search div {height: 20px; border: 1px solid #cccccc; background-color: white; overflow: hidden}
+.ui-dialog .joinDataset .search input {border: none; float: left}
+.ui-dialog .joinDataset .search .srchText {width: 90%; height: 20px; line-height: 20px; border: 0px solid #cccccc; padding: 0 0 2px 2px}
+.ui-dialog .joinDataset .search .srchButton {width: 20px; height: 20px; background-image: url(../images/sprites/icon_vertical.png?1316658790); background-repeat: no-repeat; background-position: 0 -635px; background-color: white; cursor: pointer; float: right}
+.ui-dialog .joinDataset .miniGrid, .ui-dialog .joinDataset .miniList {border: 1px solid #5697c8}
+.ui-dialog .joinDataset .miniGrid {margin-bottom: 5px; position: relative; z-index: 49}
+.ui-dialog .joinDataset .miniGrid .header .content {cursor: pointer}
+.ui-dialog .joinDataset .miniList {height: 80px; overflow: auto}
+.ui-dialog .joinDataset .miniList .listRow, .ui-dialog .joinDataset .miniList .listRowHover {position: relative; border: 1px solid #cccccc; line-height: 22px; margin: 2px; padding: 0px 20px 0px 10px}
+.ui-dialog .joinDataset .miniList .listRow:hover {background-color: #fafafa}
+.ui-dialog .joinDataset .miniList .listButton {position: absolute; right: 5px; top: 5px; width: 13px; height: 13px; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; cursor: pointer}
+.ui-dialog .joinDataset .miniList .listButton {background-position: -150px -450px}
+.ui-dialog .joinDataset .miniList .listButton:hover {background-position: -200px -450px}
+.ui-dialog .joinDataset .pagination .selectBox {width: 72px}
+.ui-dialog .joinDataset .pagination input {width: 30px; height: 16px; margin: 0px 6px}
+.ui-dialog .joinDataset .pagination input, .ui-dialog .joinDataset .pagination div, .ui-dialog .joinDataset .pagination span {float: left; margin: 0px 4px}
+.ui-dialog .joinDataset .pagination div.prev, .ui-dialog .joinDataset .pagination div.next {background-image: url(../images/pagination/pag_prev_next.png?1316658790); width: 16px; height: 16px; cursor: pointer; display: block}
+.ui-dialog .joinDataset .pagination div.prev {background-position: left -20px}
+.ui-dialog .joinDataset .pagination div.prev:hover {background-position: left -40px}
+.ui-dialog .joinDataset .pagination div.prevPress {background-position: left -60px}
+.ui-dialog .joinDataset .pagination div.prevDisabled {background-position: left 0px; cursor: auto}
+.ui-dialog .joinDataset .pagination div.next {background-position: right -20px}
+.ui-dialog .joinDataset .pagination div.next:hover {background-position: right -40px}
+.ui-dialog .joinDataset .pagination div.nextPress {background-position: right -60px}
+.ui-dialog .joinDataset .pagination div.nextDisabled {background-position: right 0px; cursor: auto}
+.ui-dialog .joinDataset .buttons {text-align: right}
+.ui-dialog .joinDetails .prompt {padding: 0.5em 0px}
+.ui-dialog .joinDetails .prompt strong {margin: 0px 0.5em}
+.ui-dialog .joinDetails .box {border: 1px solid #707070; background-color: white; padding: 5px 10px; height: 100px; overflow: auto}
+.ui-dialog .joinDetails .box .fields .fkField {float: left; width: 50%; line-height: 25px}
+.ui-dialog .bulkImport .panes .container {padding: 15px 15px}
+.ui-dialog .bulkImport .panes .container .entryName {padding-top: 2px; float: left; width: 130px; margin-right: 5px; text-align: right}
+.ui-dialog .bulkImport .panes .container .entryValue {margin-left: 135px}
+.ui-dialog .bulkImport .panes .container .entryValue .textArea {width: 300px}
+.ui-dialog .bulkImport .previewContainer {overflow: hidden; padding: 0px 10px}
+.ui-dialog .bulkImport .previewContainer .controls {text-align: left}
+.ui-dialog .bulkImport .previewContainer .controls input {margin-right: 4px}
+.ui-dialog .bulkImport .previewContainer .source {padding-top: 5px}
+.ui-dialog .bulkImport .previewContainer .source .red {color: red}
+.ui-dialog .bulkImport .previewContainer .columnSources {position: relative; clear: both}
+.ui-dialog .bulkImport .previewContainer .columnSources .columnSource {float: left; position: relative}
+.ui-dialog .bulkImport .previewContainer .columnSources .columnSource input {width: 100%}
+.ui-dialog .bulkImport .submit {text-align: center}
+.ui-dialog .toggleFields {position: relative}
+.ui-dialog .toggleFields .subHead {font-weight: bold}
+.ui-dialog .toggleFields .selectBox {margin-top: 5px}
+.ui-dialog .toggleFields center input {margin: 8px 0px 10px}
+.ui-dialog .toggleFields .fieldSelections {background-color: white; max-height: 250px; border: 1px solid #6c6f70; position: relative; overflow: auto; height: 120px}
+.ui-dialog .toggleFields .fieldSelections dt {text-align: left; padding-left: 30px; padding-top: 5px; padding-bottom: 5px; border-width: 1px 0px; border-style: solid; border-color: #cccccc; background-color: #eaf0f0; clear: left}
+.ui-dialog .toggleFields .fieldSelections dd {float: left; width: 48%; padding: 5px 0px; white-space: nowrap; overflow: hidden}
+.ui-dialog .toggleFields .fieldSelections dd input {margin: 0px 8px; position: relative; top: 2px}
+.ui-dialog .addFieldDialog .section {width: 50%; float: left; height: 165px}
+.ui-dialog .addFieldDialog .section .input {width: 100%}
+.ui-dialog .addFieldDialog .section .input .textField, .ui-dialog .addFieldDialog .section .input select {width: 100%}
+.ui-dialog .addFieldDialog .section .isHidden .label {font-size: 9px}
+.ui-dialog .addFieldDialog .eNum .enumToggle {padding-left: 22px}
+.ui-dialog .addFieldDialog .eNum .enumToggle label {display: inline}
+.ui-dialog .addFieldDialog .eNum .enumList {position: relative; margin-top: 4px; overflow: auto}
+.ui-dialog .addFieldDialog .enumValue {margin: 1px 0px 0px 22px; border: 1px solid #c3c3c3}
+.ui-dialog .addFieldDialog textarea.enumValue {width: 300px; height: 120px}
+.ui-dialog .addFieldDialog .submits {text-align: center; clear: left}
+.ui-dialog .reorder-dialog .reorder-container {border: 1px solid #4d4e53; width: 100%; padding: 1px; overflow: auto}
+.ui-dialog .reorder-dialog .reorder-container li {border: 1px solid #c3c3c3; margin: 1px; cursor: move}
+.ui-dialog .reorder-dialog .reorder-container li .reorder-icon {background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -200px -600px; width: 7px; height: 9px; display: inline-block; margin: 0px 12px}
+.ui-dialog .reorder-dialog .buttons {margin-top: 12px}
+.ui-dialog .tablePermissionDialog li {margin-bottom: 5px}
+.ui-dialog .tablePermissionDialog .key {margin-left: 8px; font-weight: bold}
+.ui-dialog .tablePermissionDialog .alert {color: red}
+.ui-dialog .tablePermissionDialog input {margin: 0 5px 0 25px}
+.ui-dialog .dsDetailsDialog {display: none}
+.ui-dialog .dsDetailsDialog .dsDetailsContainer td {padding: 4px}
+.ui-dialog .dsDetailsDialog .dsDetailsContainer .key {text-align: right; width: 150px; font-weight: bold; padding-right: 10px; vertical-align: top}
+.ui-dialog .dsDetailsDialog .dsDetailsContainer .editLink, .ui-dialog .dsDetailsDialog .dsDetailsContainer .buttons {display: block; text-align: center; margin: 10px 5px}
+.ui-dialog .dsDetailsDialog .dsDetailsContainer tr.desc td.value p {max-height: 120px; overflow: auto}
+.ui-dialog .dsDetailsDialog .dsDetailsContainer .dsDetailsForm table {width: 475px}
+.ui-dialog .dsDetailsDialog .dsDetailsContainer .dsDetailsForm table td.input {padding: 2px}
+.ui-dialog .dsDetailsDialog .dsDetailsContainer .dsDetailsForm table td.input .textField, .ui-dialog .dsDetailsDialog .dsDetailsContainer .dsDetailsForm table td.input .textArea {width: 420px}
+.ui-dialog .dsDetailsDialog .dsDetailsContainer .dsDetailsForm table td.input .helperText {color: #999999; font-size: 11px}
+.ui-dialog .poiFilterDialog h2 {font-size: 12px; font-weight: normal; margin-bottom: 5px}
+.ui-dialog .poiFilterDialog h3 {font-size: 11px; font-weight: normal}
+.ui-dialog .poiFilterDialog .type, .ui-dialog .poiFilterDialog .column {float: left; margin-right: 10px}
+.ui-dialog .poiFilterDialog .add {float: left; margin-top: 16px}
+.ui-dialog .poiFilterDialog .filterListings {clear: both; padding-top: 6px}
+.ui-dialog .poiFilterDialog .filterListings .hash {overflow: auto; max-height: 100px}
+.ui-dialog .poiFilterDialog .filterListings .hash li {border-top: 1px solid #cccccc; margin-top: 5px; padding-top: 5px; overflow: hidden}
+.ui-dialog .poiFilterDialog .filterListings .hash li .type, .ui-dialog .poiFilterDialog .filterListings .hash li .column {width: 148px}
+.ui-dialog .poiFilterDialog .filterListings .hash li .delete {cursor: pointer; background: url("../images/jqui/ui-icons_222222_256x240.png?1316658790") no-repeat; background-position: -96px -126px; display: block; float: left; width: 16px; height: 18px; text-indent: -2000em}
+.ui-dialog .poiFilterDialog .enable {left: 20px; bottom: 20px; position: absolute}
+.ui-dialog .poiFilterDialog .enable input {margin-right: 5px}
+.ui-dialog .poiFilterDialog .ui-dialog-buttonpane {border: 0}
+.ui-dialog .quickFilterDialog span.field {padding-right: 5px; float: left; margin-top: 10px}
+.ui-dialog .quickFilterDialog .fieldName {padding: 0 0 0 5px}
+.ui-dialog .quickFilterDialog input.textField {margin: 5px 0 10px}
+.ui-dialog .quickFilterDialog .buttons {clear: both}
+.ui-dialog .cachedBigTableGuide {line-height: 30px}
+.ui-dialog .cachedBigTableGuide ul {list-style-type: disc; margin-left: 30px}
+.ui-dialog .addSubjectExplorer {overflow: hidden}
+.ui-dialog .addSubjectExplorer .row {margin-bottom: 8px; margin-top: 8px; padding-left: 140px; padding-right: 8px; position: relative}
+.ui-dialog .addSubjectExplorer .row .selectBox {width: 192px}
+.ui-dialog .addSubjectExplorer .row input, .ui-dialog .addSubjectExplorer .row textarea {width: 100%; margin-bottom: 3px}
+.ui-dialog .addSubjectExplorer .row .inputIndicator {height: 10px; line-height: 10px; margin-top: 3px; font-style: italic; font-size: 10px}
+.ui-dialog .addSubjectExplorer .row .inputIndicator .invalidInput {color: red}
+.ui-dialog .addSubjectExplorer .row .label {left: 0; position: absolute; top: 0; width: 140px}
+.ui-dialog .addSubjectExplorer .row .label label {display: block; padding-right: 8px; text-align: right}
+.ui-dialog .addSubjectExplorer .row .SearchSuggest {top: 42px}
+.ui-dialog .setIdentityFieldsDialog .center, .ui-dialog .fulltextSearchDialog .center {text-align: center}
+.ui-dialog .setIdentityFieldsDialog ul.fields, .ui-dialog .fulltextSearchDialog ul.fields {height: 150px; overflow: auto; margin: 12px 0; padding: 12px; border: 1px solid #cccccc}
+.ui-dialog .setIdentityFieldsDialog ul.fields li, .ui-dialog .fulltextSearchDialog ul.fields li {float: left; width: 50%; padding: 0 0 5px}
+.ui-dialog .setIdentityFieldsDialog ul.fields li input, .ui-dialog .fulltextSearchDialog ul.fields li input {margin-right: 3px}
+.ui-dialog .setIdentityFieldsDialog label .gray, .ui-dialog .fulltextSearchDialog label .gray {color: #999999}
+.ui-dialog .setIdentityFieldsDialog .button, .ui-dialog .fulltextSearchDialog .button {margin: 20px 0 0}
+.ui-dialog .setIdentityFieldsDialog .button > span, .ui-dialog .fulltextSearchDialog .button > span {margin-right: 5px}
+.ui-dialog .setIdentityFieldsDialog .fact-spinner, .ui-dialog .fulltextSearchDialog .fact-spinner {display: inline-block; margin-right: 5px}
+.ui-dialog .cacheSettingDialog .ui-widget-content {border: 0}
+.ui-dialog .cacheSettingDialog .ui-widget-content ul.ui-widget-header {background: none; border-color: #aaaaaa; border-width: 0 0 1px 0; padding: 0.2em 0 0 0; -moz-border-radius: 0; -webkit-border-radius: 0}
+.ui-dialog .cacheSettingDialog .ui-widget-content ul.ui-widget-header .ui-state-default {border: 1px solid #d3d3d3}
+.ui-dialog .cacheSettingDialog .ui-widget-content ul.ui-widget-header .ui-state-active {border: 1px solid #aaaaaa}
+.ui-dialog .cacheSettingDialog .ui-widget-content ul.ui-widget-header a {display: block}
+.ui-dialog .cacheSettingDialog .ui-widget-content .ui-tabs-panel {border: 1px solid #aaaaaa; margin-top: -1px}
+.ui-dialog .cacheSettingDialog .ui-widget-content .ui-tabs-panel .header .include, .ui-dialog .cacheSettingDialog .ui-widget-content .ui-tabs-panel .header .name, .ui-dialog .cacheSettingDialog .ui-widget-content .ui-tabs-panel .header .weight {display: inline}
+.ui-dialog .cacheSettingDialog .ui-widget-content .ui-tabs-panel ul.fields {height: 150px; overflow: auto; margin: 12px 0; padding: 12px; border: 1px solid #cccccc}
+.ui-dialog .cacheSettingDialog .ui-widget-content .ui-tabs-panel ul.fields li .include, .ui-dialog .cacheSettingDialog .ui-widget-content .ui-tabs-panel ul.fields li .name, .ui-dialog .cacheSettingDialog .ui-widget-content .ui-tabs-panel ul.fields li .weight {display: inline}
+.ui-dialog .cacheSettingDialog .ui-widget-content .ui-tabs-panel ul.fields li.hiddenField {color: #999999}
+.ui-dialog .cacheSettingDialog .buttons div.line {margin-top: 10px}
+.ui-dialog .cacheSettingDialog .buttons .fact-button a {display: inline-block; width: 50px; text-align: center}
+.ui-dialog .cacheSettingDialog #cacheSettings-geo ul > li {clear: both; margin-top: 12px}
+.ui-dialog .cacheSettingDialog #cacheSettings-geo ul > li label {float: left; width: 100px; text-align: right; padding-right: 5px}
+.ui-dialog .cacheSettingDialog #cacheSettings-fqr {padding-bottom: 30px}
+.ui-dialog .cacheSettingDialog #cacheSettings-fqr label.center {display: block; margin-bottom: 12px}
+.ui-dialog .cacheSettingDialog #cacheSettings-fqr ul.fqrRequirementSets {max-height: 250px; padding-bottom: 50px; margin-bottom: 10px; overflow: auto}
+.ui-dialog .cacheSettingDialog #cacheSettings-fqr ul.fqrRequirementSets ol.list {height: 85px}
+.ui-dialog .cacheSettingDialog #cacheSettings-fqr ul.fqrRequirementSets li.fqrRequirementSet .spliter {text-align: center}
+.ui-dialog .cacheSettingDialog #cacheSettings-fqr ul.fqrRequirementSets li.fqrRequirementSet fieldset {border: 1px solid #cccccc; padding: 12px; margin: 12px 0}
+.ui-dialog .cacheSettingDialog #cacheSettings-fqr ul.fqrRequirementSets li.fqrRequirementSet fieldset .delete {color: #0088cc}
+.ui-dialog .cacheSettingDialog #cacheSettings-fqr ul.fqrRequirementSets li.fqrRequirementSet ul.fqrRequirements {margin-bottom: 10px}
+.ui-dialog .cacheSettingDialog #cacheSettings-fqr ul.fqrRequirementSets li.fqrRequirementSet li.fqrRequirement {margin-bottom: 5px}
+.ui-dialog .cacheSettingDialog #cacheSettings-fqr ul.fqrRequirementSets li.fqrRequirementSet li.fqrRequirement input.textField {width: 139px}
+.ui-dialog .cacheSettingDialog #cacheSettings-fqr ul.fqrRequirementSets li.fqrRequirementSet li.fqrRequirement .selectField {height: 23px}
+.ui-dialog .cacheSettingDialog #cacheSettings-fqr ul.fqrRequirementSets li.fqrRequirementSet.first .spliter {display: none}
+.ui-dialog .cacheSettingDialog #cacheSettings-fqr .add {float: right}
+.ui-dialog #cacheSettings-fulltextSearch .center, .ui-dialog #cacheSettings-identityFields .center {display: block; margin: 5px 0}
+.ui-dialog #cacheSettings-fulltextSearch .include, .ui-dialog #cacheSettings-fulltextSearch .name, .ui-dialog #cacheSettings-fulltextSearch .weight, .ui-dialog #cacheSettings-identityFields .include, .ui-dialog #cacheSettings-identityFields .name, .ui-dialog #cacheSettings-identityFields .weight {float: left}
+.ui-dialog #cacheSettings-fulltextSearch .include, .ui-dialog #cacheSettings-identityFields .include {width: 55px}
+.ui-dialog #cacheSettings-fulltextSearch .name, .ui-dialog #cacheSettings-identityFields .name {overflow: hidden; border-left: 1px solid #dddddd; border-right: 1px solid #dddddd; width: 318px; overflow: hidden; height: 18px; white-space: nowrap}
+.ui-dialog #cacheSettings-fulltextSearch .header, .ui-dialog #cacheSettings-identityFields .header {background-image: url(../images/sprites/xsprite.png?1316658790); background-repeat: repeat-x; background-position: 0 -1100px; overflow: hidden; width: 484px; color: white; border-right: 1px solid #dddddd}
+.ui-dialog #cacheSettings-fulltextSearch .header div, .ui-dialog #cacheSettings-identityFields .header div {padding: 2px 5px}
+.ui-dialog #cacheSettings-fulltextSearch .header .weight, .ui-dialog #cacheSettings-identityFields .header .weight {width: 70px}
+.ui-dialog #cacheSettings-fulltextSearch ul.fields, .ui-dialog #cacheSettings-identityFields ul.fields {padding: 0px; margin-top: 0}
+.ui-dialog #cacheSettings-fulltextSearch ul.fields li.pk, .ui-dialog #cacheSettings-identityFields ul.fields li.pk {background-color: #8c8d8e}
+.ui-dialog #cacheSettings-fulltextSearch ul.fields li.odd, .ui-dialog #cacheSettings-identityFields ul.fields li.odd {background-color: #eeeeee}
+.ui-dialog #cacheSettings-fulltextSearch ul.fields li, .ui-dialog #cacheSettings-identityFields ul.fields li {overflow: hidden; width: 100%; border-bottom: 1px solid #dddddd}
+.ui-dialog #cacheSettings-fulltextSearch ul.fields li div, .ui-dialog #cacheSettings-identityFields ul.fields li div {padding: 5px}
+.ui-dialog #cacheSettings-fulltextSearch ul.fields li select, .ui-dialog #cacheSettings-identityFields ul.fields li select {margin: 0}
+.ui-dialog #cacheSettings-fulltextSearch .footer, .ui-dialog #cacheSettings-identityFields .footer {font-size: 90%}
+.ui-dialog #cacheSettings-fulltextSearch .footer div, .ui-dialog #cacheSettings-identityFields .footer div {display: inline}
+.ui-dialog #cacheSettings-fulltextSearch .footer div input.textField, .ui-dialog #cacheSettings-identityFields .footer div input.textField {width: 50px}
+.ui-dialog #cacheSettings-fulltextSearch .footer .minDisplay, .ui-dialog #cacheSettings-identityFields .footer .minDisplay {margin-right: 20px}
+.ui-dialog .apiQueryDialog {overflow: hidden}
+.ui-dialog .apiQueryDialog .keys {margin: 0 12px 0 6px}
+.ui-dialog .apiQueryDialog .help {float: right}
+.ui-dialog .apiQueryDialog .help .icon {vertical-align: middle; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 14px; height: 14px; background-position: -150px -50px}
+.ui-dialog .apiQueryDialog .query {margin: 42px 78px 0 24px}
+.ui-dialog .apiQueryDialog .query .textArea {width: 100%; height: 78px}
+.ui-dialog .apiQueryDialog .query .buttons {float: right}
+.ui-dialog .embed-dialog .label {font-weight: bold; margin-bottom: 3px}
+.ui-dialog .embed-dialog .key, .ui-dialog .embed-dialog .section {margin: 0 0 12px 0}
+.ui-dialog .embed-dialog .key .textArea, .ui-dialog .embed-dialog .section .textArea {width: 95%; height: 60px}
+.ui-dialog .embed-dialog .codePanel .textArea {color: #007000; background-color: #fafafa; padding: 5px}
+.universe {position: relative}
+.universe .mainGridSimple .hMask {position: relative; overflow: hidden}
+.universe .mainGridSimple .hMask .header {position: relative; text-shadow: none}
+.universe .mainGridSimple .hMask .header .column {float: left}
+.universe .mainGridSimple .hMask .header .content {overflow: hidden; padding-left: 4px; line-height: 20px; white-space: nowrap}
+.universe .mainGridSimple .body {overflow: auto}
+.universe .mainGridSimple .body table td {white-space: nowrap; overflow: hidden}
+.universe .messengerMask {position: absolute; z-index: 100; top: 0px; left: 2px}
+.universe .messengerMask .message {position: relative; margin: 0px auto; padding: 10px 18px 10px 60px}
+.universe .mainGridSimple .hMask {background-image: url(../images/sprites/xsprite.png?1316658790); background-repeat: repeat-x; background-position: 0px -1100px}
+.universe .mainGridSimple .hMask .column {background-image: url(../images/sprites/xsprite.png?1316658790); background-repeat: repeat-x; background-position: 0px -1100px}
+.universe .mainGridSimple .hMask .primary {background-image: url(../images/sprites/xsprite.png?1316658790); background-repeat: repeat-x; background-position: 0px -1290px}
+.universe .mainGridSimple .header .resizer {float: right; z-index: 150}
+.universe .mainGridSimple .header .sorter {float: right}
+.universe .mainGridSimple .resizerLine {position: absolute; top: 0px; z-index: 151; height: 100%}
+.universe .mainGridSimple .grid {background: transparent url(../images/grid/grid_background.gif?1316658790) repeat scroll 0 0}
+.universe .mainGridSimple .hMask .header .column {font-weight: bold; border-right: 1px solid #dddddd; color: white}
+.universe .mainGridSimple .hMask .header .resizer {height: 22px; width: 6px; background: transparent; cursor: e-resize}
+.universe .mainGridSimple .hMask .header .sorter {width: 16px; height: 22px; cursor: pointer}
+.universe .mainGridSimple .hMask .header .ascending {background-image: url(../images/sprites/icon_vertical.png?1316658790); background-repeat: no-repeat; background-position: -4px -496px; cursor: pointer}
+.universe .mainGridSimple .hMask .header .descending {cursor: pointer; background-image: url(../images/sprites/icon_vertical.png?1316658790); background-repeat: no-repeat; background-position: -4px -536px}
+.universe .mainGridSimple .body table {border: 1px solid #cccccc}
+.universe .mainGridSimple .body table .primary {background-color: #dcd8da}
+.universe .mainGridSimple .body table .normal {background-color: #eeeceb}
+.universe .mainGridSimple .body table tr td {padding: 2px 4px; border-right: 1px solid #cccccc; border-bottom: 1px solid #cccccc}
+.universe .mainGridSimple .body table tr td .clickable {cursor: pointer}
+.universe .mainGridSimple .body table tr td .comment {cursor: pointer}
+.universe .mainGridSimple .body table tr td .blank {cursor: auto}
+.universe .mainGridSimple .body table tr td .private {padding-left: 20px; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; background-position: -250px -250px}
+.universe .mainGridSimple .body table tr td em.blank {color: #999999}
+.universe .mainGridSimple .body table tr.primaryKey td em.blank {color: #cccccc}
+.universe .mainGridSimple .body table .date, .universe .mainGridSimple .body table .integer, .universe .mainGridSimple .body table .double, .universe .mainGridSimple .body table .numeric {text-align: right}
+.universe .mainGridSimple .body table .mouseover {background-color: #baffa5}
+.universe .mainGridSimple .body .valueSelector {display: none}
+.universe .mainGridSimple .body .valueSelector .voteValue, .universe .mainGridSimple .body .valueSelector .reportAbuse, .universe .mainGridSimple .body .valueSelector .whiteList, .universe .mainGridSimple .body .valueSelector .blackList {float: left}
+.universe .mainGridSimple .body .valueSelector .voteValue a, .universe .mainGridSimple .body .valueSelector .reportAbuse a, .universe .mainGridSimple .body .valueSelector .whiteList a, .universe .mainGridSimple .body .valueSelector .blackList a {white-space: nowrap}
+.universe .mainGridSimple .body .valueSelector .miniTooltip {width: 160px}
+.universe .mainGridSimple .body .showing {display: block}
+.universe .mainGridSimple .readonly .showing {display: none}
+.universe .mainGridSimple .readonly .clickable {cursor: default !important}
+.universe .mainGridSimple .readonly .showing.force {display: block}
+.universe .mainGridSimple .readonly .showing.force .voteValue {display: none}
+.universe .mainGridSimple .readonly .showing.force .reportAbuse .split {display: none}
+.universe .mainGridSimple .resizerLine {border-left: 1px dashed black; display: none}
+.universe .gridLoading {z-index: 10; background-image: url(../images/grid/white_opacity_50.png); height: 100%; width: 100%; text-align: center; position: absolute; top: 0}
+.universe .gridLoading .message {display: inline-block; background: url(../images/animation/spinner_29.gif?1316658790) no-repeat 0px center; line-height: 60px; margin-top: 24px; padding-left: 34px}
+.universe .gridLoading .error {display: inline-block; line-height: 60px; margin-top: 24px; padding-left: 34px}
+.universe .gridLoading .error .appError {background-color: #e2e2e2; line-height: 30px; width: 400px; margin-top: 50px; -moz-border-radius: 5px; -webkit-border-radius: 5px; padding: 10px; position: relative}
+.universe .gridLoading .error .appError .closeBtn {position: absolute; display: inline-block; top: 12px; right: 12px; cursor: pointer; background-image: url(icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 12px; height: 12px; background-position: 0px -200px}
+.universe .gridLoading .error .appError .closeBtn:hover {background-position: -100px -200px}
+.universe .gridLoading .error .uncachedTable {text-align: left; background-color: #e2e2e2; line-height: 20px; width: 550px; margin-top: 50px; border: 3px solid black; -moz-border-radius: 5px; -webkit-border-radius: 5px; padding: 20px}
+ul.mergibilities li {position: relative; width: 100%; background-color: white; padding: 2px; margin-bottom: 5px}
+ul.mergibilities .info {border: 1px solid black}
+.schemaMatcher {position: relative; width: 100%; background-color: #eeeeee; border: 1px solid black; padding: 2px; margin-bottom: 5px; overflow: hidden}
+.schemaMatcher .widget {top: 0px; left: 0px}
+.schemaMatcher h3 {margin: 8px 10px 4px 10px}
+.schemaMatcher .preview {overflow: hidden}
+.schemaMatcher .controls {text-align: center; margin: 4px 0px}
+.schemaMatcher .preview {padding-top: 25px}
+.schemaMatcher .mergeMask {position: absolute; top: -25px}
+.schemaMatcher .mergeActions {position: relative}
+.schemaMatcher .mergeActions .column {float: left; position: relative}
+.schemaMatcher .mergeActions .column select {position: absolute; top: 0; left: 0; background-color: white; white-space: nowrap}
+.schemaMatcher .mergeActions .status {font-weight: normal}
+.schemaMatcher .mergeActions .selected {padding-left: 18px; background-image: url(../images/sprites/icon_vertical.png?1316658790); background-repeat: no-repeat; background-position: 4px -576px}
+.schemaMatcher .mergeActions .description {font-size: 0.8em; font-style: normal}
+.schemaMatcher .mergeActions .merge .merge {font-weight: bold}
+.schemaMatcher .mergeActions .merge li {float: left; padding-left: 20px; width: 103px; border: 1px solid white; overflow: hidden; white-space: nowrap; margin-right: 10px}
+.schemaMatcher .mergeActions .merge li.even {margin-right: 0px}
+.schemaMatcher .mergeActions .append {clear: left}
+.schemaMatcher .mergeActions .append li {padding-left: 20px}
+.schemaMatcher .mergeActions .append .append {font-weight: bold}
+.schemaMatcher .mergeActions li.hover {cursor: pointer; background-color: #d1f39d; border: 1px solid #9cd940}

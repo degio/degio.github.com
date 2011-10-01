@@ -1,0 +1,13 @@
+.fact-form table {width: 100%; table-layout: fixed}
+.fact-form table tr {vertical-align: top}
+.fact-form table tr td {padding: 6px}
+.fact-form table tr .label, .fact-form table tr .labelCell {text-align: right; padding-right: 6px; width: 200px}
+.fact-form table tr .input, .fact-form table tr .inputCell {width: 260px}
+.fact-form table tr .field .option {margin-right: 12px}
+.fact-form table .messaging {display: none; -moz-border-radius: 5px; -webkit-border-radius: 5px; padding: 0 6px 4px 6px}
+.fact-form table .info {background-color: #fff6cd}
+.fact-form table .error {color: #de3e06}
+.fact-form table .pass {background: url(icons/icon_grid.png) no-repeat -400px -450px; width: 16px; height: 16px; float: left}
+.fact-form table .loading {background-image: url(../images/animation/spinner_blue_14.gif?1316658790); background-repeat: no-repeat; min-width: 14px; height: 14px; float: left}
+.fact-form table .fact-spinner {float: left}
+.fact-form input#captcha {margin: 8px 1px 0px 1px; border: 1px solid #d6d6d6; padding: 3px 0px 0px 4px; height: 19px}

@@ -1,0 +1,620 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- / set non grid page styles -->
+
+<head>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Droid+Sans' rel='stylesheet' type='text/css'>
+<meta content="text/html;charset=UTF-8" http-equiv="content-type">
+<link href="icons/shortcut.ico" rel="SHORTCUT ICON">
+<title>Apps Gallery - Factual</title>
+<link href="stylesheets/base_packaged.css" media="screen" rel="stylesheet" type="text/css">
+<link href="stylesheets/topic.css" media="screen" rel="stylesheet" type="text/css">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function() {
+
+            $("a.loginLink").click(function(e) {
+                e.preventDefault();
+                $("ul#login").toggle();
+                $("li.loginMenu").toggleClass("openToggle openInset");
+            });
+
+            $("ul#login, li.loginMenu").mouseup(function() {
+                return false
+            });
+            $(document).mouseup(function(e) {
+                if($(e.target).parent("li#leet").length==0) {
+                    $("li.loginMenu").removeClass("openToggle openInset");
+                    $("ul#login").hide();
+                }
+            });            
+
+        });
+</script>
+
+
+</head>
+
+
+<body>
+
+
+
+<div class="application" id="page-definer">
+<div id="page-header">
+<div class="header-container">
+
+<h1 class="siteLogo">
+<a href="http://www.factual.com">Factual</a>
+</h1>
+<div class="menus">
+<ul class="menu">
+	<li class="spacerRt"><a href="http://wiki.developer.factual.com">Develop</a></li>
+	<li id="leet" class="loginMenu"><a class="loginLink" href="#">Login</a></li>
+	<li class="spacerLt"><a href="http://www.factual.com/signup">Create Account</a></li>
+	<li class="browse spacerLt"><a href="http://www.factual.com/topics"><span class="icon"></span> Browse More Data</a></li>
+</ul>
+
+	<ul id="login">
+  <li>
+    <form method="post" id="signin" action="">
+	<p class="username">
+      <label for="account_username">Username</label>
+      <input id="account_username" name="account[username]" type="text">
+    </p>
+     <p class="password1">
+        <label for="account_password">Password</label>
+        <input id="account_password" name="account[password]" type="password" >
+    </p>
+	<p class="rememberMe">
+		<input id="origin_url" name="origin_url" type="hidden" value="http://www.factual.com/">
+		<input id="openid" name="openid" type="hidden">
+		<input name="account[remember_me]" type="hidden" value="0">
+        <input checked="checked" id="account_remember_me" name="account[remember_me]" type="checkbox" value="1">
+		<label for="account_remember_me" class="rememberLabel" >Remember me</label>
+	</p>
+	
+
+	<input id="login_submit" name="commit" title="Login" type="submit" value="Login" class="submitButton">
+	<span class="forgot">
+	 <a style="border-bottom: 1px solid #5D5D5D" href="http://www.factual.com/forgot_account" target="_parent">Forgot your password?</a>
+	 <a href="http://www.factual.com/signup" target="_parent">Create an Account</a>
+	</span>	
+    </form>
+	
+	<p class="logosTitle">
+	Or simply sign in using:
+	</p>
+	
+	<p class="logos">
+	<span onmouseover="this.style.opacity=0.75;this.style.filter='alpha(opacity=75)'" onmouseout="this.style.opacity=1;this.style.filter='';" class="yahooIcon" title="Yahoo"></span>
+	<span onmouseover="this.style.opacity=0.75;this.style.filter='alpha(opacity=75)'" onmouseout="this.style.opacity=1;this.style.filter='';" class="logoIcons google" title="Google"></span>
+	<span onmouseover="this.style.opacity=0.75;this.style.filter='alpha(opacity=75)'" onmouseout="this.style.opacity=1;this.style.filter='';" class="logoIcons facebook" title="Facebook"></span>
+	<span onmouseover="this.style.opacity=0.75;this.style.filter='alpha(opacity=75)'" onmouseout="this.style.opacity=1;this.style.filter='';" class="logoIcons twitter" title="Twitter"></span>
+	<span onmouseover="this.style.opacity=0.75;this.style.filter='alpha(opacity=75)'" onmouseout="this.style.opacity=1;this.style.filter='';" class="logoIcons wordpress" title="Wordpress"></span>
+	<span onmouseover="this.style.opacity=0.75;this.style.filter='alpha(opacity=75)'" onmouseout="this.style.opacity=1;this.style.filter='';" class="logoIcons typepad" title="Typepad"></span>
+	<span onmouseover="this.style.opacity=0.75;this.style.filter='alpha(opacity=75)'" onmouseout="this.style.opacity=1;this.style.filter='';" class="logoIcons blogger" title="Blogger"></span>
+	</p>
+	
+	</li>
+  </ul>
+
+</div>
+
+</div>
+</div>
+<div id="page-container">
+<div class="rounded shadow" id="page-fold">
+<img class="right roundedbottomright" src="icons/header_apps.png" alt="" width="490" height="103">
+</div>
+<div id="page-body">
+<div id="page-width">
+<div class="appGallery" id="topic-page">
+
+
+<h1 class="page-title">
+Factual App Gallery
+</h1>
+<h2 class="subTitle">Featuring great apps using data provided by Factual</h2>
+
+
+<div class="fixed-grid-container factual-vis" factual="tableId: goRe4b;">
+<div class="fg-cols3 newline">
+<div class="gradientBox shadow rounded">
+<div class="searchApps">
+<h3>Search Apps</h3>
+<input class="textField" factual="widget:search; on:$field[app_name] $field[developer] $field[source] $field[features]">
+<a class="submit" factual="widget:submitter">Go</a>
+</div>
+<hr>
+<div class="browseApps">
+<h3>Browse Apps</h3>
+<div class="title">
+<strong>Category</strong>
+</div>
+<select class="categorySelector" factual="widget:filter; on:$fieldId3684881; operator:is; autoApply:true; onLoad:true; value:$get[category];">
+<option value="">Choose One</option>
+<option value="Books">Books</option>
+<option value="Business">Business</option>
+<option value="Education">Education</option>
+<option value="Entertainment">Entertainment</option>
+<option value="Finance">Finance</option>
+<option value="Games">Games</option>
+<option value="Health &amp; Fitness">Health &amp; Fitness</option>
+<option value="Lifestyle">Lifestyle</option>
+<option value="Medical">Medical</option>
+<option value="Music">Music</option>
+<option value="Navigation">Navigation</option>
+<option value="News">News</option>
+<option value="Photography">Photography</option>
+<option value="Productivity">Productivity</option>
+<option value="Reference">Reference</option>
+<option value="Search">Search</option>
+<option value="Social">Social</option>
+<option value="Sports">Sports</option>
+<option value="Travel">Travel</option>
+<option value="Utilities">Utilities</option>
+<option value="Weather">Weather</option>
+</select>
+<div class="title">
+<strong>License terms</strong>
+</div>
+<select class="licenseSelector" factual="widget:filter; on:$fieldId3684883; operator:contains; autoApply:true; onLoad:true; value:$get[license]">
+<option value="">Choose One</option>
+<option value="Open Source">Open Source</option>
+<option value="Paid">Paid</option>
+<option value="Free">Free</option>
+<option value="Others">Others</option>
+</select>
+</div>
+</div>
+<!--
+<hr />
+<div class="platform">
+<input class="platforms" factual="widget:filter; on:$fieldId3684882; operator:contains-in; autoApply:true; onLoad:true; value:$get[platform]" type="hidden" />
+<h3>Platform</h3>
+<ul>
+<li>
+<input checked="checked" type="checkbox" value="iOS">iOS</input>
+</li>
+<li>
+<input checked="checked" type="checkbox" value="Android">Android</input>
+</li>
+<li>
+<input checked="checked" type="checkbox" value="Web">Web App</input>
+</li>
+<li>
+<input checked="checked" type="checkbox" value="Windows">Desktop (Windows)</input>
+</li>
+<li>
+<input checked="checked" type="checkbox" value="Mac">Desktop (Mac OSX)</input>
+</li>
+<li>
+<input checked="checked" type="checkbox" value="Others">Others</input>
+</li>
+</ul>
+</div>
+-->
+<div style="padding-top: 15px; padding-bottom: 15px;" class="gradientBox shadow rounded">
+<h3 style="padding-bottom: 15px;">Interested in being featured?</h3>
+<h3><a href="http://www.factual.com/contact?subject=app_submittal">Contact us</a></h3>
+</div>
+
+</div>
+<div class="fg-cols9 appListings">
+<div class="sort right">
+Sort App by
+<select factual="widget:sort">
+<option>Choose One</option>
+<option factual="on:$field[app_name]; dir:asc">App Name</option>
+<option factual="on:$field[submission_date]; dir:desc">Submit Date</option>
+<option factual="on:$field[developer]; dir:asc">Developer Name</option>
+</select>
+</div>
+<h2>All Apps</h2>
+
+<div class="fact-panes">
+<ul factual="marker:list;"><li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/04c9351a-e2ae-40e3-ab3e-56dd06f1efb5">
+
+</a>
+<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/04c9351a-e2ae-40e3-ab3e-56dd06f1efb5">
+<img markersrc="$field[icon_link]" src="http://i.imgur.com/I1Vth.jpg">
+<span class="icon iconBg"></span>
+</a>
+<h3>
+<a href="http://www.factual.com/app/04c9351a-e2ae-40e3-ab3e-56dd06f1efb5" title="Instant MapSearch">Instant MapSearch</a>
+</h3>
+<span class="developer">
+by
+<a href="http://www.bimaple.com" title="Bimaple Technology Inc.">Bimaple Technology Inc.</a>
+<span class="icon"></span>
+</span>
+</li>
+
+<li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/07415fee-ee93-4dfc-96e0-149d21407b3a">
+
+</a>
+<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/07415fee-ee93-4dfc-96e0-149d21407b3a">
+<img markersrc="$field[icon_link]" src="http://a5.mzstatic.com/us/r1000/056/Purple/a4/4b/ea/mzm.aeqvjhww.175x175-75.jpg">
+<span class="icon iconBg"></span>
+</a>
+<h3>
+<a href="http://www.factual.com/app/07415fee-ee93-4dfc-96e0-149d21407b3a" title="JumpZoo">JumpZoo</a>
+<span class="icon"></span>
+</h3>
+<span class="developer">
+by
+<a href="http://www.jumpzoo.com" title="Jump City Games, LLC">Jump City Games, LLC</a>
+<span class="icon"></span>
+</span>
+</li><li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/1b1a06ba-b383-465c-99b7-76133e7aeb38">
+
+</a>
+<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/1b1a06ba-b383-465c-99b7-76133e7aeb38">
+<img markersrc="$field[icon_link]" src="http://i.imgur.com/IdEfi.png">
+<span class="icon iconBg"></span>
+</a>
+<h3>
+<a href="http://www.factual.com/app/1b1a06ba-b383-465c-99b7-76133e7aeb38" title="SpatialMatch">SpatialMatch</a>
+<span class="icon"></span>
+</h3>
+<span class="developer">
+by
+<a href="http://www.homejunction.com/" title="Home Junction Inc.">Home Junction Inc.</a>
+<span class="icon"></span>
+</span>
+</li><li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/1ea9953f-1837-426d-af88-e3571bb87e05">
+
+</a>
+<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/1ea9953f-1837-426d-af88-e3571bb87e05">
+<img markersrc="$field[icon_link]" src="http://i.imgur.com/1Ci7q.png">
+<span class="icon iconBg"></span>
+</a>
+<h3>
+<a href="http://www.factual.com/app/1ea9953f-1837-426d-af88-e3571bb87e05" title="Conekta">Conekta</a>
+<span class="icon"></span>
+</h3>
+<span class="developer">
+by
+<a href="http://www.conekta.me" title="Cristina Randall">Cristina Randall</a>
+<span class="icon"></span>
+</span>
+</li><li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/2304096b-c17a-459c-bfbd-f670377cc53a">
+<span class="icon iconDefault" factual="if: $field[icon_link] isNull"></span>
+</a>
+
+<h3>
+<a href="http://www.factual.com/app/2304096b-c17a-459c-bfbd-f670377cc53a" title="Srch!">Srch!</a>
+<span class="icon"></span>
+</h3>
+<span class="developer">
+by
+<a href="https://github.com/jvimal" title="Vimal">Vimal</a>
+<span class="icon"></span>
+</span>
+</li><li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/389a212f-e898-4106-82ef-deb0481a0d00">
+
+</a>
+<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/389a212f-e898-4106-82ef-deb0481a0d00">
+<img markersrc="$field[icon_link]" src="http://i.imgur.com/7GzYV.png">
+<span class="icon iconBg"></span>
+</a>
+<h3>
+<a href="http://www.factual.com/app/389a212f-e898-4106-82ef-deb0481a0d00" title="Shooger">Shooger</a>
+<span class="icon"></span>
+</h3>
+<span class="developer">
+by
+<a href="http://www.shooger.com" title="Shooger">Shooger</a>
+<span class="icon"></span>
+</span>
+</li><li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/4faeef90-e77b-43d0-a565-7af1c41b4a77">
+
+</a>
+<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/4faeef90-e77b-43d0-a565-7af1c41b4a77">
+<img markersrc="$field[icon_link]" src="http://i.imgur.com/WYXVA.png">
+<span class="icon iconBg"></span>
+</a>
+<h3>
+<a href="http://www.factual.com/app/4faeef90-e77b-43d0-a565-7af1c41b4a77" title="Tapl.io">Tapl.io</a>
+<span class="icon"></span>
+</h3>
+<span class="developer">
+by
+<a href="http://www.tapl.io" title="Taplio Inc">Taplio Inc</a>
+<span class="icon"></span>
+</span>
+</li><li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/694fd7bf-324c-4eb8-b7d5-fcbcab15cbdb">
+
+</a>
+<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/694fd7bf-324c-4eb8-b7d5-fcbcab15cbdb">
+<img markersrc="$field[icon_link]" src="http://i.imgur.com/YdUq4.jpg">
+<span class="icon iconBg"></span>
+</a>
+<h3>
+<a href="http://www.factual.com/app/694fd7bf-324c-4eb8-b7d5-fcbcab15cbdb" title="Wondergraphs">Wondergraphs</a>
+<span class="icon"></span>
+</h3>
+<span class="developer">
+by
+<a href="http://www.wondergraphs.com" title="Wondergraphs">Wondergraphs</a>
+<span class="icon"></span>
+</span>
+</li><li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/6c41677c-b63d-4336-9498-d3a1f6fe6dbc">
+
+</a>
+<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/6c41677c-b63d-4336-9498-d3a1f6fe6dbc">
+<img markersrc="$field[icon_link]" src="http://i.imgur.com/EHJxf.jpg">
+<span class="icon iconBg"></span>
+</a>
+<h3>
+<a href="http://www.factual.com/app/6c41677c-b63d-4336-9498-d3a1f6fe6dbc" title="CrowdSauce">CrowdSauce</a>
+<span class="icon"></span>
+</h3>
+<span class="developer">
+by
+<a href="http://www.crowdsauce.com" title="CrowdSauce Pty Ltd">CrowdSauce Pty Ltd</a>
+<span class="icon"></span>
+</span>
+</li><li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/6f509f15-64f0-4817-8bc6-46bd2247a1da">
+
+</a>
+<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/6f509f15-64f0-4817-8bc6-46bd2247a1da">
+<img markersrc="$field[icon_link]" src="http://i.imgur.com/SvL14.png">
+<span class="icon iconBg"></span>
+</a>
+<h3>
+<a href="http://www.factual.com/app/6f509f15-64f0-4817-8bc6-46bd2247a1da" title="Hoppit">Hoppit</a>
+<span class="icon"></span>
+</h3>
+<span class="developer">
+by
+<a href="http://hoppit.com" title="Hopscotch Group">Hopscotch Group</a>
+<span class="icon"></span>
+</span>
+</li><li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/7053283f-2bb3-4af0-ad85-9f280070bf12">
+
+</a>
+<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/7053283f-2bb3-4af0-ad85-9f280070bf12">
+<img markersrc="$field[icon_link]" src="http://i.imgur.com/VfJkS.jpg">
+<span class="icon iconBg"></span>
+</a>
+<h3>
+<a href="http://www.factual.com/app/7053283f-2bb3-4af0-ad85-9f280070bf12" title="Explore To Yellow Pages">Explore To Yellow Pages</a>
+<span class="icon"></span>
+</h3>
+<span class="developer">
+by
+<a href="http://exploreto.zendesk.com/home" title="Explore To LLC">Explore To LLC</a>
+<span class="icon"></span>
+</span>
+</li><li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/863d0010-b3e1-4b50-a9a6-329bc85e93aa">
+
+</a>
+<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/863d0010-b3e1-4b50-a9a6-329bc85e93aa">
+<img markersrc="$field[icon_link]" src="http://i.imgur.com/5Jleg.png">
+<span class="icon iconBg"></span>
+</a>
+<h3>
+<a href="http://www.factual.com/app/863d0010-b3e1-4b50-a9a6-329bc85e93aa" title="Plazaa.de">Plazaa.de</a>
+<span class="icon"></span>
+</h3>
+<span class="developer">
+by
+<a href="" title="Plazaa GmbH">Plazaa GmbH</a>
+<span class="icon"></span>
+</span>
+</li><li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/8d0eeadb-3650-44c7-a103-d6ff8b86fccd">
+
+</a>
+<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/8d0eeadb-3650-44c7-a103-d6ff8b86fccd">
+<img markersrc="$field[icon_link]" src="http://i.imgur.com/3Mbam.jpg">
+<span class="icon iconBg"></span>
+</a>
+<h3>
+<a href="http://www.factual.com/app/8d0eeadb-3650-44c7-a103-d6ff8b86fccd" title="MomentFeed">MomentFeed</a>
+<span class="icon"></span>
+</h3>
+<span class="developer">
+by
+<a href="http://www.momentfeed.com" title="MomentFeed">MomentFeed</a>
+<span class="icon"></span>
+</span>
+</li><li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/9122a586-59e5-4419-8bc8-0e2916de3ff7">
+
+</a>
+<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/9122a586-59e5-4419-8bc8-0e2916de3ff7">
+<img markersrc="$field[icon_link]" src="http://i.imgur.com/jCdTr.jpg">
+<span class="icon iconBg"></span>
+</a>
+<h3>
+<a href="http://www.factual.com/app/9122a586-59e5-4419-8bc8-0e2916de3ff7" title="BiteHunter">BiteHunter</a>
+<span class="icon"></span>
+</h3>
+<span class="developer">
+by
+<a href="http://www.bitehunter.com/getapps" title="Bitehunter Corp.">Bitehunter Corp.</a>
+<span class="icon"></span>
+</span>
+</li><li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/9fe9459c-d82b-49c8-af60-98e8a9832e38">
+
+</a>
+<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/9fe9459c-d82b-49c8-af60-98e8a9832e38">
+<img markersrc="$field[icon_link]" src="http://imgur.com/76tB9.jpg">
+<span class="icon iconBg"></span>
+</a>
+<h3>
+<a href="http://www.factual.com/app/9fe9459c-d82b-49c8-af60-98e8a9832e38" title="Fwix">Fwix</a>
+<span class="icon"></span>
+</h3>
+<span class="developer">
+by
+<a href="http://www.fwix.com" title="Fwix">Fwix</a>
+<span class="icon"></span>
+</span>
+</li><li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/ad5088bc-db1f-4826-98c7-f4119b182999">
+<span class="icon iconDefault" factual="if: $field[icon_link] isNull"></span>
+</a>
+
+<h3>
+<a href="http://www.factual.com/app/ad5088bc-db1f-4826-98c7-f4119b182999" title="FactualShell">FactualShell</a>
+<span class="icon"></span>
+</h3>
+<span class="developer">
+by
+<a href="http://flavors.me/mikebz" title="Mike Borozdin">Mike Borozdin</a>
+<span class="icon"></span>
+</span>
+</li><li class="markerRow app" factual="marker:row" style="">
+<a href="http://www.factual.com/app/d5d74ff1-4278-4202-a2a6-ddb2ad5e9455">
+
+</a>
+<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/d5d74ff1-4278-4202-a2a6-ddb2ad5e9455">
+<img markersrc="$field[icon_link]" src="http://i.imgur.com/oUd4f.png">
+<span class="icon iconBg"></span>
+</a>
+<h3>
+<a href="http://www.factual.com/app/d5d74ff1-4278-4202-a2a6-ddb2ad5e9455" title="DuckDuckGo">DuckDuckGo</a>
+<span class="icon"></span>
+</h3>
+<span class="developer">
+by
+<a href="http://duckduckgo.com" title="DuckDuckGo">DuckDuckGo</a>
+<span class="icon"></span>
+</span>
+</li></ul>
+</div>
+<div class="pagination" factual="widget:pagination; per:20"><ol class="pages" style="display: block; "><li class="page first" factual="page-first" style="display: none; " page="1">1</li><li class="delimiter" factual="delimiter" style="display: none; ">...</li><li class="page" factual="page-prev-2" style="display: none; ">11</li><li class="page" factual="page-prev-1" style="display: none; ">12</li><li class="page current" factual="page-current">1</li><li class="page" factual="page-next-1" style="display: none; ">14</li><li class="page" factual="page-next-2" style="display: none; ">15</li><li class="delimiter" factual="delimiter" style="display: none; ">...</li><li class="page last" factual="page-last" style="display: none; " page="1">1</li></ol></div>
+</div>
+</div>
+</div>
+<script type="text/javascript" charset="utf-8">var $platforms      = $FL.$('input.platforms[type=hidden]');
+var $platformInputs = $FL.$('.platform input[type=checkbox]');
+
+function getPlatforms () {
+  var platforms = [];
+  $FL.$.each($platformInputs, function (i, ele) {
+    if (ele.checked) platforms.push(ele.value);
+  });
+  return platforms;
+}
+
+function populatePlatforms (platforms) {
+  if (!platforms || platforms.length < 1) return;
+  platforms = platforms.split(','); 
+  $FL.$.each($platformInputs, function (i, ele) {
+    ele.checked = $FL.$.inArray(ele.value, platforms) >= 0;
+  });
+}
+
+$FL.onVisLoad('.factual-vis', function (vis) {
+  populatePlatforms($platforms.val());
+
+  $platformInputs.click(function () {
+    var platforms = getPlatforms();
+    if (platforms.length > 0) $platforms.val(platforms.join(','));
+    vis.notify('submit');
+  });
+
+});</script>
+
+</div>
+</div>
+</div>
+<div id="page-footer">
+<div class="footer-wrapper">
+<div class="footerContent">
+<div class="siteLinks">
+<h2>
+Factual Business
+</h2>
+<ul>
+<li class="first">
+<a href="/about">About Us</a>
+</li>
+<li>
+<a href="http://blog.factual.com">Blog</a>
+</li>
+<li>
+<a href="/jobs">Jobs</a>
+</li>
+<li>
+<a href="/tos">Terms</a>
+</li>
+<li>
+<a href="/press">Press</a>
+</li>
+<li>
+<a href="/gallery">App Gallery</a>
+</li>
+<li>
+<a href="/contact">Contact Us</a>
+</li>
+<li class="last">
+<a href="/privacy">Privacy</a>
+</li>
+</ul>
+</div>
+<div class="developerLinks">
+<h2>For Developers</h2>
+<ul>
+<li class="first">
+<a href="http://wiki.developer.factual.com/">Documentation</a>
+</li>
+<li>
+<a href="/FAQ">FAQs</a>
+</li>
+<li>
+<a href="http://groups.google.com/group/factual_developers">Developer Group</a>
+</li>
+<li>
+<a href="/pricing">Pricing</a>
+</li>
+<li class="last">
+<a class="reportBug">Submit a Bug</a>
+</li>
+</ul>
+</div>
+<div class="simpleGeo">
+<a href="https://simplegeo.com/products/storage/" target="_blank"></a>
+</div>
+<p class="copyright">
+&copy;2011 Factual Inc. All Rights Reserved.
+</p>
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div style="display: none; z-index: 1000; outline-width: 0px; outline-style: initial; outline-color: initial; " class="ui-dialog ui-widget ui-widget-content ui-corner-all  ui-draggable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-bugReport"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix" unselectable="on"><span class="ui-dialog-title" id="ui-dialog-title-bugReport" unselectable="on">Report a Bug</span></div><div id="bugReport" class="ui-dialog-content ui-widget-content"><form><table><tbody><tr><td class="label">Your email:</td><td class="input"><input class="textField  email" name="message[email]" onblur="s.blur(this)" onfocus="s.focus(this)"></td></tr><tr><td class="label">Description:</td><td class="input"><textarea class="textArea  description" name="message[description]" onblur="s.blur(this)" onfocus="s.focus(this)"></textarea></td></tr><tr><td class="label">&nbsp;</td><td class="input"><span class="submit fact-button">  <span class="button h p">    <span>      <a href="javascript:void(0);" name="Submit">        Report Bug      </a>    </span>  </span></span><span class="cancel fact-button">  <span class="button h p">    <span>      <a href="javascript:void(0);" name="Submit">        Cancel      </a>    </span>  </span></span><div class="fact-spinner">Sending...</div><input class="hidden" type="submit"></td></tr></tbody></table></form></div></div></body>
+</html>
