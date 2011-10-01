@@ -165,6 +165,7 @@ a.external {background-image: url(../icons/icon_vertical.png); background-repeat
     font-size:13px;
 	font-weight: 400;
 }
+.application #page-header .header-container .menus #login fieldset {margin:0;padding:0;}
 .application #page-header .header-container .menus #login p.username {margin:0;padding:0;}
 .application #page-header .header-container .menus #login p input[type=text], .application #page-header .header-container .menus #login p input[type=password] {
     display:block;
@@ -191,7 +192,6 @@ a.external {background-image: url(../icons/icon_vertical.png); background-repeat
 .application #page-header .header-container .menus #login .rememberMe label.rememberLabel {display: inline-block; font-size: 13px; margin:0; padding:0; vertical-align: top;}
 .application #page-header .header-container .menus #login  span.forgot {display: inline-block; float: left; padding:0; margin:-17px 0 0 110px;}
 .application #page-header .header-container .menus #login  span.forgot a {display: list-item; padding:0; margin:0; font-size: 12px !important;}
-.application #page-header .header-container .menus #login #login_submit::-moz-focus-inner {padding:0;border:0;}
 .application #page-header .header-container .menus #login #login_submit:hover {
 	cursor:pointer;
 	background-image: -moz-linear-gradient(top, #3D9DDE 0%, #2385C7 100%);
