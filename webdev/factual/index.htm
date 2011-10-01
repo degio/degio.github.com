@@ -128,7 +128,7 @@ Factual App Gallery
 <div class="gradientBox shadow rounded">
 <div class="searchApps">
 <h3>Search Apps</h3>
-<input class="textField" factual="widget:search; on:$field[app_name] $field[developer] $field[source] $field[features]" />
+<input class="textField" />
 <a class="submit">Go</a>
 </div>
 <hr />
@@ -137,7 +137,7 @@ Factual App Gallery
 <div class="title">
 <strong>Category</strong>
 </div>
-<select class="categorySelector" operator:is; autoApply:true; onLoad:true; value:$get[category];">
+<select class="categorySelector">
 <option value="">Choose One</option>
 <option value="Books">Books</option>
 <option value="Business">Business</option>
@@ -164,7 +164,7 @@ Factual App Gallery
 <div class="title">
 <strong>License terms</strong>
 </div>
-<select class="licenseSelector" factual="widget:filter; on:$fieldId3684883; operator:contains; autoApply:true; onLoad:true; value:$get[license]">
+<select class="licenseSelector">
 <option value="">Choose One</option>
 <option value="Open Source">Open Source</option>
 <option value="Paid">Paid</option>
@@ -223,8 +223,8 @@ Sort App by
 <a href="http://www.factual.com/app/04c9351a-e2ae-40e3-ab3e-56dd06f1efb5">
 
 </a>
-<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/04c9351a-e2ae-40e3-ab3e-56dd06f1efb5">
-<img src="http://i.imgur.com/I1Vth.jpg" alt="">
+<a class="iconLink" href="http://www.factual.com/app/04c9351a-e2ae-40e3-ab3e-56dd06f1efb5">
+<img src="http://i.imgur.com/I1Vth.jpg" alt="" />
 <span class="icon iconBg"></span>
 </a>
 <h3>
@@ -237,12 +237,12 @@ by
 </span>
 </li>
 
-<li class="markerRow app" factual="marker:row" style="">
+<li class="markerRow app" style="">
 <a href="http://www.factual.com/app/07415fee-ee93-4dfc-96e0-149d21407b3a">
 
 </a>
-<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/07415fee-ee93-4dfc-96e0-149d21407b3a">
-<img markersrc="$field[icon_link]" src="http://a5.mzstatic.com/us/r1000/056/Purple/a4/4b/ea/mzm.aeqvjhww.175x175-75.jpg">
+<a class="iconLink" href="http://www.factual.com/app/07415fee-ee93-4dfc-96e0-149d21407b3a">
+<img src="http://a5.mzstatic.com/us/r1000/056/Purple/a4/4b/ea/mzm.aeqvjhww.175x175-75.jpg" alt="" />
 <span class="icon iconBg"></span>
 </a>
 <h3>
@@ -258,8 +258,8 @@ by
 <a href="http://www.factual.com/app/1b1a06ba-b383-465c-99b7-76133e7aeb38">
 
 </a>
-<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/1b1a06ba-b383-465c-99b7-76133e7aeb38">
-<img markersrc="$field[icon_link]" src="http://i.imgur.com/IdEfi.png">
+<a class="iconLink" href="http://www.factual.com/app/1b1a06ba-b383-465c-99b7-76133e7aeb38">
+<img src="http://i.imgur.com/IdEfi.png" alt="" />
 <span class="icon iconBg"></span>
 </a>
 <h3>
@@ -275,8 +275,8 @@ by
 <a href="http://www.factual.com/app/1ea9953f-1837-426d-af88-e3571bb87e05">
 
 </a>
-<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/1ea9953f-1837-426d-af88-e3571bb87e05">
-<img markersrc="$field[icon_link]" src="http://i.imgur.com/1Ci7q.png">
+<a class="iconLink" href="http://www.factual.com/app/1ea9953f-1837-426d-af88-e3571bb87e05">
+<img src="http://i.imgur.com/1Ci7q.png" alt="" />
 <span class="icon iconBg"></span>
 </a>
 <h3>
@@ -288,9 +288,9 @@ by
 <a href="http://www.conekta.me" title="Cristina Randall">Cristina Randall</a>
 <span class="icon"></span>
 </span>
-</li><li class="markerRow app" factual="marker:row" style="">
+</li><li class="markerRow app" style="">
 <a href="http://www.factual.com/app/2304096b-c17a-459c-bfbd-f670377cc53a">
-<span class="icon iconDefault" factual="if: $field[icon_link] isNull"></span>
+<span class="icon iconDefault"></span>
 </a>
 
 <h3>
@@ -302,12 +302,12 @@ by
 <a href="https://github.com/jvimal" title="Vimal">Vimal</a>
 <span class="icon"></span>
 </span>
-</li><li class="markerRow app" factual="marker:row" style="">
+</li><li class="markerRow app" style="">
 <a href="http://www.factual.com/app/389a212f-e898-4106-82ef-deb0481a0d00">
 
 </a>
-<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/389a212f-e898-4106-82ef-deb0481a0d00">
-<img markersrc="$field[icon_link]" src="http://i.imgur.com/7GzYV.png">
+<a class="iconLink" href="http://www.factual.com/app/389a212f-e898-4106-82ef-deb0481a0d00">
+<img src="http://i.imgur.com/7GzYV.png" alt="" />
 <span class="icon iconBg"></span>
 </a>
 <h3>
@@ -319,12 +319,12 @@ by
 <a href="http://www.shooger.com" title="Shooger">Shooger</a>
 <span class="icon"></span>
 </span>
-</li><li class="markerRow app" factual="marker:row" style="">
+</li><li class="markerRow app" style="">
 <a href="http://www.factual.com/app/4faeef90-e77b-43d0-a565-7af1c41b4a77">
 
 </a>
-<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/4faeef90-e77b-43d0-a565-7af1c41b4a77">
-<img markersrc="$field[icon_link]" src="http://i.imgur.com/WYXVA.png">
+<a class="iconLink" href="http://www.factual.com/app/4faeef90-e77b-43d0-a565-7af1c41b4a77">
+<img src="http://i.imgur.com/WYXVA.png" alt="" />
 <span class="icon iconBg"></span>
 </a>
 <h3>
@@ -336,12 +336,12 @@ by
 <a href="http://www.tapl.io" title="Taplio Inc">Taplio Inc</a>
 <span class="icon"></span>
 </span>
-</li><li class="markerRow app" factual="marker:row" style="">
+</li><li class="markerRow app" style="">
 <a href="http://www.factual.com/app/694fd7bf-324c-4eb8-b7d5-fcbcab15cbdb">
 
 </a>
-<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/694fd7bf-324c-4eb8-b7d5-fcbcab15cbdb">
-<img markersrc="$field[icon_link]" src="http://i.imgur.com/YdUq4.jpg">
+<a class="iconLink" href="http://www.factual.com/app/694fd7bf-324c-4eb8-b7d5-fcbcab15cbdb">
+<img src="http://i.imgur.com/YdUq4.jpg" alt="" />
 <span class="icon iconBg"></span>
 </a>
 <h3>
@@ -353,12 +353,12 @@ by
 <a href="http://www.wondergraphs.com" title="Wondergraphs">Wondergraphs</a>
 <span class="icon"></span>
 </span>
-</li><li class="markerRow app" factual="marker:row" style="">
+</li><li class="markerRow app" style="">
 <a href="http://www.factual.com/app/6c41677c-b63d-4336-9498-d3a1f6fe6dbc">
 
 </a>
-<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/6c41677c-b63d-4336-9498-d3a1f6fe6dbc">
-<img markersrc="$field[icon_link]" src="http://i.imgur.com/EHJxf.jpg">
+<a class="iconLink" href="http://www.factual.com/app/6c41677c-b63d-4336-9498-d3a1f6fe6dbc">
+<img src="http://i.imgur.com/EHJxf.jpg" alt="" />
 <span class="icon iconBg"></span>
 </a>
 <h3>
@@ -370,12 +370,12 @@ by
 <a href="http://www.crowdsauce.com" title="CrowdSauce Pty Ltd">CrowdSauce Pty Ltd</a>
 <span class="icon"></span>
 </span>
-</li><li class="markerRow app" factual="marker:row" style="">
+</li><li class="markerRow app" style="">
 <a href="http://www.factual.com/app/6f509f15-64f0-4817-8bc6-46bd2247a1da">
 
 </a>
-<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/6f509f15-64f0-4817-8bc6-46bd2247a1da">
-<img markersrc="$field[icon_link]" src="http://i.imgur.com/SvL14.png">
+<a class="iconLink" href="http://www.factual.com/app/6f509f15-64f0-4817-8bc6-46bd2247a1da">
+<img src="http://i.imgur.com/SvL14.png" alt="" />
 <span class="icon iconBg"></span>
 </a>
 <h3>
@@ -387,12 +387,12 @@ by
 <a href="http://hoppit.com" title="Hopscotch Group">Hopscotch Group</a>
 <span class="icon"></span>
 </span>
-</li><li class="markerRow app" factual="marker:row" style="">
+</li><li class="markerRow app" style="">
 <a href="http://www.factual.com/app/7053283f-2bb3-4af0-ad85-9f280070bf12">
 
 </a>
-<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/7053283f-2bb3-4af0-ad85-9f280070bf12">
-<img markersrc="$field[icon_link]" src="http://i.imgur.com/VfJkS.jpg">
+<a class="iconLink" href="http://www.factual.com/app/7053283f-2bb3-4af0-ad85-9f280070bf12">
+<img src="http://i.imgur.com/VfJkS.jpg" alt="" />
 <span class="icon iconBg"></span>
 </a>
 <h3>
@@ -404,12 +404,12 @@ by
 <a href="http://exploreto.zendesk.com/home" title="Explore To LLC">Explore To LLC</a>
 <span class="icon"></span>
 </span>
-</li><li class="markerRow app" factual="marker:row" style="">
+</li><li class="markerRow app" style="">
 <a href="http://www.factual.com/app/863d0010-b3e1-4b50-a9a6-329bc85e93aa">
 
 </a>
-<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/863d0010-b3e1-4b50-a9a6-329bc85e93aa">
-<img markersrc="$field[icon_link]" src="http://i.imgur.com/5Jleg.png">
+<a class="iconLink" href="http://www.factual.com/app/863d0010-b3e1-4b50-a9a6-329bc85e93aa">
+<img src="http://i.imgur.com/5Jleg.png" alt="" />
 <span class="icon iconBg"></span>
 </a>
 <h3>
@@ -421,12 +421,12 @@ by
 <a href="" title="Plazaa GmbH">Plazaa GmbH</a>
 <span class="icon"></span>
 </span>
-</li><li class="markerRow app" factual="marker:row" style="">
+</li><li class="markerRow app" style="">
 <a href="http://www.factual.com/app/8d0eeadb-3650-44c7-a103-d6ff8b86fccd">
 
 </a>
-<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/8d0eeadb-3650-44c7-a103-d6ff8b86fccd">
-<img markersrc="$field[icon_link]" src="http://i.imgur.com/3Mbam.jpg">
+<a class="iconLink" href="http://www.factual.com/app/8d0eeadb-3650-44c7-a103-d6ff8b86fccd">
+<img src="http://i.imgur.com/3Mbam.jpg" alt="" />
 <span class="icon iconBg"></span>
 </a>
 <h3>
@@ -438,12 +438,12 @@ by
 <a href="http://www.momentfeed.com" title="MomentFeed">MomentFeed</a>
 <span class="icon"></span>
 </span>
-</li><li class="markerRow app" factual="marker:row" style="">
+</li><li class="markerRow app" style="">
 <a href="http://www.factual.com/app/9122a586-59e5-4419-8bc8-0e2916de3ff7">
 
 </a>
-<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/9122a586-59e5-4419-8bc8-0e2916de3ff7">
-<img markersrc="$field[icon_link]" src="http://i.imgur.com/jCdTr.jpg">
+<a class="iconLink" href="http://www.factual.com/app/9122a586-59e5-4419-8bc8-0e2916de3ff7">
+<img src="http://i.imgur.com/jCdTr.jpg" alt="" />
 <span class="icon iconBg"></span>
 </a>
 <h3>
@@ -455,12 +455,12 @@ by
 <a href="http://www.bitehunter.com/getapps" title="Bitehunter Corp.">Bitehunter Corp.</a>
 <span class="icon"></span>
 </span>
-</li><li class="markerRow app" factual="marker:row" style="">
+</li><li class="markerRow app" style="">
 <a href="http://www.factual.com/app/9fe9459c-d82b-49c8-af60-98e8a9832e38">
 
 </a>
-<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/9fe9459c-d82b-49c8-af60-98e8a9832e38">
-<img markersrc="$field[icon_link]" src="http://imgur.com/76tB9.jpg">
+<a class="iconLink" href="http://www.factual.com/app/9fe9459c-d82b-49c8-af60-98e8a9832e38">
+<img src="http://imgur.com/76tB9.jpg" alt="" />
 <span class="icon iconBg"></span>
 </a>
 <h3>
@@ -472,9 +472,9 @@ by
 <a href="http://www.fwix.com" title="Fwix">Fwix</a>
 <span class="icon"></span>
 </span>
-</li><li class="markerRow app" factual="marker:row" style="">
+</li><li class="markerRow app" style="">
 <a href="http://www.factual.com/app/ad5088bc-db1f-4826-98c7-f4119b182999">
-<span class="icon iconDefault" factual="if: $field[icon_link] isNull"></span>
+<span class="icon iconDefault"></span>
 </a>
 
 <h3>
@@ -486,12 +486,12 @@ by
 <a href="http://flavors.me/mikebz" title="Mike Borozdin">Mike Borozdin</a>
 <span class="icon"></span>
 </span>
-</li><li class="markerRow app" factual="marker:row" style="">
+</li><li class="markerRow app" style="">
 <a href="http://www.factual.com/app/d5d74ff1-4278-4202-a2a6-ddb2ad5e9455">
 
 </a>
-<a class="iconLink" factual="if: $field[icon_link] notNull" href="http://www.factual.com/app/d5d74ff1-4278-4202-a2a6-ddb2ad5e9455">
-<img markersrc="$field[icon_link]" src="http://i.imgur.com/oUd4f.png">
+<a class="iconLink" href="http://www.factual.com/app/d5d74ff1-4278-4202-a2a6-ddb2ad5e9455">
+<img src="http://i.imgur.com/oUd4f.png" alt="" />
 <span class="icon iconBg"></span>
 </a>
 <h3>
@@ -505,7 +505,7 @@ by
 </span>
 </li></ul>
 </div>
-<div class="pagination" factual="widget:pagination; per:20"><ol class="pages" style="display: block; "><li class="page first" factual="page-first" style="display: none; " page="1">1</li><li class="delimiter" factual="delimiter" style="display: none; ">...</li><li class="page" factual="page-prev-2" style="display: none; ">11</li><li class="page" factual="page-prev-1" style="display: none; ">12</li><li class="page current" factual="page-current">1</li><li class="page" factual="page-next-1" style="display: none; ">14</li><li class="page" factual="page-next-2" style="display: none; ">15</li><li class="delimiter" factual="delimiter" style="display: none; ">...</li><li class="page last" factual="page-last" style="display: none; " page="1">1</li></ol></div>
+<div class="pagination"><ol class="pages" style="display: block; "><li class="page first" style="display: none; " page="1">1</li><li class="delimiter" style="display: none; ">...</li><li class="page" style="display: none; ">11</li><li class="page" style="display: none; ">12</li><li class="page current">1</li><li class="page" factual="page-next-1" style="display: none; ">14</li><li class="page" style="display: none; ">15</li><li class="delimiter" style="display: none; ">...</li><li class="page last" style="display: none; " page="1">1</li></ol></div>
 </div>
 </div>
 </div>
@@ -521,7 +521,7 @@ function getPlatforms () {
 }
 
 function populatePlatforms (platforms) {
-  if (!platforms || platforms.length < 1) return;
+  if (!platforms || platforms.length &lt; 1) return;
   platforms = platforms.split(','); 
   $FL.$.each($platformInputs, function (i, ele) {
     ele.checked = $FL.$.inArray(ele.value, platforms) >= 0;
@@ -597,7 +597,7 @@ Factual Business
 </ul>
 </div>
 <div class="simpleGeo">
-<a href="https://simplegeo.com/products/storage/" target="_blank"></a>
+<a href="https://simplegeo.com/products/storage/"></a>
 </div>
 <p class="copyright">
 &copy;2011 Factual Inc. All Rights Reserved.
@@ -608,15 +608,5 @@ Factual Business
 </div>
 </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-<div style="display: none; z-index: 1000; outline-width: 0px; outline-style: initial; outline-color: initial; " class="ui-dialog ui-widget ui-widget-content ui-corner-all  ui-draggable" tabindex="-1" role="dialog" aria-labelledby="ui-dialog-title-bugReport"><div class="ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix" unselectable="on"><span class="ui-dialog-title" id="ui-dialog-title-bugReport" unselectable="on">Report a Bug</span></div><div id="bugReport" class="ui-dialog-content ui-widget-content"><form><table><tbody><tr><td class="label">Your email:</td><td class="input"><input class="textField  email" name="message[email]" onblur="s.blur(this)" onfocus="s.focus(this)" /></td></tr><tr><td class="label">Description:</td><td class="input"><textarea class="textArea  description" name="message[description]" onblur="s.blur(this)" onfocus="s.focus(this)"></textarea></td></tr><tr><td class="label">&nbsp;</td><td class="input"><span class="submit fact-button">  <span class="button h p">    <span>      <a href="javascript:void(0);" name="Submit">        Report Bug      </a>    </span>  </span></span><span class="cancel fact-button">  <span class="button h p">    <span>      <a href="javascript:void(0);" name="Submit">        Cancel      </a>    </span>  </span></span><div class="fact-spinner">Sending...</div><input class="hidden" type="submit"></td></tr></tbody></table></form></div></div></body>
+</body>
 </html>
