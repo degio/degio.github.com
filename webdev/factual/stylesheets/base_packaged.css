@@ -45,7 +45,7 @@ body {line-height: 18px; font-size: 75%}
 body, input, textarea, select {font-family: 'Open Sans', Arial, sans-serif; color: #444}
 [disabled] {color: #c3c3c3}
 h1 {font-size: 18px}
-h2 {font-size: 16px}
+h2 {font-size: 16px;}
 h3 {font-size: 14px}
 h4, h5, h6 {font-size: 12px; font-weight: bold}
 .typo h1 {font-size: 2em; font-weight: bold; margin-bottom: 0.75em; line-height: 30px}
@@ -87,9 +87,9 @@ ol.pagination li a {color: #111c24; padding: 0px 2px}
 ol.pagination li.active {padding: 0px 4px; border: 1px solid #c3c3c3; background-color: white}
 span.highlight {background-color: #fff16d}
 em.blank {color: #999999}
-a:active {color: #0088cc; text-decoration: none}
-a, a:link, a:visited {text-decoration: none; color: #0088cc}
-a:hover, a:link:hover, a:visited:hover {color: #3b9cfb}
+a:active {color: #3399DD; text-decoration: none}
+a, a:link, a:visited {text-decoration: none; color: #3399DD}
+a:hover, a:link:hover, a:visited:hover {color: #F6861F}
 a.external {background-image: url(../icons/icon_vertical.png); background-repeat: no-repeat; background-position: right -17px; padding-right: 14px}
 .subHeading {color: #072144; font-size: 22px; margin-bottom: 12px}
 #page-header-container {background-color: #39527a}
@@ -125,7 +125,7 @@ a.external {background-image: url(../icons/icon_vertical.png); background-repeat
 .application #page-header .header-container .menus a:hover, .home #page-header .header-container .menus a:hover {color: #fff}
 .application #page-header .header-container .menus ul.menu, .home #page-header .header-container .menus ul.menu {float: left}
 
-/* Login Menu Button Additions */
+/* Login Menu and Button Additions */
 #page-header ul.menu li.spacerRt::after {z-index: 1; background: #777; content: " "; display: inline-block; float: right; margin-top: 7px; width: 1px; height: 15px;}
 #page-header ul.menu li.spacerLt::after {z-index: 1; background: #777; content: " "; display: inline-block; float: left; margin-top: 7px; width: 1px; height: 15px;}
 .application #page-header .header-container .menus {position: relative;}
@@ -143,6 +143,8 @@ a.external {background-image: url(../icons/icon_vertical.png); background-repeat
 /*	Login Menu */
 .application #page-header .header-container .menus ul#login {
     display:none;
+	position:absolute;
+	width: 351px;
 	box-shadow: 6px 8px 16px rgba(0,0,0,0.2);
 	-webkit-box-shadow: 6px 8px 16px rgba(0,0,0,0.2);
 	-moz-box-shadow: 6px 8px 16px rgba(0,0,0,0.2);
@@ -152,15 +154,13 @@ a.external {background-image: url(../icons/icon_vertical.png); background-repeat
 	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#656565,endColorstr=#474747)"; /* IE8 */
     filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#656565,endColorstr=#474747); /* older IEs */
 	background-image: -o-linear-gradient(top, #656565 0%, #474747 100%); /* Opera */
-    position:absolute;
     width:320px;
     z-index: 99999;
     text-align:left;
     padding: 5px 12px 8px 19px;
     top: 40px; 
     right: -21px; 
-    margin-top:0px;
-    margin-right: 0px;
+    margin: 0;
     color: #e1e1e1;
     font-size:13px;
 	font-weight: 400;
@@ -192,29 +192,17 @@ a.external {background-image: url(../icons/icon_vertical.png); background-repeat
 .application #page-header .header-container .menus #login .rememberMe label.rememberLabel {display: inline-block; font-size: 13px; margin:0; padding:0; vertical-align: top;}
 .application #page-header .header-container .menus #login  span.forgot {display: inline-block; float: left; padding:0; margin:-17px 0 0 110px;}
 .application #page-header .header-container .menus #login  span.forgot a {display: list-item; padding:0; margin:0; font-size: 12px !important;}
-.application #page-header .header-container .menus #login #login_submit:hover {
-	cursor:pointer;
-	background-image: -moz-linear-gradient(top, #3D9DDE 0%, #2385C7 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#3D9DDE), color-stop(100%, #2385C7));
-	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#3D9DDE,endColorstr=#2385C7)"; /* IE8 */
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3D9DDE,endColorstr=#2385C7); /* older IEs */
-	background-image: -o-linear-gradient(top, #3D9DDE 0%, #2385C7 100%); /* Opera */
-}
-.application #page-header .header-container .menus #login #login_submit:active{
-	-webkit-box-shadow: inset 1px 2px 3px rgba(0,0,0,0.5);
-	-moz-box-shadow: inset 1px 2px 3px rgba(0,0,0,0.5);
-	box-shadow: inset 1px 2px 3px rgba(0,0,0,0.5);
-	cursor:pointer;
-}
-.application #page-header .header-container .menus #login #login_submit {
-	float: left;
+.application #page-header .header-container .menus #login  p .submitButton {float: left;}
+
+/* Universal Blue Button */
+#blue_button {
 	display: inline-block;
     background:#39d;
-	background-image: -moz-linear-gradient(top, #39d 0%, #2180BE 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#39d), color-stop(100%, #2180BE));
-	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#359ADD,endColorstr=#2180BE)"; /* IE8 */
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#359ADD,endColorstr=#2180BE); /* older IEs */
-	background-image: -o-linear-gradient(top, #359ADD 0%, #2180BE 100%); /* Opera */
+	background-image: -moz-linear-gradient(top, #3399DD 0%, #2180BE 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#3399DD), color-stop(100%, #2180BE));
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#3399DD,endColorstr=#2180BE)"; /* IE8 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3399DD,endColorstr=#2180BE); /* older IEs */
+	background-image: -o-linear-gradient(top, #3399DD 0%, #2180BE 100%); /* Opera */
     -moz-border-radius:2px;
     -webkit-border-radius:2px;
     border:1px solid #2079B5;
@@ -225,6 +213,26 @@ a.external {background-image: url(../icons/icon_vertical.png); background-repeat
 	font-family: 'Droid Sans', sans-serif;
     margin:0 1px 0 0;
     font-weight: 700;
+}
+
+a#blue_button, #blue_button a, #blue_button:link, #blue_button:visited {font-family: 'Droid Sans', sans-serif !important; color: #fff !important; font-weight: 700 !important; text-decoration: none !important;}
+
+
+#blue_button:hover {
+	cursor:pointer;
+	text-decoration: none !important;
+	color: #fff !important;
+	background-image: -moz-linear-gradient(top, #3D9DDE 0%, #2385C7 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#3D9DDE), color-stop(100%, #2385C7));
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#3D9DDE,endColorstr=#2385C7)"; /* IE8 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3D9DDE,endColorstr=#2385C7); /* older IEs */
+	background-image: -o-linear-gradient(top, #3D9DDE 0%, #2385C7 100%); /* Opera */
+}
+.application #page-header .header-container .menus #login #blue_button:active{
+	-webkit-box-shadow: inset 2px 4px 6px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 2px 4px 6px rgba(0,0,0,0.5);
+	box-shadow: inset 2px 4px 6px rgba(0,0,0,0.5);
+	cursor:pointer;
 }
 .application #page-header .header-container .menus #login p.logosTitle {display: block; clear: both; float: left; margin: 3px 0 0 0 !important; padding: 0 !important; border-top: 1px solid #5D5D5D;}
 .application #page-header .header-container .menus #login p.logos {display: block; float: left; clear: both; margin: 10px 0 0 0 !important; padding: 0 !important;}
@@ -722,11 +730,7 @@ input:-moz-placeholder {color: #999999}
 #topic-page.appGalleryLanding .fg-cols8 {width: 708px}
 #topic-page.appGalleryLanding .fg-cols8 ul {margin-bottom: 12px}
 #topic-page.appGalleryLanding .fg-cols8 ul li {margin-bottom: 0}
-#topic-page.appGalleryLanding .breadcrumb {margin-bottom: 15px; padding-bottom: 12px; border-bottom: 1px solid #cccccc}
-#topic-page.appGalleryLanding .breadcrumb .icon {background-image: url(../icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 7px; height: 11px; background-position: -100px 0px; vertical-align: middle; margin: 0 5px}
 #topic-page.appGalleryLanding .appDetail {position: relative}
-#topic-page.appGalleryLanding .appDetail .buttons {position: absolute; top: 10px; right: 10px}
-#topic-page.appGalleryLanding .appDetail .buttons a {display: block; width: 150px; height: 28px; line-height: 28px; text-align: center; padding: 0}
 #topic-page.appGalleryLanding .appDetail > ul {width: 520px}
 #topic-page.appGalleryLanding .appDetail .screenshots {overflow-x: auto}
 #topic-page.appGalleryLanding .appDetail .screenshots ul {width: 100%; height: 488px; overflow: visible; white-space: nowrap; margin-bottom: 0}
@@ -741,6 +745,36 @@ input:-moz-placeholder {color: #999999}
 #topic-page.appGallery .appListings ul li .iconDefault {background-position: -500px -550px}
 #topic-page.appGallery .appListings ul li .icon.iconBg {background-position: -600px -550px}
 #topic-page.appGallery .appListings ul li img {width: 90px; height: 90px; margin: 0 0 5px 0}
+
+
+
+/* AppGalleryLanding changes */
+#topic-page.appGallery .breadcrumb {font-size: 14px; margin-bottom:15px; padding:0 0 10px 5px; border-bottom: 1px solid #cccccc; line-height: 14px}
+#topic-page.appGallery .breadcrumb .icon {background-image: url(../icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 7px; height: 11px; background-position: -100px 0px; vertical-align: bottom; margin: 0 5px}
+
+#topic-page .fixed-grid-container .appIcon {display: block; float: left; width: 220px;}
+#topic-page .fixed-grid-container .appIcon img {display: block; border:0; margin-bottom: 35px; -moz-border-radius:20px; -webkit-border-radius:20px; box-shadow: 6px 8px 16px rgba(0,0,0,0.2); -webkit-box-shadow: 6px 8px 16px rgba(0,0,0,0.2);	-moz-box-shadow: 6px 8px 16px rgba(0,0,0,0.2);}
+#topic-page .fixed-grid-container .appDetail {display: block; float: left; clear: none; width: 250px;}
+#topic-page .fixed-grid-container .appDetail h2 {font-weight: 400;}
+#topic-page .fixed-grid-container .appDetail ul {width: 250px;}
+#topic-page .fixed-grid-container .appDetail li {font-size: 1.1em; letter-spacing: 0px;}
+#topic-page .fixed-grid-container .description {display: block; float: left; clear: left; width: 600px;}
+#topic-page .fixed-grid-container .description h3, #topic-page .fixed-grid-container .developerInfo h3 {font-weight: 600; margin:10px 0 7px 0; padding:0;}
+#topic-page .fixed-grid-container .description p, #topic-page .fixed-grid-container .developerInfo p {line-height: 1.6em; font-size: 1.1em;}
+#topic-page .fixed-grid-container .developerInfo {display: block; float: left; clear: left; width: 600px;}
+#iphone {display: block; float: right; clear: right; position: relative; width: 280px; height: 593px; background-image:url('../iphone.png'); background-repeat: no-repeat; margin:0; padding:0;}
+#screen-overlay {position: absolute; z-index: 100; top: 98px; left: 24px; width: 236px; height: 354px; margin:0; padding:0;}
+#screen-top {width: 236px; height: 354px; margin:0; padding:0;}
+
+#topic-page .fixed-grid-container .buttons {display: block; float: left; clear: left; width: 600px; margin:0 0 24px 0; padding: 0; width: 600px;}
+#topic-page .fixed-grid-container .buttons a:active{
+	-webkit-box-shadow: inset 3px 6px 9px rgba(0,0,0,0.5);
+	-moz-box-shadow: inset 2px 4px 9px rgba(0,0,0,0.5);
+	box-shadow: inset 2px 4px 9px rgba(0,0,0,0.5);
+	cursor:pointer;
+}
+
+
 #topic-page.appGalleryLanding .appIcon .icon {width: 240px; height: 240px}
 #topic-page.appGalleryLanding .appIcon .icon.iconDefault {background-position: 0px -850px}
 #topic-page.appGalleryLanding .appIcon .icon.iconBg {background-position: -250px -850px}

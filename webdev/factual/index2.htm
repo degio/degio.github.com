@@ -1,0 +1,255 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!-- / set non grid page styles -->
+
+<head>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Droid+Sans' rel='stylesheet' type='text/css' />
+<meta content="text/html;charset=UTF-8" http-equiv="content-type" />
+<link href="icons/shortcut.ico" rel="SHORTCUT ICON" />
+<title>Apps Gallery - Factual</title>
+<link href="stylesheets/base_packaged.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="stylesheets/topic.css" media="screen" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+
+<script type="text/javascript">
+        $(document).ready(function() {
+
+            $("a.loginLink").click(function(e) {
+                e.preventDefault();
+                $("ul#login").slideToggle(80);
+                $("li.loginMenu").toggleClass("openToggle openInset");
+            });
+
+            $("ul#login, li.loginMenu").mouseup(function() {
+                return false
+            });
+            $(document).mouseup(function(e) {
+                if($(e.target).parent("li#leet").length==0) {
+                    $("li.loginMenu").removeClass("openToggle openInset");
+                    $("ul#login").hide();
+                }
+            });            
+
+        });
+</script>
+<script src="javascripts/slideshow.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+RunSlideShow("screen-top","screen-overlay",
+	"01.png;02.png;03.png;04.png", 7);
+</script>
+
+</head>
+
+
+<body>
+
+
+
+<div class="application" id="page-definer">
+<div id="page-header">
+<div class="header-container">
+
+<h1 class="siteLogo">
+<a href="http://www.factual.com">Factual</a>
+</h1>
+<div class="menus">
+<ul class="menu">
+	<li class="spacerRt"><a href="http://wiki.developer.factual.com">Develop</a></li>
+	<li id="leet" class="loginMenu"><a class="loginLink" href="#">Login</a></li>
+	<li class="spacerLt"><a href="http://www.factual.com/signup">Create Account</a></li>
+	<li class="browse spacerLt"><a href="http://www.factual.com/topics"><span class="icon"></span> Browse More Data</a></li>
+</ul>
+
+	<ul id="login">
+  <li>
+	
+    <form method="post" id="signin" action="">
+
+	<p class="username">
+      <label for="account_username">Username</label>
+      <input id="account_username" name="account[username]" type="text" />
+    </p>
+     <p class="password1">
+        <label for="account_password">Password</label>
+        <input id="account_password" name="account[password]" type="password" />
+    </p>
+	<p class="rememberMe">
+		<input id="origin_url" name="origin_url" type="hidden" value="http://www.factual.com/" />
+		<input id="openid" name="openid" type="hidden" />
+		<input name="account[remember_me]" type="hidden" value="0" />
+        <input checked="checked" id="account_remember_me" name="account[remember_me]" type="checkbox" value="1" />
+		<label for="account_remember_me" class="rememberLabel">Remember me</label>
+	</p>
+	
+	<p>
+	<input id="blue_button" name="commit" title="Login" type="submit" value="Login" class="submitButton" />
+	<span class="forgot">
+	 <a style="border-bottom: 1px solid #5D5D5D" href="http://www.factual.com/forgot_account">Forgot your password?</a>
+	 <a href="http://www.factual.com/signup">Create an Account</a>
+	</span>
+	</p>
+	
+    </form>
+	<p class="logosTitle">
+	Or simply sign in using:
+	</p>
+	
+	<p class="logos">
+	<span onmouseover="this.style.opacity=0.75;this.style.filter='alpha(opacity=75)'" onmouseout="this.style.opacity=1;this.style.filter='';" class="yahooIcon" title="Yahoo"></span>
+	<span onmouseover="this.style.opacity=0.75;this.style.filter='alpha(opacity=75)'" onmouseout="this.style.opacity=1;this.style.filter='';" class="logoIcons google" title="Google"></span>
+	<span onmouseover="this.style.opacity=0.75;this.style.filter='alpha(opacity=75)'" onmouseout="this.style.opacity=1;this.style.filter='';" class="logoIcons facebook" title="Facebook"></span>
+	<span onmouseover="this.style.opacity=0.75;this.style.filter='alpha(opacity=75)'" onmouseout="this.style.opacity=1;this.style.filter='';" class="logoIcons twitter" title="Twitter"></span>
+	<span onmouseover="this.style.opacity=0.75;this.style.filter='alpha(opacity=75)'" onmouseout="this.style.opacity=1;this.style.filter='';" class="logoIcons wordpress" title="Wordpress"></span>
+	<span onmouseover="this.style.opacity=0.75;this.style.filter='alpha(opacity=75)'" onmouseout="this.style.opacity=1;this.style.filter='';" class="logoIcons typepad" title="Typepad"></span>
+	<span onmouseover="this.style.opacity=0.75;this.style.filter='alpha(opacity=75)'" onmouseout="this.style.opacity=1;this.style.filter='';" class="logoIcons blogger" title="Blogger"></span>
+	</p>
+	
+	</li>
+  </ul>
+
+</div>
+
+</div>
+</div>
+<div id="page-container">
+<div class="rounded shadow" id="page-fold">
+<img class="right roundedbottomright" src="icons/header_apps.png" alt="" width="490" height="103" />
+</div>
+<div id="page-body">
+<div id="page-width">
+<div class="appGallery" id="topic-page">
+
+
+<h1 class="page-title">
+Factual App Gallery
+</h1>
+<h2 class="subTitle">Featuring great apps using data provided by Factual</h2>
+
+
+<div class="fixed-grid-container">
+
+<div class="breadcrumb">
+<a href="/gallery">App Gallery</a>
+<span class="icon"></span>
+<a href="/gallery?category=News">News</a>
+<span class="icon"></span>
+<a href="/app/9fe9459c-d82b-49c8-af60-98e8a9832e38">Fwix</a>
+</div>
+
+
+
+<div class="appIcon">
+<img src="icons/fwix.jpg" />
+</div>
+
+<div class="appDetail">
+<h2>Fwix</h2>
+<ul>
+<li>By: Fwix</li>
+<li>Platform: iOS, Web App</li>
+<li>Submitted: 2011-06-09</li>
+<li>License: Free</li>
+<li>Features: POI Data</li>
+</ul>
+</div>
+
+<div id="iphone">
+<div id="screen-overlay">
+<img id="screen-top" src="01.png" alt="Screen Shot" />
+</div>
+</div>
+
+<div class="buttons">
+<a id="blue_button" href="http://itunes.apple.com/us/app/local-news-by-fwix/id364886460?mt=8">Visit App Site</a>
+<a id="blue_button" href="http://www.fwix.com">Visit Developer Site</a>
+</div>
+
+<div class="description">
+<h3>Description</h3>
+<p>This app is an example of our technology that powers local data (places, news, events, reviews, photos, and more) for Partners and Developers.  The app provides real-time local news on your iOS device.  Our website also features our technology, showing you real-time local information for your city.</p>
+</div>
+
+<div class="developerInfo">
+<h3>Developer Info</h3>
+<p>Fwix organizes the world&rsquo;s information by location. With our geotagging technology we are able to automatically index the web by latitude and longitude coordinates. Our technology covers 61,000 cities in 7 countries, and we are constantly growing. We are the largest local content curator, collecting content from over 35,000 sources that includes news, blogs, events, reviews, social media, and more.  We provide local data to Partners and Developers who use our API and Local Tools.</p>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+</div>
+</div>
+<div id="page-footer">
+<div class="footer-wrapper">
+<div class="footerContent">
+<div class="siteLinks">
+<h2>
+Factual Business
+</h2>
+<ul>
+<li class="first">
+<a href="http://www.factual.com/about">About Us</a>
+</li>
+<li>
+<a href="http://blog.factual.com">Blog</a>
+</li>
+<li>
+<a href="http://www.factual.com/jobs">Jobs</a>
+</li>
+<li>
+<a href="http://www.factual.com/tos">Terms</a>
+</li>
+<li>
+<a href="http://www.factual.com/press">Press</a>
+</li>
+<li>
+<a href="http://www.factual.com/gallery">App Gallery</a>
+</li>
+<li>
+<a href="http://www.factual.com/contact">Contact Us</a>
+</li>
+<li class="last">
+<a href="http://www.factual.com/privacy">Privacy</a>
+</li>
+</ul>
+</div>
+<div class="developerLinks">
+<h2>For Developers</h2>
+<ul>
+<li class="first">
+<a href="http://wiki.developer.factual.com/">Documentation</a>
+</li>
+<li>
+<a href="http://www.factual.com/FAQ">FAQs</a>
+</li>
+<li>
+<a href="http://groups.google.com/group/factual_developers">Developer Group</a>
+</li>
+<li>
+<a href="http://www.factual.com/pricing">Pricing</a>
+</li>
+<li class="last">
+<a class="reportBug">Submit a Bug</a>
+</li>
+</ul>
+</div>
+<div class="simpleGeo">
+<a href="https://simplegeo.com/products/storage/"></a>
+</div>
+<p class="copyright">
+&copy;2011 Factual Inc. All Rights Reserved.
+</p>
+</div>
+
+
+</div>
+</div>
+</div>
+</body>
+</html>
