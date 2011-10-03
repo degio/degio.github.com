@@ -107,6 +107,9 @@ a.external {background-image: url(../icons/icon_vertical.png); background-repeat
 #page-header ul.menu li.expend .accountMenu li a {display: block}
 #page-header ul.menu li.expend .accountMenu li a:hover {background: #3f5c88}
 #page-header ul.menu li.browse span.icon {background-image: url(../icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 10px; height: 10px; background-position: -50px -50px}
+#factualplus {background-image: url(../icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 10px; height: 10px;}
+#page-header ul.menu li.browse span.icongrey {background-position: -50px -50px;}
+#page-header ul.menu li.browse span.icongreyhover {background-position: -350px -50px;}
 #page-header ul.menu li.create span.icon_create {background-image: url(../icons/icon_grid.png); background-repeat: no-repeat; display: inline-block; width: 15px; height: 10px; background-position: -350px -300px}
 #page-header ul.menu li.dev {background-image: url(../icons/icon_grid.png); background-repeat: no-repeat; background-position: -550px -450px}
 .page-grid #page-header {position: relative; background-image: url(../icons/v2_xshare.png); background-repeat: repeat-x; background-position: 0px -50px; padding-right: 180px; margin: 0px 4px}
@@ -766,15 +769,10 @@ input:-moz-placeholder {color: #999999}
 #screen-overlay {position: absolute; z-index: 100; top: 98px; left: 24px; width: 236px; height: 354px; margin:0; padding:0;}
 #screen-top {width: 236px; height: 354px; margin:0; padding:0;}
 
+/* End AppGalleryLanding changes */
+
 #topic-page .fixed-grid-container .buttons {display: block; float: left; clear: left; width: 600px; margin:0 0 24px 0; padding: 0; width: 600px;}
-#topic-page .fixed-grid-container .buttons a:active{
-	-webkit-box-shadow: inset 3px 6px 9px rgba(0,0,0,0.5);
-	-moz-box-shadow: inset 2px 4px 9px rgba(0,0,0,0.5);
-	box-shadow: inset 2px 4px 9px rgba(0,0,0,0.5);
-	cursor:pointer;
-}
-
-
+#topic-page .fixed-grid-container .buttons a:active {-webkit-box-shadow: inset 3px 6px 9px rgba(0,0,0,0.5); -moz-box-shadow: inset 2px 4px 9px rgba(0,0,0,0.5); box-shadow: inset 2px 4px 9px rgba(0,0,0,0.5);	cursor:pointer;}
 #topic-page.appGalleryLanding .appIcon .icon {width: 240px; height: 240px}
 #topic-page.appGalleryLanding .appIcon .icon.iconDefault {background-position: 0px -850px}
 #topic-page.appGalleryLanding .appIcon .icon.iconBg {background-position: -250px -850px}
