@@ -699,10 +699,10 @@ input:-moz-placeholder {color: #999999}
 #topic-page.poi .poiColumn .poiImage {background-image: url(../images/factual2/geo_sprites.png?1316658790); background-repeat: no-repeat; background-position: 0 0px; width: 480px; height: 230px}
 #topic-page.poi .poiColumn ul.last, #topic-page.poi .poiColumn ul.last li.last {margin-bottom: 0}
 #topic-page.poi .factual-vis {margin-bottom: 12px}
-#topic-page.appGallery h1 {top: -85px; left: 32px; font-size: 36px; color: #525252;}
+#topic-page.appGallery h1 {top: -85px; left: 32px; font-size: 36px; color: #525252; text-shadow:0 1px 1px #ffffff;}
 #topic-page.appGalleryLanding h1 {top: -77px; color: #525252;}
 #topic-page.appGallery h2.subTitle, #topic-page.appGalleryLanding h2.subTitle {color: #444; position: absolute; top: -42px; left: 34px}
-#topic-page.appGallery h2.subTitle, #topic-page.appGalleryLanding h2.subTitle {font-size: 16px; font-family: 'Open Sans', sans-serif; font-weight: 300;}
+#topic-page.appGallery h2.subTitle, #topic-page.appGalleryLanding h2.subTitle {font-size: 16px; font-family: 'Open Sans', sans-serif; font-weight: 300; text-shadow:0 1px 1px #f5f5f5;}
 #topic-page.appGallery hr {margin: 15px 0}
 #topic-page.appGallery select {width: 190px}
 #topic-page.appGallery input[type="checkbox"] {margin-right: 2px}

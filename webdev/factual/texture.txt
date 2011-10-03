@@ -1,0 +1,624 @@
+2011-10-02 22:00:27	Photoshop launched
+		Reset Brushes of current application
+		Reset Tool Presets of current application
+		Make
+			New: document
+			Mode: RGB color mode
+			Width: 5.5 inches
+			Height: 1.167 inches
+			Resolution: 300 per inch
+			Pixel Aspect Ratio: 1
+			Fill: transparent
+			Depth: 8
+			Profile:  “sRGB IEC61966-2.1”
+2011-10-02 22:06:07	File Untitled-1 opened
+	Inner Shadow
+		Set Layer Styles of current layer
+			To: layer styles
+			Global Angle: 90°
+			Scale: 416.7%
+			Inner Shadow: inner shadow
+			With Enabled
+			Mode: multiply
+			Color: RGB color
+			Red: 0
+			Green: 0
+			Blue: 0
+			Opacity: 74%
+			With Use Global Light
+			Local Angle: 120°
+			Distance: 13 pixels
+			Choke: 0 pixels
+			Size: 27 pixels
+			Noise: 17%
+			With Anti-alias
+			Contour: Contour
+			Name:  “Linear”
+		Select previous history state
+	New Gradient Fill Layer
+		Make fill layer
+			Using: fill layer
+			Type: gradient
+			Angle: 90°
+			Type: linear
+			Gradient: gradient
+			Name:  “Custom”
+			Form: custom stops
+			Interpolation: 4096
+			Colors: color stop list
+			color stop
+			Color: RGB color
+			Red: 47.003
+			Green: 47.003
+			Blue: 47.003
+			Type: user specified color
+			Location: 0
+			Midpoint: 50
+			color stop
+			Color: RGB color
+			Red: 81.003
+			Green: 81.003
+			Blue: 81.003
+			Type: user specified color
+			Location: 4096
+			Midpoint: 50
+			Transparency: transparency stop list
+			transparency stop
+			Opacity: 100%
+			Location: 0
+			Midpoint: 50
+			transparency stop
+			Opacity: 100%
+			Location: 4096
+			Midpoint: 50
+	New Layer
+		Make layer
+	New Layer
+		Make layer
+		Select layer “Layer 1”
+			Without Make Visible
+	Layer Properties
+		Set current layer
+			To: layer
+			Name:  “darken - horiz”
+		Select layer “Layer 2”
+			Without Make Visible
+	Layer Properties
+		Set current layer
+			To: layer
+			Name:  “darken - vert”
+		Select layer “darken - horiz”
+			Without Make Visible
+		Select layer “darken - vert”
+			Without Make Visible
+	Blending Change
+		Set current layer
+			To: layer
+			Mode: multiply
+		Select layer “darken - horiz”
+			Without Make Visible
+	Blending Change
+		Set current layer
+			To: layer
+			Mode: multiply
+		Hide layer “Gradient Fill 1”
+		Set Foreground Color
+			To: RGB color
+			Red: 255
+			Green: 255
+			Blue: 255
+	Paint Bucket
+		Fill
+			From: 2.88 inches, 0.247 inches
+			Tolerance: 32
+			With Anti-alias
+			Using: foreground color
+		Select layer “darken - vert”
+			Without Make Visible
+		Hide layer “darken - horiz”
+	Paint Bucket
+		Fill
+			From: 4.2 inches, 0.613 inches
+			Tolerance: 32
+			With Anti-alias
+			Using: foreground color
+		Select layer “darken - horiz”
+			Without Make Visible
+		Show current layer
+	Add Noise
+		Add Noise
+			Distribution: uniform
+			Percent: 94%
+			With Monochromatic
+			2656208
+		Select layer “darken - vert”
+			Without Make Visible
+	Add Noise
+		Add Noise
+			Distribution: uniform
+			Percent: 96%
+			With Monochromatic
+			2656208
+		Select layer “darken - horiz”
+			Without Make Visible
+	Motion Blur
+		Motion Blur
+			Angle: 0
+			Distance: 30 pixels
+		Select layer “darken - vert”
+			Without Make Visible
+		Hide current layer
+		Show current layer
+		Hide layer “darken - horiz”
+	Motion Blur
+		Motion Blur
+			Angle: 90
+			Distance: 30 pixels
+		Show layer “darken - horiz”
+		Select layer “darken - horiz”
+			Without Make Visible
+		Select layer “darken - vert”
+			Without Make Visible
+	New Layer
+		Make layer
+	New Layer
+		Make layer
+		Select layer “Layer 1”
+			Without Make Visible
+	Layer Properties
+		Set current layer
+			To: layer
+			Name:  “lighten - horiz”
+		Select layer “Layer 2”
+			Without Make Visible
+		Hide layer “darken - horiz”
+		Hide layer “darken - vert”
+	Layer Properties
+		Set current layer
+			To: layer
+			Name:  “lighten - vert”
+		Select layer “lighten - horiz”
+			Without Make Visible
+		Hide layer “lighten - vert”
+	Blending Change
+		Set current layer
+			To: layer
+			Mode: screen
+		Select layer “lighten - vert”
+			Without Make Visible
+		Show current layer
+	Blending Change
+		Set current layer
+			To: layer
+			Mode: screen
+		Select layer “lighten - horiz”
+			Without Make Visible
+		Hide layer “lighten - vert”
+		Set Foreground Color
+			To: RGB color
+			Red: 0
+			Green: 0
+			Blue: 0
+	Paint Bucket
+		Fill
+			From: 2.493 inches, 0.297 inches
+			Tolerance: 32
+			With Anti-alias
+			Using: foreground color
+		Select layer “lighten - vert”
+			Without Make Visible
+		Show current layer
+		Hide layer “lighten - horiz”
+	Paint Bucket
+		Fill
+			From: 2.843 inches, 0.67 inches
+			Tolerance: 32
+			With Anti-alias
+			Using: foreground color
+		Show layer “lighten - horiz”
+		Select layer “lighten - horiz”
+			Without Make Visible
+	Add Noise
+		Add Noise
+			Distribution: uniform
+			Percent: 100%
+			With Monochromatic
+			2656208
+		Select layer “lighten - vert”
+			Without Make Visible
+	Add Noise
+		Add Noise
+			Distribution: uniform
+			Percent: 102%
+			With Monochromatic
+			2656208
+		Hide layer “lighten - horiz”
+	Motion Blur
+		Motion Blur
+			Angle: 90
+			Distance: 35 pixels
+		Select layer “lighten - horiz”
+			Without Make Visible
+		Show current layer
+		Hide layer “lighten - vert”
+	Motion Blur
+		Motion Blur
+			Angle: 0
+			Distance: 35 pixels
+		Show layer “lighten - vert”
+		Show layer “darken - vert”
+		Show layer “darken - horiz”
+	Canvas Size
+		Canvas Size
+			Width: 1600 pixels
+			Height: 300 pixels
+			Horizontal: center
+			Vertical: center
+		Select layer “lighten - vert”
+			Without Make Visible
+		Select layer “lighten - horiz”
+			Without Make Visible
+		Show layer “Gradient Fill 1”
+		Hide current layer
+		Hide layer “lighten - vert”
+		Show layer “lighten - vert”
+		Show current layer
+		Hide layer “darken - vert”
+		Hide layer “darken - horiz”
+		Show layer “darken - vert”
+		Show layer “darken - horiz”
+2011-10-02 22:20:44	File C:\Users\Vandi\git\degio.github.com\webdev\factual\texture.psd saved
+		Save
+			As: Photoshop
+			With Maximize Compatibility
+			In: C:\Users\Vandi\git\degio.github.com\webdev\factual\texture.psd
+	Master Opacity Change
+		Set current layer
+			To: layer
+			Opacity: 40%
+		Select layer “lighten - vert”
+			Without Make Visible
+	Master Opacity Change
+		Set current layer
+			To: layer
+			Opacity: 40%
+		Select layer “darken - vert”
+			Without Make Visible
+	Master Opacity Change
+		Set current layer
+			To: layer
+			Opacity: 55%
+		Select layer “darken - horiz”
+			Without Make Visible
+	Master Opacity Change
+		Set current layer
+			To: layer
+			Opacity: 55%
+		Select layer “lighten - vert”
+			Without Make Visible
+	Master Opacity Change
+		Set current layer
+			To: layer
+			Opacity: 20%
+		Select layer “lighten - horiz”
+			Without Make Visible
+	Master Opacity Change
+		Set current layer
+			To: layer
+			Opacity: 20%
+		Select layer “darken - vert”
+			Without Make Visible
+	Master Opacity Change
+		Set current layer
+			To: layer
+			Opacity: 75%
+		Select layer “darken - horiz”
+			Without Make Visible
+	Master Opacity Change
+		Set current layer
+			To: layer
+			Opacity: 75%
+		Select layer “darken - horiz”
+			Without Make Visible
+		Select layer “darken - vert”
+			Without Make Visible
+		Select layer “lighten - horiz”
+			Without Make Visible
+		Select layer “lighten - vert”
+			Without Make Visible
+		Select layer “Gradient Fill 1”
+			Without Make Visible
+	Modify Gradient Fill Layer
+		Set current fill layer
+			To: gradient
+			Angle: 90°
+			Type: linear
+			Scale: 75%
+			Gradient: gradient
+			Name:  “Custom”
+			Form: custom stops
+			Interpolation: 4096
+			Colors: color stop list
+			color stop
+			Color: RGB color
+			Red: 47.003
+			Green: 47.003
+			Blue: 47.003
+			Type: user specified color
+			Location: 0
+			Midpoint: 50
+			color stop
+			Color: RGB color
+			Red: 81.003
+			Green: 81.003
+			Blue: 81.003
+			Type: user specified color
+			Location: 4096
+			Midpoint: 50
+			Transparency: transparency stop list
+			transparency stop
+			Opacity: 100%
+			Location: 0
+			Midpoint: 50
+			transparency stop
+			Opacity: 100%
+			Location: 4096
+			Midpoint: 50
+2011-10-02 22:25:34	File C:\Users\Vandi\git\degio.github.com\webdev\factual\icons\texture.png saved
+		Save
+			As: PNG Format
+			Interlace: None
+			Filter: Adaptive
+			In: C:\Users\Vandi\git\degio.github.com\webdev\factual\icons\
+			With Copy
+		Hide layer “darken - horiz”
+		Hide layer “darken - vert”
+		Hide layer “lighten - horiz”
+		Hide layer “lighten - vert”
+	New Gradient Fill Layer
+		Make fill layer
+			Using: fill layer
+			Type: gradient
+			Angle: -6°
+			Type: radial
+			Offset: 0.6%, -123.3%
+			Gradient: gradient
+			Name:  “Custom”
+			Form: custom stops
+			Interpolation: 4096
+			Colors: color stop list
+			color stop
+			Color: RGB color
+			Red: 225
+			Green: 225
+			Blue: 225
+			Type: user specified color
+			Location: 0
+			Midpoint: 50
+			color stop
+			Color: RGB color
+			Red: 0
+			Green: 0
+			Blue: 0
+			Type: user specified color
+			Location: 4096
+			Midpoint: 50
+			Transparency: transparency stop list
+			transparency stop
+			Opacity: 100%
+			Location: 0
+			Midpoint: 50
+			transparency stop
+			Opacity: 0%
+			Location: 4096
+			Midpoint: 50
+	Modify Gradient Fill Layer
+		Set current fill layer
+			To: gradient
+			With Dither
+			Angle: 180°
+			Type: radial
+			Scale: 86%
+			Offset: 0.7%, -164%
+			Gradient: gradient
+			Name:  “Custom”
+			Form: custom stops
+			Interpolation: 4096
+			Colors: color stop list
+			color stop
+			Color: RGB color
+			Red: 225
+			Green: 225
+			Blue: 225
+			Type: user specified color
+			Location: 0
+			Midpoint: 50
+			color stop
+			Color: RGB color
+			Red: 255
+			Green: 255
+			Blue: 255
+			Type: user specified color
+			Location: 4096
+			Midpoint: 50
+			Transparency: transparency stop list
+			transparency stop
+			Opacity: 100%
+			Location: 0
+			Midpoint: 50
+			transparency stop
+			Opacity: 0%
+			Location: 4096
+			Midpoint: 50
+	Modify Gradient Fill Layer
+		Set current fill layer
+			To: gradient
+			With Dither
+			Angle: 180°
+			Type: radial
+			Scale: 86%
+			Offset: -0.4%, -164%
+			Gradient: gradient
+			Name:  “Custom”
+			Form: custom stops
+			Interpolation: 4096
+			Colors: color stop list
+			color stop
+			Color: RGB color
+			Red: 225
+			Green: 225
+			Blue: 225
+			Type: user specified color
+			Location: 0
+			Midpoint: 50
+			color stop
+			Color: RGB color
+			Red: 255
+			Green: 255
+			Blue: 255
+			Type: user specified color
+			Location: 4096
+			Midpoint: 50
+			Transparency: transparency stop list
+			transparency stop
+			Opacity: 100%
+			Location: 0
+			Midpoint: 50
+			transparency stop
+			Opacity: 0%
+			Location: 4096
+			Midpoint: 50
+		Show layer “darken - horiz”
+		Show layer “darken - vert”
+		Show layer “lighten - horiz”
+		Show layer “lighten - vert”
+		Hide layer “darken - horiz”
+		Hide layer “darken - vert”
+		Hide layer “lighten - horiz”
+		Hide layer “lighten - vert”
+	Modify Gradient Fill Layer
+		Set current fill layer
+			To: gradient
+			With Dither
+			Angle: 180°
+			Type: radial
+			Scale: 85%
+			Offset: -0.4%, -164%
+			Gradient: gradient
+			Name:  “Custom”
+			Form: custom stops
+			Interpolation: 4096
+			Colors: color stop list
+			color stop
+			Color: RGB color
+			Red: 225
+			Green: 225
+			Blue: 225
+			Type: user specified color
+			Location: 0
+			Midpoint: 50
+			color stop
+			Color: RGB color
+			Red: 255
+			Green: 255
+			Blue: 255
+			Type: user specified color
+			Location: 4096
+			Midpoint: 50
+			Transparency: transparency stop list
+			transparency stop
+			Opacity: 100%
+			Location: 0
+			Midpoint: 50
+			transparency stop
+			Opacity: 0%
+			Location: 4096
+			Midpoint: 50
+	Modify Gradient Fill Layer
+		Set current fill layer
+			To: gradient
+			With Dither
+			Angle: 180°
+			Type: radial
+			Scale: 85%
+			Offset: 0.2%, -164%
+			Gradient: gradient
+			Name:  “Custom”
+			Form: custom stops
+			Interpolation: 4096
+			Colors: color stop list
+			color stop
+			Color: RGB color
+			Red: 225
+			Green: 225
+			Blue: 225
+			Type: user specified color
+			Location: 0
+			Midpoint: 50
+			color stop
+			Color: RGB color
+			Red: 255
+			Green: 255
+			Blue: 255
+			Type: user specified color
+			Location: 4096
+			Midpoint: 50
+			Transparency: transparency stop list
+			transparency stop
+			Opacity: 100%
+			Location: 0
+			Midpoint: 50
+			transparency stop
+			Opacity: 0%
+			Location: 4096
+			Midpoint: 50
+		Show layer “darken - horiz”
+		Show layer “darken - vert”
+		Show layer “lighten - horiz”
+		Show layer “lighten - vert”
+		Hide layer “lighten - vert”
+		Show layer “lighten - vert”
+		Hide layer “lighten - vert”
+		Show layer “lighten - vert”
+		Hide layer “darken - vert”
+		Show layer “darken - vert”
+		Hide layer “darken - horiz”
+		Show layer “darken - horiz”
+		Hide layer “lighten - vert”
+		Show layer “lighten - vert”
+		Select layer “darken - horiz”
+			Without Make Visible
+	Master Opacity Change
+		Set current layer
+			To: layer
+			Opacity: 85%
+		Select layer “darken - vert”
+			Without Make Visible
+	Master Opacity Change
+		Set current layer
+			To: layer
+			Opacity: 85%
+		Select layer “lighten - vert”
+			Without Make Visible
+	Master Opacity Change
+		Set current layer
+			To: layer
+			Opacity: 10%
+		Select layer “lighten - horiz”
+			Without Make Visible
+2011-10-02 23:13:18	File C:\Users\Vandi\git\degio.github.com\webdev\factual\icons\texture.png saved
+		Save
+			As: PNG Format
+			Interlace: None
+			Filter: Adaptive
+			In: C:\Users\Vandi\git\degio.github.com\webdev\factual\icons\
+			With Copy
+2011-10-02 23:30:36	File C:\Users\Vandi\git\degio.github.com\webdev\factual\texture.psd saved
+		Save
+		Select layer “Gradient Fill 1”
+			Without Make Visible
+		Select RGB channel
+			Without Make Visible
+2011-10-02 23:38:46	File texture.psd closed
+		Close
+2011-10-02 23:38:46	Photoshop quit
