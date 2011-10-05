@@ -51,9 +51,9 @@ H3.photo {margin:0 0 0 5px;padding:0 0 5px 0;}
 #main .folioIcon {display:block;float:left;width:150px;border:0;padding:0;margin:0 0 30px 35px;}
 #main .folioIcon img {display:block;clear:both;border:0;padding:0;margin:0;}
 #main .folioIcon h2 {font-family:'Open Sans',Arial,sans-serif;font-size:1.3em;font-weight:600;text-align:center;border:0;padding:0;margin:5px 0 0 0;}
-#main .folioIcon a h2, #main .folioIcon a:link h2,#main .folioIcon a:visited h2 {text-decoration:none;color:#569AD1;}
-#main .folioIcon a:hover h2 {text-decoration:none;color:#2E74B4;}
-#main .folioIcon a:active h2 {text-decoration:none;color:#2E74B4;}
+#main .folioIcon a, #main .folioIcon a:link, #main .folioIcon a:visited {text-decoration:none;color:#569AD1;}
+#main .folioIcon a:hover {text-decoration:none;color:#2E74B4;}
+#main .folioIcon a:active {text-decoration:none;color:#2E74B4;}
 
 
 
