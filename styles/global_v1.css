@@ -16,6 +16,7 @@
 #headright div {display:block;float:right;clear:both;}
 #headright li {position:relative;display:inline;list-style:none;}
 #headright img{margin-right:20px;margin-top:8px;}
+#headDesc h1 {font-family:'Open Sans',Arial,Helvetica,sans-serif;color:#777;letter-spacing:0.1em;font-weight:600;margin:0 12px 0 0;padding:15px 0 0 0;}
 
 /* Social Buttons */
 .twitter {}
@@ -36,17 +37,17 @@ H4 {color:#999;font-weight:normal;letter-spacing:2px;}
 
 /* Main Menu */
 #menu{width:180px;text-align:left;margin:0;padding:0;border:0px solid #bbb;}
-.menubold{font-family:Arial,Helvetica,sans-serif;font-size:25px;color:#ddd;margin:0px;padding:3px 10px;}
-.menubold a{font-family:Arial,Helvetica, ans-serif;font-size:25px;}
-.menubold a:link, .menubold a:visited{text-decoration:none;color:#777;}
-.menubold a:hover, .menubold a:active{color:#A7A7A7;text-decoration:none;}
-.submenu{clear:both;font-size:10px;padding:0;margin-top:0px;}
-.submenu li{list-style:none;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#ccc;font-size:14px;margin-bottom:10px;margin-left:35px;}
-.submenu li.bold {text-decoration:none;color:#555;font-weight:normal;}
-.slink a, .slink a:link, .slink a:visited{text-decoration:none;color:#777;}
-.slink a:hover, .slink a:active{color:#A7A7A7;text-decoration:none;}
+#menu .menubold{font-family:Arial,Helvetica,sans-serif;font-size:25px;color:#ddd;margin:0px;padding:3px 10px;}
+#menu .menubold a{font-family:Arial,Helvetica, ans-serif;font-size:25px;}
+#menu .menubold a:link, .menubold a:visited{text-decoration:none;color:#777;}
+#menu .menubold a:hover, .menubold a:active{color:#A7A7A7;text-decoration:none;}
+#menu .submenu{clear:both;font-size:10px;padding:0;margin-top:0px;}
+#menu .submenu li{list-style:none;font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#ccc;font-size:14px;margin-bottom:10px;margin-left:35px;}
+#menu .submenu li.bold {text-decoration:none;color:#555;font-weight:normal;}
+#menu .slink a, .slink a:link, .slink a:visited{text-decoration:none;color:#777;}
+#menu .slink a:hover, .slink a:active{color:#A7A7A7;text-decoration:none;}
 .small {font-family:"Trebuchet MS",Arial,Helvetica,sans-serif;color:#ccc;font-size:10px;}
-#main {width:765px;height:400px;}
+#main {width:765px;min-height:370px;}
 #main_no_height {width:765px;}
 .imgholder img{border:1px solid #333;}
 .subsecmain {vertical-align:top;display:inline-block;}

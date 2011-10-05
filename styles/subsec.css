@@ -1,4 +1,4 @@
-#main2 {display:block;clear:both;margin-top:0px;padding:0px;border:0px solid #bbb;}
+#main2 {display:block;clear:both;margin-top:0;padding:0;}
 .main3 {display:block;clear:both;margin-top:0px;padding-bottom:20px;}
 .main3-5 {display:block;clear:both;margin-top:30px;padding-bottom:20px;}
 .main4 {display:block;clear:both;margin-top:30px;padding-bottom:30px;}
@@ -35,6 +35,26 @@ H3.photo {margin:0 0 0 5px;padding:0 0 5px 0;}
 	-webkit-box-shadow: rgba(0,0,0,0.40) 2px 2px 4px;
 	-moz-box-shadow: rgba(0,0,0,0.40) 2px 2px 4px;
 }
+
+/* Portfolio Focus */
+.folioContainer {width:850px;margin-left:15px;}
+#main2 .folioImgholder {border:0;margin:0;padding:0;}
+#main2 .folioPagelt {display:block;float:left;clear:left;width:500px;min-height:400px;}
+#main2 .folioPagelt h3 {font-size:1.3em;}
+#main2 .folioPagelt h4 {color:#555;font-weight:400;letter-spacing:0px;}
+#main2 .folioPagelt ol li {padding-bottom:5px;font-size:1em;}
+#main2 .folioPagelt ul li {padding-bottom:5px;font-size:1em;list-style:square;}
+#main2 .folioPagelt p {padding-right:40px;line-height:1.5em;text-align:left;font-size:1em;}
+#main2 .folioPagert {display:block;float:right !important;width:300px;}
+
+/* Portfolio */
+#main .folioIcon {display:block;float:left;width:150px;border:0;padding:0;margin:0 0 30px 35px;}
+#main .folioIcon img {display:block;clear:both;border:0;padding:0;margin:0;}
+#main .folioIcon h2 {font-family:'Open Sans',Arial,sans-serif;font-size:1.3em;font-weight:600;text-align:center;border:0;padding:0;margin:5px 0 0 0;}
+#main .folioIcon a h2, #main .folioIcon a:link h2,#main .folioIcon a:visited h2 {text-decoration:none;color:#569AD1;}
+#main .folioIcon a:hover h2 {text-decoration:none;color:#2E74B4;}
+#main .folioIcon a:active h2 {text-decoration:none;color:#2E74B4;}
+
 
 
 /*
