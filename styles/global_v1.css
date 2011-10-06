@@ -58,8 +58,11 @@ H4 {color:#999;font-weight:normal;letter-spacing:2px;}
 	box-shadow: rgba(0,0,0,0.40) 0 1px 6px;
 	-webkit-box-shadow: rgba(0,0,0,0.40) 0 1px 6px;
 	-moz-box-shadow: rgba(0,0,0,0.40) 0 1px 6px;
-	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fdfdfd), to(#d9d9d9));
-	background: -moz-linear-gradient(100% 100% 90deg, #d9d9d9, #fdfdfd);
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#fdfdfd), to(#d9d9d9));
+	background-image: -moz-linear-gradient(100% 100% 90deg, #d9d9d9, #fdfdfd);
+	-ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#fdfdfd,endColorstr=#d9d9d9)"; /* IE8 */
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#fdfdfd,endColorstr=#d9d9d9); /* older IEs */
+	background-image: -o-linear-gradient(top, #fdfdfd 0%, #d9d9d9 100%); /* Opera */
 }
 
 /* Front Page Box Info Popups */
