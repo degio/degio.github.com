@@ -46,6 +46,7 @@ H3.photo {margin:0 0 0 5px;padding:0 0 5px 0;}
 #main2 .folioPagelt ul li {padding-bottom:5px;font-size:1em;list-style:square;}
 #main2 .folioPagelt p {padding-right:40px;line-height:1.5em;text-align:left;font-size:1em;}
 #main2 .folioPagert {display:block;float:right !important;width:300px;}
+#main2 .folioPagert img {border:0;}
 
 /* Portfolio */
 #main .folioIcon {display:block;float:left;width:150px;border:0;padding:0;margin:0 0 30px 35px;}
