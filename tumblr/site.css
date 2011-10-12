@@ -71,7 +71,7 @@ html[xmlns] .clearfix { display: block }
 .menu .rss .icon { background-position: -38px -16px }
 .menu .ask .icon { background-position: -73px -16px; width: 17px; }
 .menu .submit .icon { background-position: -54px -16px; width: 19px; }
-#search { width: 180px; padding: 0 0 0 35px; margin-top:40px; float: right; }
+#search { width: 180px; padding: 0 0 0 35px; margin-top:45px; float: right; }
 #search-form { width: 135px; padding: 0 16px 0 29px; position: relative; }
 #search-form span { background: url(http://static.tumblr.com/njty47g/MVTleufew/search.png) left top no-repeat; height: 32px; display: block; position: absolute; top: 0; }
 #search-form .left { width: 29px; left: 0; }
