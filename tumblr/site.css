@@ -158,7 +158,7 @@ html[xmlns] .clearfix { display: block }
 #likes .like_video iframe, #likes .like_video object, #likes .like_video embed { width: 100% !important; display: block; }
 #likes .like_quote { font-size: 15px; font-family: georgia, serif; padding-bottom: 10px; }
 #likes .like_link a { display: block; text-transform: none; font-size: 14px; padding: 5px 10px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
-#likes .like_caption { padding: 10px 0 }
+#likes .like_caption {display:none;padding: 10px 0 }
 #likes img { background: #fff; width: 160px; border-width: 5px; display: block; }
 #sidebar #likes { margin: 0 0 20px 0 }
 #sidebar #likes .like_post { width: 180px; float: none; margin: 0; padding: 20px 0; border-bottom: 1px dashed rgba(0,0,0,0.15); }
