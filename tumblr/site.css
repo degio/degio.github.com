@@ -46,7 +46,7 @@ html[xmlns] .clearfix { display: block }
 #header .shadow span { background: url(http://static.tumblr.com/xgwqnql/fMLlbpj9t/header_shadow.png) left top repeat-x; height: 5px; display: block; }
 #header { width: 100%; z-index: 1000; }
 .pinned { position: absolute; top: 0; left: 0; }
-.pinned .inner { border-bottom: 1px solid #d1d1d1; padding-bottom: 3px; }
+.pinned .inner { border-bottom: 1px solid #d5d5d5; padding-bottom: 3px; }
 .ruled-top { border-top: 3px solid rgba(0,0,0,0.1) }
 .fixed { background: url(http://static.tumblr.com/njty47g/Omoleufdi/topbar_bg.png) left top repeat-x; position: fixed; left: 0; -webkit-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12); -moz-box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12); box-shadow: 0 7px 8px rgba(0, 0, 0, 0.12); }
 .fixed .blog-title a, .fixed .menu a { color: #333 }
@@ -58,7 +58,7 @@ html[xmlns] .clearfix { display: block }
 #header .pages li, .menu li { display: block; float: left; }
 #header .pages a { margin-right: 16px }
 .pages a, .fixed .pages a, .more-likes, .like_link a { background: rgba(0,0,0,0.05); font-size: 11px; font-weight: 500; text-transform: uppercase; padding: 3px 11px; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; }
-.menu { float: right;margin-top:35px;}
+.menu { float: right;margin-top:40px;}
 .menu li:first-child a { margin-left: 0 }
 .menu a { float: left; overflow: hidden; margin-left: 7px; display: block; position: relative; }
 .menu a:hover, .blog-title a:hover { color: #000 }
@@ -151,7 +151,7 @@ html[xmlns] .clearfix { display: block }
 #likes { margin-left: -25px }
 #likes .like_post { float: left; width: 170px; margin-left: 25px; }
 #likes .like_title { display: none }
-#likes .post_info_bottom { display: block !important; padding-top: 5px; }
+#likes .post_info_bottom {display:none;padding-top:5px;}
 #likes .via { font-style: italic; font-family: georgia, serif; font-size: 11px; }
 #likes .like_post p { padding: 2px 0; margin: 0; }
 #likes .like_post blockquote { border-left: 3px solid rgba(0,0,0,0.1); padding-left: 15px; margin-bottom: 0.75em; }
