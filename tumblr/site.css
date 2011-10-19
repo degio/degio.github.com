@@ -301,7 +301,7 @@ ol.notes li blockquote a { color: #74787A }
 .meta .permalink a { padding-left: 20px; text-indent: -999em; }
 .meta .permalink a:hover .icon { background-position: -37px -16px }
 .meta .permalink .icon { width: 20px; background-position: -37px top; }
-.meta .tags { margin: 0; display: block; float: none; }
+.meta .tags { margin: 0 0 10px 0; display: block; float: none; }
 .meta .tags a { color: #bbb }
 .meta .tags a:hover { color: #5a5a5a }
 .meta .share { position: absolute; right: 0; bottom: 3px; margin: 0; width: 70px; }
@@ -311,8 +311,8 @@ ol.notes li blockquote a { color: #74787A }
 .meta .share .share-box-inside { background-color: #DCE0E0; color: #aaaead; font-size: 11px; text-transform: none; width: 231px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3); -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.3); box-shadow: 0 1px 2px rgba(0,0,0,0.3); }
 .meta .share .shortlink { background-color: #2C2C2C; color: #fff; font: 400 13px/1 Helvetica, Arial, sans-serif; text-align: center; width: 231px; padding: 10px 0; border: 0; display: block; cursor: text; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 3px; -moz-border-radius: 3px 3px 0 0; border-radius: 3px 3px 0 0; }
 .meta .share iframe { margin: 6px 0 6px 8px; float: left; }
-.meta .share .plusone-btn { float: left; width: 70px;}
-.meta .share .plusone-btn iframe { width: 70px !important; float: none; margin: 6px 0 0 8px !important; }
+.meta  .plusone-btn { float: left; width: 70px;}
+.meta  .plusone-btn iframe { width: 70px !important; float: none; margin: 6px 0 0 8px !important; }
 /* Colored Posts */
 .colored-panel { padding: 24px 30px 24px; position: relative; -webkit-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2) inset; -moz-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2) inset; box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2) inset; z-index: 2; }
 .colored-panel a { border-bottom: 1px solid rgba(0,0,0,0.2); padding-bottom: 1px; margin-top: -1px; }

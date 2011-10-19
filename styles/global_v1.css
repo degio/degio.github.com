@@ -86,19 +86,12 @@ filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
 
 /* CONTACT */
 #main div.contact {border:0px solid #999;font-family:'Open Sans',sans-serif;color:#999;}
-
 .philos {width:300px;}
-
 .philos li {list-style:none;font-size:12px;font-weight:400;color:#999;letter-spacing:1.5px;margin:0 0 10px 0;padding:0;}
-
-.philos h4 {font-weight:600;}
-
+.philos h4 {padding-left:1px;font-weight:600;}
 .contact {margin-top:-10px;margin-left:90px;padding:0;}
-
 .contact H2 {letter-spacing:2px;}
-
 .contact p {font-size:15px;margin:10px 0px;padding:0;letter-spacing:2px;}
-
 .twit_con {
 	font-size:15px;
 	font-weight:400;
