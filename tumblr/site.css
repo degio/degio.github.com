@@ -304,14 +304,14 @@ ol.notes li blockquote a { color: #74787A }
 .meta .tags { margin: 0 0 10px 0; display: block; float: none; }
 .meta .tags a { color: #bbb }
 .meta .tags a:hover { color: #5a5a5a }
-.meta .share { position: absolute; right: 0; bottom: 10px; margin: 0; width: 70px; }
+.meta .share { position: absolute; right: 0; bottom: 6px; margin: 0; width: 70px; }
 .meta .share .share-btn { background: url(http://static.tumblr.com/xgwqnql/OSQlbpg0q/share.png) left top no-repeat; color: #aaa; line-height: 23px; height: 23px; padding-left: 30px; outline: 0; display: block; -webkit-border-top-left-radius: 2px; -webkit-border-top-right-radius: 2px; -moz-border-radius: 2px 2px 0 0; border-radius: 2px 2px 0 0; }
 .meta .share .share-btn:hover { background-position: left bottom; color: #4E5251; text-shadow: 0 1px 0 #fff; }
 .meta .share .share-box { background: rgba(0, 0, 0, .07); padding: 5px; display: none; position: absolute; right: 0px; top: 30px; z-index: 5; -webkit-border-radius: 6px; -moz-border-radius: 6px; border-radius: 6px; }
 .meta .share .share-box-inside { background-color: #DCE0E0; color: #aaaead; font-size: 11px; text-transform: none; width: 231px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3); -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.3); box-shadow: 0 1px 2px rgba(0,0,0,0.3); }
 .meta .share .shortlink { background-color: #2C2C2C; color: #fff; font: 400 13px/1 Helvetica, Arial, sans-serif; text-align: center; width: 231px; padding: 10px 0; border: 0; display: block; cursor: text; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 3px; -moz-border-radius: 3px 3px 0 0; border-radius: 3px 3px 0 0; }
 .meta .share iframe { margin: 6px 0 6px 8px; float: left; }
-.meta li.eltweet {margin-left:120px;}
+.meta li.eltweet {margin-left:130px;}
 .meta  .plusone-btn { float: left; width: 70px;}
 .meta  .plusone-btn iframe { width: 70px !important; float: none; margin:0!important; }
 /* Colored Posts */
