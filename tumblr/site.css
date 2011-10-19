@@ -311,7 +311,8 @@ ol.notes li blockquote a { color: #74787A }
 .meta .share .share-box-inside { background-color: #DCE0E0; color: #aaaead; font-size: 11px; text-transform: none; width: 231px; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; -webkit-box-shadow: 0 1px 2px rgba(0,0,0,0.3); -moz-box-shadow: 0 1px 2px rgba(0,0,0,0.3); box-shadow: 0 1px 2px rgba(0,0,0,0.3); }
 .meta .share .shortlink { background-color: #2C2C2C; color: #fff; font: 400 13px/1 Helvetica, Arial, sans-serif; text-align: center; width: 231px; padding: 10px 0; border: 0; display: block; cursor: text; -webkit-border-top-left-radius: 3px; -webkit-border-top-right-radius: 3px; -moz-border-radius: 3px 3px 0 0; border-radius: 3px 3px 0 0; }
 .meta .share iframe { margin: 6px 0 6px 8px; float: left; }
-.meta  .plusone-btn { float: right; width: 70px;}
+.meta li.elgoog {margin-left:120px;}
+.meta  .plusone-btn { float: left; width: 70px;}
 .meta  .plusone-btn iframe { width: 70px !important; float: none; margin:0!important; }
 /* Colored Posts */
 .colored-panel { padding: 24px 30px 24px; position: relative; -webkit-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2) inset; -moz-box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2) inset; box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.06) inset, 0 0 0 1px rgba(0, 0, 0, 0.2) inset; z-index: 2; }
