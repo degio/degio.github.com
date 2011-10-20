@@ -36,6 +36,16 @@ input, textarea { font-family: Helvetica, Arial, sans-serif; -webkit-appearance:
 * html .clearfix { height: 1% }
 html[xmlns] .clearfix { display: block }
 
+/* Universals */
+.mshadow {	box-shadow: rgba(0,0,0,0.30) 0 1px 3px;
+	-webkit-box-shadow: rgba(0,0,0,0.30) 0 1px 3px;
+	-moz-box-shadow: rgba(0,0,0,0.30) 0 1px 3px;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-o-border-radius: 4px;
+}
+
 /* SELF-CLEARING FLOATS
 ----------------------------------------------------------------------*/
 #branding:after, .inner:after, #posts:after, .media:after, .post-panel:after, .meta:after, #socialize:after, #followed-list:after, #followed-wrap:after, #scrollable-wrap:after, .side-box:after, #pagination:after, #footer-end:after, #footer-links:after, ul.chat:after, ul.chat li:after, #likes:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
@@ -87,11 +97,14 @@ html[xmlns] .clearfix { display: block }
 .textual { margin: 15px 0 75px; text-align: center;}
 #content { width: 500px;}
 #sidebar, #footer { font-size: 12px; line-height: 19px; }
-#sidebar { float: left; width: 180px; margin-bottom: 80px; }
+#sidebar { float: left; width: 200px; margin-bottom: 80px; }
 .side-box { padding: 25px 0 }
 .side-box li { padding: 3px 0 }
 .side-box p { margin-bottom: 18px }
+#sidebar #blog-info {width:200px;background:#fff;margin:10px;padding:10px 0px;font-family:'Open Sans',arial,sans-serif;font-weight:400;font-size:12px;color:#7f7f7f;border:1px solid #ddd;}
 #sidebar #blog-info > *:last-child { margin-bottom: 0 }
+#sidebar #blog-info .description h2{font-size:1.5em;margin-bottom:10px;padding-bottom:2px;font-weight:700;color:#7b7b7b;border-bottom:1px solid #d2d2d2;}
+#sidebar #blog-info .description {padding:0px 15px 15px 15px;}
 #sidebar #search { padding: 0 0 25px 0; float: none; }
 #sidebar .logo img { max-width: 180px; }
 #sidebar .blog-title { font-size: 22px }
@@ -479,9 +492,9 @@ ol.notes li blockquote a { color: #74787A }
 .left-sidebar #content { float: right }
 .left-sidebar #infscr-loading { right: auto; left: 30px; }
 .content-500 .right-sidebar #content, .content-600 .right-sidebar #content { margin-right: 80px }
-.content-700 .right-sidebar #content { margin-right: 60px }
+.content-700 .right-sidebar #content { margin-right: 40px }
 .content-500 .left-sidebar #content, .content-600 .left-sidebar #content { margin-left: 80px }
-.content-700 .left-sidebar #content { margin-left: 60px }
+.content-700 .left-sidebar #content { margin-left: 40px }
 /* non-inverted: */
 .blog-title a, #sidebar h2, #footer h2, #footer-end a, .pages a, .menu a, .more-likes, .like_link a { color: #000; color: rgba(0,0,0,0.75); }
 /* inverted: */
