@@ -152,6 +152,7 @@ html[xmlns] .clearfix { display: block }
 /*Twitter*/
 #twitter {background:#fff;padding:0px 15px 15px 15px;font-family:'Open Sans','lucida grande',tahoma,verdana,arial,sans-serif;}
 #twitter h2 {color:#65737c;}
+#twitter img {border:0;display:block;margin:10px 0 15px 0;}
 #twitter .profile { padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px dashed rgba(0, 0, 0, 0.15); }
 #twitter .profile .avatar { float: left; margin: 0 8px 2px 0; }
 #twitter .profile .avatar img { width: 32px; height: 32px; padding: 3px; background: #fff; }
@@ -159,8 +160,8 @@ html[xmlns] .clearfix { display: block }
 #twitter .profile .username { font-size: 16px; font-weight: bold; margin: 0; }
 #twitter .profile .name { font-size: 12px; font-weight: normal; }
 #twitter .profile .bio { font-size: 13px; font-family: georgia, serifl; font-style: italic; padding: 2px 0; }
-#twitter .tweets li {border-bottom:1px solid #eee;padding:20px 0 10px 0;}
-#twitter .tweets li:first-child { padding-top: 0 }
+#twitter .tweets li {border-bottom:1px solid #eee;padding:10px 0 10px 0;}
+#twitter .tweets li:first-child {padding-top:0;border-top:1px solid #eee;}
 #twitter .tweets li:last-child {border:0;padding-bottom:0;}
 #twitter .tweets li a { display: inline; padding: 0; }
 #twitter p { word-wrap: break-word; margin: 0; }
