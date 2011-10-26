@@ -81,7 +81,7 @@ html[xmlns] .clearfix { display: block }
 .menu .rss .icon { background-position: -38px -16px }
 .menu .ask .icon { background-position: -73px -16px; width: 17px; }
 .menu .submit .icon { background-position: -54px -16px; width: 19px; }
-#search { width: 180px; padding: 0 0 0 35px; margin-top:42px; float: right; }
+#search { width: 180px; padding:0; margin-top:42px; float: right; }
 #search-form { width: 185px; padding:0; position: relative; }
 #search-form span { background: url(http://static.tumblr.com/njty47g/MVTleufew/search.png) left top no-repeat; height: 32px; display: block; position: absolute; top: 0; }
 #search-form .left { width: 29px; left: 0; }
@@ -150,7 +150,7 @@ html[xmlns] .clearfix { display: block }
 /* TUMBLR FEATURES & WIDGETS
 -------------------------------------------------------------- */
 /*Twitter*/
-#twitter {background:#fff;}
+#twitter {background:#fff;padding:0px 15px 15px 15px;}
 #twitter h2 {color:#65737c;}
 #twitter .profile { padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px dashed rgba(0, 0, 0, 0.15); }
 #twitter .profile .avatar { float: left; margin: 0 8px 2px 0; }
@@ -164,7 +164,9 @@ html[xmlns] .clearfix { display: block }
 #twitter .tweets li:last-child { border: 0; padding-bottom: 0; }
 #twitter .tweets li a { display: inline; padding: 0; }
 #twitter p { word-wrap: break-word; margin: 0; }
-#twitter .tweet-meta { font-size: 11px; display: block; padding-top: 3px; }
+#twitter .tweet-meta {font-size:10px;display:block;padding-top:5px;}
+#twitter .tweet-meta a, #twitter .tweet-meta a:link, #twitter .tweet-meta a:visited {color:#eee;}
+#twitter .tweet-meta a:hover, #twitter .tweet-meta a:active {color:#999;text-decoration:underline;}
 /* Followed Blogs */
 #followed h2 span { font-weight: normal; : ; font-style: italic; }
 #followed-wrap { overflow: hidden; margin-bottom: 5px; }
@@ -275,7 +277,7 @@ ol.notes li blockquote a { color: #74787A }
 .copy, .notes { color: #626566 }
 .copy { padding-top: 30px; margin: 0 30px; clear: both; word-wrap: break-word; }
 .copy .post-title { font-size: 22px; margin: 0 0 25px 0; }
-.copy .post-title a:hover, .copy a:hover, ol.notes a:hover, #dsq-comments a:hover, #dsq-options a:hover { background-color: #fff7a5 }
+.copy .post-title a:hover, .copy a:hover, ol.notes a:hover, #dsq-comments a:hover, #dsq-options a:hover {background-color:#eaecee;}
 .copy .post-title a { border: 0; margin: 0; }
 .copy h1, .copy h2, .copy h3, .copy h4, .copy h5 { margin-bottom: 10px; margin-top: 25px; }
 .copy h1:first-child, .copy h2:first-child, .copy h3:first-child, .copy h4:first-child, .copy h5:first-child { margin-top: 0;}
@@ -423,7 +425,7 @@ ol.notes li blockquote a { color: #74787A }
 
 /* @group LINKS
 -------------------------------------------------------------- */
-.type-link .post-title a { background-color: #F5FAF9; padding: 5px 15px 5px 38px; display: inline-block; position: relative; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.type-link .post-title a { background-color: #eaecee; padding: 5px 15px 5px 38px; display: inline-block; position: relative; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
 .type-link .post-title a .icon { background: url(http://static.tumblr.com/xgwqnql/w6zlbpg36/paperclip.png) left top no-repeat; left: 10px; top: 9px; width: 17px; height: 20px; display: block; }
 .type-link .post-title a:hover { color: #3C4042 }
 .type-link .post-title a:hover .icon { opacity: 1 }
