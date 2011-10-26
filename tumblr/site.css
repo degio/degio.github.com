@@ -37,9 +37,9 @@ input, textarea { font-family: Helvetica, Arial, sans-serif; -webkit-appearance:
 html[xmlns] .clearfix { display: block }
 
 /* Universals */
-.mshadow {	box-shadow: rgba(0,0,0,0.30) 0 1px 3px;
-	-webkit-box-shadow: rgba(0,0,0,0.30) 0 1px 3px;
-	-moz-box-shadow: rgba(0,0,0,0.30) 0 1px 3px;
+.mshadow {	box-shadow: rgba(0,0,0,0.15) 0 3px 10px;
+	-webkit-box-shadow: rgba(0,0,0,0.15) 0 3px 10px;
+	-moz-box-shadow: rgba(0,0,0,0.15) 0 3px 10px;
 	border-radius: 4px;
 	-webkit-border-radius: 4px;
 	-moz-border-radius: 4px;
@@ -86,7 +86,7 @@ html[xmlns] .clearfix { display: block }
 #search-form span { background: url(http://static.tumblr.com/njty47g/MVTleufew/search.png) left top no-repeat; height: 32px; display: block; position: absolute; top: 0; }
 #search-form .left { width: 29px; left: 0; }
 #search-form .right { width: 16px; right: 0; background-position: right top; }
-#search-form input[type="text"] {display:inline-block;color:#999;background:#f7f7f7;font-family:'Open Sans',Arial,Helvetica Neue,sans-serif;font-size:12px;font-weight:400;height: 23px;padding: 5px 0 4px;border:0;width:135px;line-height:24px;}
+#search-form input[type="text"] {display:inline-block;color:#999;background:#f7f7f7;font-family:'Open Sans',Arial,Helvetica Neue,sans-serif;font-size:12px;font-weight:400;width:185px;height:20px;line-height:16px;padding:5px 4px 4px 6px;border:0;}
 #search-form input[type="text"]:hover {outline:none;border:0px solid #d9d9d9;}
 #search-form input[type="text"]:focus {color:#444;background:#fff;outline:none;border:0px solid #c9c9c9;}
 .searchInset {	-webkit-box-shadow: inset 1px 2px 3px rgba(0,0,0,0.2);
