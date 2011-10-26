@@ -81,7 +81,7 @@ html[xmlns] .clearfix { display: block }
 .menu .rss .icon { background-position: -38px -16px }
 .menu .ask .icon { background-position: -73px -16px; width: 17px; }
 .menu .submit .icon { background-position: -54px -16px; width: 19px; }
-#search { width: 180px; padding:0; margin-top:35px; float: right; }
+#search { width: 180px; padding:0; margin-top:30px; float: right; }
 #search-form { width: 185px; padding:0; position: relative; }
 #search-form span { background: url(http://static.tumblr.com/njty47g/MVTleufew/search.png) left top no-repeat; height: 32px; display: block; position: absolute; top: 0; }
 #search-form .left { width: 29px; left: 0; }
@@ -284,7 +284,7 @@ ol.notes li blockquote a { color: #74787A }
 .copy h1:first-child, .copy h2:first-child, .copy h3:first-child, .copy h4:first-child, .copy h5:first-child { margin-top: 0;}
 .copy h1, .auto-headings .copy p:first-child strong:first-child { font-size: 20px }
 .copy p, .copy ul, .copy ol, .copy img, .copy blockquote { margin-bottom: 20px }
-.copy p {font-size:0.8em;}
+.copy p {font-size:1.1em;}
 .copy p img:last-child { margin: 0; }
 .copy hr { background-color: #e0e2e1; margin: 30px 0; border: 0; height: 1px; }
 .copy .lead { font-size: 20px; color: #A4A6A5; line-height: 1.4; font-weight: 300; }
