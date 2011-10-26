@@ -159,13 +159,13 @@ html[xmlns] .clearfix { display: block }
 #twitter .profile .username { font-size: 16px; font-weight: bold; margin: 0; }
 #twitter .profile .name { font-size: 12px; font-weight: normal; }
 #twitter .profile .bio { font-size: 13px; font-family: georgia, serifl; font-style: italic; padding: 2px 0; }
-#twitter .tweets li {border-bottom:1px solid #eee;padding:20px 0 0 0;}
+#twitter .tweets li {border-bottom:1px solid #eee;padding:20px 0 10px 0;}
 #twitter .tweets li:first-child { padding-top: 0 }
 #twitter .tweets li:last-child {border:0;padding-bottom:0;}
 #twitter .tweets li a { display: inline; padding: 0; }
 #twitter p { word-wrap: break-word; margin: 0; }
-#twitter .tweet-meta {display:block;color:#9f9f9f;font-size:10px;padding-top:5px;}
-#twitter .tweet-meta a, #twitter .tweet-meta a:link, #twitter .tweet-meta a:visited {color:#9f9f9f;}
+#twitter .tweet-meta {display:block;color:#bbb;font-size:10px;padding-top:3px;}
+#twitter .tweet-meta a, #twitter .tweet-meta a:link, #twitter .tweet-meta a:visited {color:#bbb;}
 #twitter .tweet-meta a:hover, #twitter .tweet-meta a:active {color:#777;text-decoration:underline;}
 /* Followed Blogs */
 #followed h2 span { font-weight: normal; : ; font-style: italic; }
@@ -425,7 +425,7 @@ ol.notes li blockquote a { color: #74787A }
 
 /* @group LINKS
 -------------------------------------------------------------- */
-.type-link .post-title a { background-color: #eaecee; padding: 5px 15px 5px 38px; display: inline-block; position: relative; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
+.type-link .post-title a { background-color: #fcfcfc; padding: 5px 15px 5px 38px; display: inline-block; position: relative; -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px; }
 .type-link .post-title a .icon { background: url(http://static.tumblr.com/xgwqnql/w6zlbpg36/paperclip.png) left top no-repeat; left: 10px; top: 9px; width: 17px; height: 20px; display: block; }
 .type-link .post-title a:hover { color: #3C4042 }
 .type-link .post-title a:hover .icon { opacity: 1 }
