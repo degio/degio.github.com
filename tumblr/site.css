@@ -110,7 +110,7 @@ html[xmlns] .clearfix { display: block }
 .side-box { padding: 25px 0 }
 .side-box li { padding: 3px 0 }
 .side-box p { margin-bottom: 18px }
-#sidebar #blog-info {width:200px;background:#fff;padding:10px 0px;font-family:'Open Sans',arial,sans-serif;font-weight:400;font-size:12px;color:#7f7f7f;border:0px solid #d9d9d9;}
+#sidebar #blog-info {width:200px;background:#fff;padding:10px 0px;font-family:'Open Sans','lucida grande',tahoma,verdana,arial,sans-serif;font-weight:400;font-size:12px;color:#7f7f7f;border:0px solid #d9d9d9;}
 #sidebar #blog-info > *:last-child { margin-bottom: 0 }
 #sidebar #blog-info .description h2{font-size:1.5em;margin-bottom:10px;padding-bottom:2px;font-weight:300;color:#65737c;border-bottom:1px solid #eee;}
 #sidebar #blog-info .description {padding:0px 15px 15px 15px;}
@@ -150,7 +150,7 @@ html[xmlns] .clearfix { display: block }
 /* TUMBLR FEATURES & WIDGETS
 -------------------------------------------------------------- */
 /*Twitter*/
-#twitter {background:#fff;padding:0px 15px 15px 15px;}
+#twitter {background:#fff;padding:0px 15px 15px 15px;font-family:'Open Sans','lucida grande',tahoma,verdana,arial,sans-serif;}
 #twitter h2 {color:#65737c;}
 #twitter .profile { padding-bottom: 20px; margin-bottom: 20px; border-bottom: 1px dashed rgba(0, 0, 0, 0.15); }
 #twitter .profile .avatar { float: left; margin: 0 8px 2px 0; }
@@ -159,14 +159,14 @@ html[xmlns] .clearfix { display: block }
 #twitter .profile .username { font-size: 16px; font-weight: bold; margin: 0; }
 #twitter .profile .name { font-size: 12px; font-weight: normal; }
 #twitter .profile .bio { font-size: 13px; font-family: georgia, serifl; font-style: italic; padding: 2px 0; }
-#twitter .tweets li { border-bottom: 1px dashed rgba(0,0,0,0.15); padding: 20px 0; }
+#twitter .tweets li {border-bottom:1px solid #eee;padding:20px 0 0 0;}
 #twitter .tweets li:first-child { padding-top: 0 }
-#twitter .tweets li:last-child { border: 0; padding-bottom: 0; }
+#twitter .tweets li:last-child {border:0;padding-bottom:0;}
 #twitter .tweets li a { display: inline; padding: 0; }
 #twitter p { word-wrap: break-word; margin: 0; }
-#twitter .tweet-meta {font-size:10px;display:block;padding-top:5px;}
-#twitter .tweet-meta a, #twitter .tweet-meta a:link, #twitter .tweet-meta a:visited {color:#eee;}
-#twitter .tweet-meta a:hover, #twitter .tweet-meta a:active {color:#999;text-decoration:underline;}
+#twitter .tweet-meta {display:block;color:#9f9f9f;font-size:10px;padding-top:5px;}
+#twitter .tweet-meta a, #twitter .tweet-meta a:link, #twitter .tweet-meta a:visited {color:#9f9f9f;}
+#twitter .tweet-meta a:hover, #twitter .tweet-meta a:active {color:#777;text-decoration:underline;}
 /* Followed Blogs */
 #followed h2 span { font-weight: normal; : ; font-style: italic; }
 #followed-wrap { overflow: hidden; margin-bottom: 5px; }
