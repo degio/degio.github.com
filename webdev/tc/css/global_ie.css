@@ -130,9 +130,9 @@ a:visted {
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	-webkit-box-sizing: border-box; /*  WebKit */
-    -moz-box-sizing: border-box;    /* Firefox */
-    box-sizing: border-box;         /* Opera/IE 8+ */
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #tc_content #item_form ul li .green_button {
@@ -145,7 +145,7 @@ a:visted {
 	line-height: 16px;
 }
 
-#tc_content #item_form button {
+#tc_content #item_form #add_button {
 	background-image: url(../images/add_btn.gif);
 	cursor: pointer;
 	display: inline;
@@ -154,7 +154,7 @@ a:visted {
 	width: 65px;
 }
 
-#tc_content #item_form button:hover {
+#tc_content #item_form #add_button:hover {
 	background-image: url(../images/add_btn_hover.gif);
 }
 
