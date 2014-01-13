@@ -164,8 +164,6 @@ a:visted {
 	background-image: url(../images/white_right_arrow.png);
 	background-repeat: no-repeat;
 	background-position: right center;
-	width: 42px;
-	height: 16px;
 	cursor:pointer;
 }
 
