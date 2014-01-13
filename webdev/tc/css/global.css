@@ -67,7 +67,7 @@ a:visted {
 }
 
 #home #tc_content {
-	background: #fff;
+	background: #ffffff;
 	min-height: 459px;
 	margin: 0 0 39px 0;
 	padding: 20px;
@@ -120,9 +120,9 @@ a:visted {
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
-	-webkit-box-sizing: border-box; /*  WebKit */
-    -moz-box-sizing: border-box;    /* Firefox */
-    box-sizing: border-box;         /* Opera/IE 8+ */
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 #tc_content #item_form ul li .green_button {
@@ -135,7 +135,7 @@ a:visted {
 	border-radius: 3px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
-	color: #fff;
+	color: #ffffff;
 	font-family: Arial,sans-serif;
 	font-size: 14px;
 	font-weight: bold;
@@ -224,7 +224,7 @@ a:visted {
 	font-weight: normal;
 	letter-spacing: 0px;
 	line-height: 18px;
-	margin: 0 0 0 0;
+	margin: 0;
 	padding: 0;
 }
 
