@@ -205,7 +205,7 @@ a:visted {
 }
 
 .shadow {
-	box-shadow: 1px 1px 8px 0 rgba(0,0,0,0.50);
+	box-shadow: 2px 2px 7px 0 rgba(0,0,0,0.40);
 	-webkit-box-shadow: 1px 1px 7px 0 rgba(0,0,0,0.45);
 	-moz-box-shadow: 2px 2px 6px 0 rgba(0,0,0,0.40);
 }
