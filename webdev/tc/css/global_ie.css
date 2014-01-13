@@ -166,6 +166,7 @@ a:visted {
 }
 
 #tc_content #item_form #load_button {
+	background-color: #76ab4a;
 	background-image: url(../images/load_btn.gif);
 	cursor: pointer;
 	display: inline;
@@ -175,6 +176,7 @@ a:visted {
 }
 
 #tc_content #item_form #load_button:hover {
+	background-color: #76ab4a;
 	background-image: url(../images/load_btn_hover.gif);
 }
 
