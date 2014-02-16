@@ -15,7 +15,7 @@
 	jQuery(document).ready(function($) {
 		$('#menu:eq(0)> ul').hide();
 		$('#menu:eq(0)> p').click(function() {
-			$(this).next('ul:hidden').slideDown('fast')
+			$(this).next('ul:hidden').slideDown(10000)
 			.siblings('ul:visible').slideUp('fast');
 		});
 	});
