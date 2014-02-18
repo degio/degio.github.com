@@ -167,7 +167,7 @@ a:visted {
 	display: block;
 	float: left;
 	width: 220px;
-	height: auto;
+	height: 146px;
 	border-radius: 0px;
 }
 
@@ -211,7 +211,16 @@ a:visted {
 	border-right: 1px solid #ddd;
 }
 
-#bottom_posts img {
+#bottom_posts .large_post {
+	width: 100%;
+	float: left;
+	clear: both;
+	padding: 0;
+	margin: 0 0 30px 0;
+	border-bottom: 1px solid #ddd;
+}
+
+#bottom_posts .large_post img {
 	display: block;
 	float: left;
 	clear: both;
@@ -222,7 +231,7 @@ a:visted {
 	padding: 0;
 }
 
-#bottom_posts h2 {
+#bottom_posts .large_post h3 {
 	clear: both;
 	color: #222222;
 	font-family: 'PT Serif', serif;
@@ -234,7 +243,7 @@ a:visted {
 	text-transform: uppercase;
 }
 
-#bottom_posts p {
+#bottom_posts .large_post p {
 	color: #555;
 	font-family: 'Open Sans',helvetica, arial, sans-serif;
 	font-size: 12px;
