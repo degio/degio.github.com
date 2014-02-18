@@ -89,6 +89,7 @@ a:visted {
 
 #rs_content a.more_link, #rs_content_bottom a.more_link {
 	font-family: 'PT Serif', serif;
+	font-size: 12px;
 	font-weight: 700;
 }
 
@@ -220,7 +221,7 @@ a:visted {
 	border-bottom: 1px solid #ddd;
 }
 
-#bottom_posts .large_post img {
+.large_post img {
 	display: block;
 	float: left;
 	clear: both;
@@ -231,7 +232,7 @@ a:visted {
 	padding: 0;
 }
 
-#bottom_posts .large_post h3 {
+.large_post h3 {
 	clear: both;
 	color: #222222;
 	font-family: 'PT Serif', serif;
@@ -243,7 +244,7 @@ a:visted {
 	text-transform: uppercase;
 }
 
-#bottom_posts .large_post p {
+.large_post p {
 	color: #555;
 	font-family: 'Open Sans',helvetica, arial, sans-serif;
 	font-size: 12px;

@@ -47,69 +47,17 @@
                   <li>
                       <a href="{PostID}">
                           {block:HighRes}
-                            <img src="{PhotoURL-HighRes}" alt="{PhotoAlt}">
+                            <img src="{PhotoURL-HighRes}" alt="" />
                           {/block:HighRes}
                       </a>
-                      <h3>
-                          <a href="{PostID}">{block:Title}{Title}{/block:Title}</a>
-                      </h3>
-                      <p>
                           {block:Caption}
-                            <p>
                                 {Caption}
-                            </p>
                           {/block:Caption}
                           <br />
-                          <a class="more_link" href="">Read more »</a>
-                      </p>
+                          <a class="more_link" href="#{PostID}">Read more »</a>
                   </li>
               {/block:Photo}
             {/block:Posts}
-              <li>
-                  <a href="">
-                    <img src="images/image_1.jpg" alt="RocknSugar" />
-                  </a>    
-                  <h3><a href="">'64 Dodge</a></h3>
-                  <p>
-                      This ain't no drive-by love, don't want no hit and run
-
-                      <br />
-                      <a class="more_link" href="">Read more »</a>
-                  </p>
-              </li>
-              <li>
-                  <a href="">
-                    <img src="images/image_3.jpg" alt="RocknSugar" />
-                  </a>    
-                  <h3><a href="">Free People Wannabe</a></h3>
-                  <p>
-                      You can't tell me you have never looked at a Free People ad and dreamt of looking the exact
-                      <br />
-                      <a class="more_link" href="">Read more »</a>
-                  </p>
-              </li>
-              <li>
-                <a href="">
-                  <img src="images/image_3.jpg" alt="RocknSugar" />
-                </a>    
-                <h3><a href="">Blog Post Goes Here</a></h3>
-                <p>
-                    gfg dfgdfg dfg df gdf g dfg dfg dfgdfg dfgdf gd fgdg
-                    <br />
-                     <a class="more_link" href="">Read more »</a>
-                </p>
-              </li>
-              <li>
-                <a href="">
-                  <img src="images/image_3.jpg" alt="RocknSugar" />
-                </a>    
-                <h3><a href="">Blog Post Goes Here</a></h3>
-                <p>
-                    gfg dfgdfg dfg df gdf g dfg dfg dfgdfg dfgdf gd fgdg
-                     <br />
-                    <a class="more_link" href="">Read more »</a>
-                </p>
-              </li>
           </ul>
         </div>
   </div>
@@ -118,20 +66,18 @@
     <div class="grid_12" >
 
         <div class="bottom_posts">
+            {block:Posts}
+              {block:Photo}
               <div id="{PostID}" class="large_post">
-                    <a href="">
-                      <img src="images/image_0.jpg" alt="RocknSugar" />
-                    </a>
-                    <h2>
-                        <a href="">Deja Vu</a>
-                    </h2>
+                    {block:HighRes}
+                      <img src="{PhotoURL-HighRes}" alt="" />
+                    {/block:HighRes}
                     {block:Caption}
-                       <p>
                         {Caption}
-                      </p>
                     {/block:Caption}
-                    {Body}
               </div>
+              {/block:Photo}
+            {/block:Posts}
         </div>
     </div>
     <div class="grid_4">
