@@ -92,46 +92,6 @@ a:visted {
 	font-weight: 700;
 }
 
-#first_post {
-	width: 100%;
-	float: left;
-	clear: both;
-	padding: 0 0 15px 0;
-	margin: 0; 
-	border-bottom: 1px solid #ddd;
-}
-
-#first_post img {
-	display: block;
-	float: left;
-	clear: left;
-	width: 700px;
-	height: auto;
-	border-radius: 0px;
-	margin: 0 20px 0 0;
-	padding: 0;
-}
-
-#first_post h2, #bottom_posts h2 {
-	color: #222222;
-	font-family: 'PT Serif', serif;
-	font-size: 20px;
-	letter-spacing: 1px;
-	line-height: 26px;
-	margin: 0;
-	padding: 0;
-	text-transform: uppercase;
-}
-
-#first_post p, #bottom_posts p {
-	color: #555;
-	font-family: 'Open Sans',helvetica, arial, sans-serif;
-	font-size: 12px;
-	letter-spacing: 1px;
-	line-height: 18px;
-	text-align: justify;
-}
-
 #posts {
 	width: 100%;
 	float: left;
@@ -146,6 +106,51 @@ a:visted {
 	position: relative;
 	margin: 0;
 	padding: 0;
+}
+
+#posts ul li:first-child {
+	width: 100%;
+	float: left;
+	clear: both;
+	padding: 0 0 15px 0;
+	margin: 0 0 15px 0; 
+	border-bottom: 1px solid #ddd;
+}
+
+#posts ul li:first-child img {
+	display: block;
+	float: left;
+	clear: left;
+	width: 700px;
+	height: auto;
+	border-radius: 0px;
+	margin: 0 20px 0 0;
+	padding: 0;
+}
+
+#posts ul li:first-child h3 {
+	float: left;
+	clear: right;
+	color: #222222;
+	font-family: 'PT Serif', serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 26px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+#posts ul li:first-child p {
+	float: left;
+	clear: right;
+	width: 220px;	
+	color: #555;
+	font-family: 'Open Sans',helvetica, arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 18px;
+	text-align: justify;
 }
 
 #posts ul li {
@@ -219,12 +224,25 @@ a:visted {
 
 #bottom_posts h2 {
 	clear: both;
+	color: #222222;
+	font-family: 'PT Serif', serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	line-height: 26px;
+	margin: 0;
+	padding: 0;
+	text-transform: uppercase;
 }
 
 #bottom_posts p {
+	color: #555;
+	font-family: 'Open Sans',helvetica, arial, sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	line-height: 18px;
+	text-align: justify;
 	padding-right: 35px;
 }
-
 
 
 /* Sidebar Main Page */
