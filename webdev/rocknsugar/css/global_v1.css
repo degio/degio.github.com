@@ -155,6 +155,13 @@ a:visted {
 	padding: 0;
 }
 
+#posts ul li:first-child a.more_link {
+	display: block;
+	float: left;
+	clear: right;
+	font-size: 12px;
+}
+
 #posts ul li {
 	display: block;
 	float: left;
@@ -193,6 +200,13 @@ a:visted {
 	line-height: 16px;
 	margin: 0;
 	padding: 0;
+}
+
+#posts ul li a.more_link {
+	display: block;
+	float: left;
+	clear: right;
+	font-size: 11px;
 }
 
 /* Large Bottom Posts */
