@@ -89,7 +89,6 @@ a:visted {
 
 #rs_content a.more_link, #rs_content_bottom a.more_link {
 	font-family: 'PT Serif', serif;
-	font-size: 12px;
 	font-weight: 700;
 }
 
@@ -137,7 +136,7 @@ a:visted {
 	font-size: 20px;
 	letter-spacing: 1px;
 	line-height: 26px;
-	margin: 0;
+	margin: 0 0 1em 0;
 	padding: 0;
 	text-transform: uppercase;
 }
@@ -152,6 +151,8 @@ a:visted {
 	letter-spacing: 1px;
 	line-height: 18px;
 	text-align: justify;
+	margin: 0;
+	padding: 0;
 }
 
 #posts ul li {
@@ -178,7 +179,7 @@ a:visted {
 	font-size: 14px;
 	letter-spacing: 1px;
 	line-height: 16px;
-	margin: 0;
+	margin: 0 0 1em 0;
 	padding: 5px 4px 0 4px;
 	text-transform: uppercase;
 }
@@ -190,6 +191,8 @@ a:visted {
 	font-size: 11px;
 	letter-spacing: 0px;
 	line-height: 16px;
+	margin: 0;
+	padding: 0;
 }
 
 /* Large Bottom Posts */
