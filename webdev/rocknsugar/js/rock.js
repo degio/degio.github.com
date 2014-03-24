@@ -18,8 +18,8 @@
     post.hide().filter(':lt(5)').show();
 
     // Limits the characters in the top posts but skips the first one
-    postpara.text(function(index, text) {
-      return text.substr(0, 180)+'...';
+    postpara.slice(1).text(function(index, text) {
+      return text.substr(0, 175)+'...';
     });
 
   });
