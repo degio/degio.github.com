@@ -1,0 +1,271 @@
+/* Global Defaults
+-------------------------------------------------- */
+
+body > .container {
+  font-family:'Didact Gothic';
+}
+
+
+/* Navbar
+-------------------------------------------------- */
+#rns-scrollbar {
+  font-family:'Didact Gothic';
+}
+
+
+/* AFFIXED Nav */
+#rns-scrollbar.affix {
+  background-color: #000;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.affix.navbar-rns .navbar-brand {
+  color: #fff;
+}
+.affix.navbar-rns .navbar-brand:hover,
+.affix.navbar-rns .navbar-brand:focus {
+  color: #fff;
+}
+.affix.navbar-rns .navbar-text {
+  color: #fff;
+}
+.affix.navbar-rns .navbar-nav > li > a {
+  color: #fff;
+}
+.affix.navbar-rns .navbar-nav > li > a:hover,
+.affix.navbar-rns .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+  border-bottom: 1px solid #222;
+}
+.affix.navbar-rns .navbar-nav > .active > a,
+.affix.navbar-rns .navbar-nav > .active > a:hover,
+.affix.navbar-rns .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: transparent;
+  border-bottom: 1px solid #333;
+}
+.affix.navbar-rns .navbar-nav > .disabled > a,
+.affix.navbar-rns .navbar-nav > .disabled > a:hover,
+.affix.navbar-rns .navbar-nav > .disabled > a:focus {
+  color: #999;
+  background-color: transparent;
+}
+.affix.navbar-rns .navbar-nav > .open > a,
+.affix.navbar-rns .navbar-nav > .open > a:hover,
+.affix.navbar-rns .navbar-nav > .open > a:focus {
+  color: #222;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  -moz-box-shadow:    inset 0 5px 11px -6px #333;
+  -webkit-box-shadow: inset 0 5px 11px -6px #333;
+  box-shadow:         inset 0 5px 11px -6px #333;
+}
+
+
+
+
+/* Normal Nav */
+#rns-scrollbar.affix-top {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+.affix-top.navbar-rns .navbar-brand {
+  color: #222;
+}
+.affix-top.navbar-rns .navbar-brand:hover,
+.affix-top.navbar-rns .navbar-brand:focus {
+  color: #222;
+}
+.affix-top.navbar-rns .navbar-text {
+  color: #222;
+}
+.affix-top.navbar-rns .navbar-nav > li > a {
+  color: #222;
+}
+.affix-top.navbar-rns .navbar-nav > li > a:hover,
+.affix-top.navbar-rns .navbar-nav > li > a:focus {
+  color: #000;
+  background-color: transparent;
+  border-bottom: 1px solid #000;
+}
+.affix-top.navbar-rns .navbar-nav > .active > a,
+.affix-top.navbar-rns .navbar-nav > .active > a:hover,
+.affix-top.navbar-rns .navbar-nav > .active > a:focus {
+  color: #222;
+  background-color: transparent;
+  border-bottom: 1px solid #eee;
+}
+.affix-top.navbar-rns .navbar-nav > .disabled > a,
+.affix-top.navbar-rns .navbar-nav > .disabled > a:hover,
+.affix-top.navbar-rns .navbar-nav > .disabled > a:focus {
+  color: #999;
+  background-color: transparent;
+}
+.affix-top.navbar-rns .navbar-nav > .open > a,
+.affix-top.navbar-rns .navbar-nav > .open > a:hover,
+.affix-top.navbar-rns .navbar-nav > .open > a:focus {
+  color: #222;
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  border-bottom: 0;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+
+
+
+
+
+.navbar-rns {
+  border: none;
+}
+.navbar-rns .navbar-brand {
+  letter-spacing: 2px;
+}
+.navbar-rns .navbar-brand:hover,
+.navbar-rns .navbar-brand:focus {
+  background-color: transparent;
+}
+.navbar-rns .navbar-nav > li > a {
+  font-family: Cinzel;
+  font-size: 1em;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  border-bottom: 1px solid transparent;
+}
+.navbar-rns .navbar-nav > li > a:hover,
+.navbar-rns .navbar-nav > li > a:focus {
+  background-color: transparent;
+}
+.navbar-rns .navbar-nav > .disabled > a,
+.navbar-rns .navbar-nav > .disabled > a:hover,
+.navbar-rns .navbar-nav > .disabled > a:focus {
+  background-color: transparent;
+}
+.navbar-rns .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+
+@media (max-width: 767px) {
+  .affix-top.navbar-rns {
+  background: #000;
+  }
+  .affix-top.navbar-rns .navbar-brand, .affix.navbar-rns .navbar-brand {
+  color: #fff;
+  }
+  .navbar-rns .navbar-brand:hover,
+  .navbar-rns .navbar-brand:focus {
+  color: #fff !important;
+  }
+  .affix-top.navbar-rns .navbar-text, .affix.navbar-rns .navbar-text {
+  color: #fff;
+  }
+  .navbar-rns .navbar-nav > li > a {
+  color: #fff !important;
+  border-bottom: 0 !important;
+  }
+  .navbar-rns .navbar-nav > li > a:hover,
+  .navbar-rns .navbar-nav > li > a:focus {
+  color: #fff !important;
+  background-color: transparent;
+  border-bottom: 0 !important;
+  }
+  .navbar-rns .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #000;
+  }
+  .navbar-rns .navbar-nav .open .dropdown-menu .divider {
+    background-color: #444;
+  }
+  .navbar-rns .navbar-nav .open .dropdown-menu > li > a {
+    color: #999;
+  }
+  .navbar-rns .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-rns .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: #000 !important;
+  }
+  .navbar-rns .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-rns .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-rns .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #000;
+  }
+  .navbar-rns .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-rns .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-rns .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #222;
+    background-color: transparent;
+  }
+  .navbar-rns .navbar-toggle {
+    border-color: #ddd;
+  }
+  .navbar-rns .navbar-toggle:hover,
+  .navbar-rns .navbar-toggle:focus {
+    background-color: #000;
+  }
+  .navbar-rns .navbar-nav > .open > a,
+  .navbar-rns .navbar-nav > .open > a:hover,
+  .navbar-rns .navbar-nav > .open > a:focus {
+  color: #222 !important;
+  background-color: #fff !important;
+  border: 0 !important;
+  -moz-box-shadow:    inset 0 5px 11px -6px #333;
+  -webkit-box-shadow: inset 0 5px 11px -6px #333;
+  box-shadow:         inset 0 5px 11px -6px #333;
+  }
+}
+
+
+
+
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+}
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
