@@ -4,13 +4,30 @@
 body > .container {
   font-family:'Didact Gothic';
 }
+
 h1,h2,h3,h4,h5,h6,
 .h1,.h2,.h3,.h4,.h5,.h6 {
   font-family: Cinzel;
+  letter-spacing: 2px;
+}
+
+h1 small,h2 small,h3 small,h4 small,h5 small,h6 small,
+.h1 small,.h2 small,.h3 small,.h4 small,.h5 small,.h6 small,
+h1 .small,h2 .small,h3 .small,h4 .small,h5 .small,h6 .small,
+.h1 .small,.h2 .small,.h3 .small,.h4 .small,.h5 .small,.h6 .small {
+  color: #888;
+  font-family: 'Didact Gothic';
+  letter-spacing: 1px;
 }
 
 #rs-logo {
 	padding: 20px 0;
+}
+
+.navbar-rns .navbar-nav > li > a {
+  font-family: Cinzel;
+  font-size: 1em;
+  letter-spacing: 3px;
 }
 
 
@@ -144,9 +161,6 @@ h1,h2,h3,h4,h5,h6,
   background-color: transparent;
 }
 .navbar-rns .navbar-nav > li > a {
-  font-family: Cinzel;
-  font-size: 1em;
-  letter-spacing: 3px;
   text-transform: uppercase;
   border-bottom: 1px solid transparent;
 }
