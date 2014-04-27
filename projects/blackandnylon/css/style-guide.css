@@ -1,0 +1,184 @@
+@media (min-width: 768px) {
+	.container .page-header {
+	font-size: 50px;
+	}
+}
+
+.show-grid [class^=col-] {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #eee;
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.row {
+	margin-bottom: 15px;
+}
+
+.container .jumbotron {
+	color: #fff;
+	background-color: #989898;
+	border-radius: 0;
+}
+
+.container .jumbotron p {
+	color: #fff;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.container .section {
+	background-color: #fff;
+	border: 1px solid #ddd;
+	border-color: #ddd;
+	box-shadow: none;
+	margin: 0;
+	padding: 0 20px;
+}
+
+.section .table > tbody> tr > td {
+	border-top: 0;
+}
+
+.container .nav-pills > li+li {
+	margin-left: 6px;
+}
+
+.container .nav-pills > li > a {
+	border: 1px solid #222;
+	border-radius: 0;
+	color: #222;
+	font-family: 'Didact Gothic';
+	font-size: 16px;
+	letter-spacing: 4px;
+	text-transform: uppercase;
+}
+
+.container .nav-pills > li > a:hover,
+.container .nav-pills > li > a:active,
+.container .nav-pills > li > a:focus {
+	color: #fff;
+	background-color: #222;
+}
+
+/* Typography */
+#type .font-1 div {
+	font-family: Cinzel;	
+}
+#type .font-2 div {
+	font-family: 'Didact Gothic';	
+}
+#type .font-3 div {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;	
+}
+#type .font-4 div {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#type div.forty {
+	font-size: 40px;	
+}
+
+#type div.twenty {
+	font-size: 20px;
+	margin-bottom: 10px;	
+}
+
+#type div.sixteen {
+	font-size: 16px;
+	margin-bottom: 10px;	
+}
+
+#type div.twelve {
+	font-size: 12px;
+	margin-bottom: 10px;	
+}
+
+#type div.ten {
+	font-size: 10px;
+	margin-bottom: 10px;
+}
+
+#type div.eight {
+	font-size: 8px;
+	margin-bottom: 8px;
+}
+
+@media (max-width: 768px) {
+	#type .row .col-sm-2 {
+		margin-bottom: -2px;	
+	}
+	.container .jumbotron p {
+		font-size: 14px;
+	}
+	.container .nav-pills > li {
+	margin-bottom: 6px;
+	margin-left: 0 !important;
+	margin-right: 8px;
+}
+}
+
+
+/* Glyphicons */
+
+code {
+	white-space: normal;
+}
+
+.rs-glyphicons {
+	padding: 20px 0;
+}
+
+.rs-glyphicons-list {
+	padding-left: 0;
+	list-style: none;
+}
+
+.rs-glyphicons li {
+	cursor: crosshair;
+	float: left;
+	width: 25%;
+	height: 115px;
+	padding: 10px;
+	font-size: 10px;
+	line-height: 1.4;
+	text-align: center;
+	border: 1px solid #fff;
+	background-color: #f1f1f1;
+}
+
+.rs-glyphicons li:hover {
+	color: #fff;
+	background-color: #222;
+}
+
+.rs-glyphicons .glyphicon {
+	margin-top: 5px;
+	margin-bottom: 10px;
+	font-size: 24px;
+}
+
+.rs-glyphicons .glyphicon-class {
+	display: block;
+	text-align: center;
+	word-wrap: break-word;
+}
+
+@media (min-width: 768px) {
+	.rs-glyphicons {
+		margin-left: 0;
+		margin-right: 0;
+	}
+	.rs-glyphicons li {
+		width: 12.5%;
+		font-size: 12px;
+	}
+}
+
+/* Content */
+
+#content .row > div > h4 {
+	letter-spacing: 0px;
+}
