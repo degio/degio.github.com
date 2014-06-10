@@ -381,13 +381,13 @@ a.read-more:active, a.read-more:hover {
 
 @media (max-width: 767px) {
 	#bn-scrollbar.affix-top {
-    background-color:rgba(0,0,0,0.90);
+    background-color:rgba(0,0,0,0.92);
 	  position: fixed;
 	  top: 0;
 	  width: 100%;
   }
   #bn-scrollbar.affix {
-    background-color:rgba(0,0,0,0.90);
+    background-color:rgba(0,0,0,0.92);
   }
   .affix-top.navbar-bn {
   background: #222;

@@ -11,10 +11,10 @@
 		bottom: 0;
 	}
 	#instagram-feed {
-		height: 355px;
+		height: 360px;
 	}
-#instafeed li .icon-instagram {
-	display: inline !important;
+	#instafeed li .icon-instagram {
+		display: inline !important;
 	}
 }
 @media (min-width: 768px) and (max-width: 991px) {}
