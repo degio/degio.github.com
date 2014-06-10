@@ -443,7 +443,7 @@ a.read-more:active, a.read-more:hover {
     background-color: transparent;
   }
   .navbar-bn .navbar-toggle {
-    border-color: #fff;
+    border-color: #eee;
   }
   .navbar-bn .navbar-toggle:hover,
   .navbar-bn .navbar-toggle:focus {
