@@ -4,6 +4,7 @@
 		bottom: 15px;
 	}
 	#instagram-feed > div small{
+		font-size: 8.2em;
 		position: relative;
 		left: -50%;
 		bottom: 0;
@@ -14,12 +15,15 @@
 }
 @media (min-width: 768px) and (max-width: 991px) {}
 @media (min-width: 768px){
+	#instagram-feed {
+		height: 325px;
+	}
 	#instagram-feed > div {
 		right: 15px;
 		top: 50px;
 	}
-	#instagram-feed {
-		height: 325px;
+	#instagram-feed > div small{
+		font-size: 6em;
 	}
 }
 @media (min-width: 992px) {}
@@ -113,7 +117,6 @@
 	cursor: pointer;
 	color: #555;
 	font-family: 'entypo';
-	font-size: 8em;
 	line-height: 10px;
 	 -webkit-transition: all 0.2s linear;
 	 -moz-transition: all 0.2s linear;
