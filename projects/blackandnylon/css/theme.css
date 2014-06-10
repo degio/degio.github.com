@@ -1,7 +1,12 @@
 @media (max-width: 767px) {
 	#instagram-feed > div {
-		left: 42%;
+		left: 50%;
 		bottom: 15px;
+	}
+	#instagram-feed > div small{
+		position: relative;
+		left: -50%;
+		bottom: 0;
 	}
 	#instagram-feed {
 		height: 355px;
@@ -11,7 +16,7 @@
 @media (min-width: 768px){
 	#instagram-feed > div {
 		right: 15px;
-		top: 20px;
+		top: 50px;
 	}
 	#instagram-feed {
 		height: 325px;
