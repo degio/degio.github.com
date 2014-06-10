@@ -16,6 +16,9 @@
 	#instafeed li .icon-instagram {
 		display: inline !important;
 	}
+	#content .post {
+		border-bottom: 0 !important;
+	}
 }
 @media (min-width: 768px) and (max-width: 991px) {}
 @media (min-width: 768px){
@@ -53,6 +56,10 @@
 #content .post {
 	border-bottom:1px solid #ccc;
 	padding:0 0 30px;
+}
+
+#content .post:last-child {
+	border-bottom:0;
 }
 
 #site-info h4 {

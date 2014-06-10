@@ -443,11 +443,12 @@ a.read-more:active, a.read-more:hover {
     background-color: transparent;
   }
   .navbar-bn .navbar-toggle {
-    border-color: #ddd;
+    border-color: #fff;
   }
   .navbar-bn .navbar-toggle:hover,
   .navbar-bn .navbar-toggle:focus {
     background-color: #222;
+    background-color:rgba(0,0,0,0.92);
   }
   .navbar-bn .navbar-nav > .open > a,
   .navbar-bn .navbar-nav > .open > a:hover,
