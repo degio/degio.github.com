@@ -182,8 +182,9 @@
         var userFeed = new Instafeed({
           get: 'user',
           userId: 664455077,
+          useHttp: true,
           accessToken: '664455077.22c41e6.3810a3de03424bafb65fe730410c4362',
-          template: '<li><a href="{{link}}" target="_blank" title="{{caption}}"><img src="http:{{image}}" alt="{{caption}}"/></a><span>{{likes}}</span><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;&nbsp;&nbsp;<span>{{comments}}</span><span class="glyphicon glyphicon-comment"></span></li>',
+          template: '<li><a href="{{link}}" target="_blank" title="{{caption}}"><img src="{{image}}" alt="{{caption}}"/></a><span>{{likes}}</span><span class="glyphicon glyphicon-heart"></span>&nbsp;&nbsp;&nbsp;&nbsp;<span>{{comments}}</span><span class="glyphicon glyphicon-comment"></span>&nbsp;&nbsp;&nbsp;&nbsp;<a href="instagram://media?id={{id}}" class="icon-instagram"></a></li>',
           resolution: 'standard_resolution'
         });
       userFeed.run();
