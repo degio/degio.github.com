@@ -113,12 +113,13 @@
 	cursor: pointer;
 	color: #555;
 	font-family: 'entypo';
-	font-size: 5em;
+	font-size: 8em;
 	line-height: 10px;
 	 -webkit-transition: all 0.2s linear;
 	 -moz-transition: all 0.2s linear;
 	 -o-transition: all 0.2s linear;
 	 transition: all 0.2s linear;
+	 text-align: center;
 }
 
 #instagram-feed > div small:hover {
