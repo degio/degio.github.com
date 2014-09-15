@@ -1,0 +1,603 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gly",
+				"glyphicon"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"h",
+				"crosshair"
+			],
+			[
+				"p",
+				"help"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 11709,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/theme.css",
+			"settings":
+			{
+				"buffer_size": 5823,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/global.css",
+			"settings":
+			{
+				"buffer_size": 11559,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/dgamez/git/degio.github.com/projects/amethyst/style-guide/css/bootstrap.css",
+			"settings":
+			{
+				"buffer_size": 121220,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/dgamez/git/degio.github.com/projects/amethyst/style-guide/js/bootstrap.js",
+			"settings":
+			{
+				"buffer_size": 55258,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/dgamez/git/degio.github.com/projects/amethyst/style-guide/css/bootstrap-theme.css",
+			"settings":
+			{
+				"buffer_size": 14936,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/instafeed.js",
+			"settings":
+			{
+				"buffer_size": 1730,
+				"line_ending": "Unix",
+				"name": "var feed;"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dgamez/git/degio.github.com/projects/blackandnylon/css/style-guide.css",
+		"/Users/dgamez/git/degio.github.com/projects/amethyst/style-guide/index.html",
+		"/Users/dgamez/git/degio.github.com/projects/blackandnylon/index.html",
+		"/Users/dgamez/git/degio.github.com/style-guide/js/bootstrap.js",
+		"/Users/dgamez/git/degio.github.com/projects/blackandnylon/css/global.css",
+		"/Users/dgamez/git/degio.github.com/style-guide/index.html",
+		"/Users/dgamez/git/degio.github.com/style-guide/css/style-guide.css",
+		"/Users/dgamez/git/degio.github.com/style-guide/css/global.css",
+		"/Users/dgamez/Documents/amethyst.sublime-project",
+		"/Users/dgamez/git/degio.github.com/webdev/rocknsugar/style-guide/index.html",
+		"/Users/dgamez/Downloads/themeforest-6603795-john-does-blog-clean-wordpress-blog-theme-/JOHNDOEBLOG-theme/includes/theme_shortcodes/tinymce/editor_plugin.php",
+		"/Users/dgamez/git/dmint.github.com/menu/index.html",
+		"/Users/dgamez/git/degio.github.com/webdev/rocknsugar/index.html",
+		"/Users/dgamez/git/dmint.github.com/about/index.html",
+		"/Users/dgamez/git/dmint.github.com/gallery/index.html",
+		"/Users/dgamez/git/degio.github.com/webdev/rocknsugar/js/rock.js",
+		"/Users/dgamez/git/dmint.github.com/contact/index.html",
+		"/Users/dgamez/git/dmint.github.com/index.html",
+		"/Users/dgamez/Downloads/Responsys Queries/cart abandonment.sql"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"dropdown",
+			"dropdown-toggle",
+			"list-style",
+			"-rns",
+			"rs-",
+			"rns-",
+			"Amethyst",
+			"rock",
+			"Jungle sugar girls rock!",
+			"Open Sans ",
+			"Didact Gothic ",
+			"Cinzel ",
+			"h1",
+			"992px",
+			"@media",
+			"navbar-header",
+			"background: #000;",
+			"border-color: #000;",
+			"background-color: #000;",
+			"navbar-default",
+			"navbar-link",
+			"navbar-header",
+			".navbar-header",
+			"align",
+			"class=\"\"",
+			"class=\"\"\nclass=\"\"",
+			"aligncenter",
+			"align center",
+			"align none",
+			"align",
+			"the_post_thumbnail()",
+			"class=\"\"",
+			"alignnone",
+			"class=\"\"",
+			"class",
+			"<img class=\"",
+			"class=\"align",
+			"class=\"alignnone",
+			"<!-- Post Content -->",
+			"$content",
+			"<div class=\"excerpt\">",
+			"<div class=\"",
+			"< div class=\"",
+			"content",
+			"<img class=",
+			"<img class=\"alignnone",
+			"<div class=\"excerpt\">",
+			".alignnone",
+			"id=\"filters\"",
+			"<div id=\"filters\"",
+			"categories",
+			"100px",
+			"test",
+			"PhotoHeight-HighRes",
+			"data-photo-width",
+			"SearchPage",
+			"post"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"-bn",
+			"bn-",
+			"Black + Nylon",
+			"Gem stones are very shiny!",
+			"'Open Sans' ",
+			"'Didact Gothic' ",
+			"'Cinzel' ",
+			"background: #222;",
+			"border-color: #222;",
+			"background-color: #222;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 11709,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3912,
+								3912
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 828.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "css/theme.css",
+					"settings":
+					{
+						"buffer_size": 5823,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								365,
+								365
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/global.css",
+					"settings":
+					{
+						"buffer_size": 11559,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								11158,
+								11158
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5470.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/dgamez/git/degio.github.com/projects/amethyst/style-guide/css/bootstrap.css",
+					"settings":
+					{
+						"buffer_size": 121220,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/dgamez/git/degio.github.com/projects/amethyst/style-guide/js/bootstrap.js",
+					"settings":
+					{
+						"buffer_size": 55258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/dgamez/git/degio.github.com/projects/amethyst/style-guide/css/bootstrap-theme.css",
+					"settings":
+					{
+						"buffer_size": 14936,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "js/instafeed.js",
+					"settings":
+					{
+						"buffer_size": 1730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1011,
+								1011
+							]
+						],
+						"settings":
+						{
+							"auto_name": "var feed;",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 32.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.534255552686,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 164.0,
+	"status_bar_visible": true
+}
