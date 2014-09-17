@@ -49,13 +49,17 @@
         div[class="center-text"] {text-align: center !important;}
         div[class="video-wrap"]{height: 480px !important;}
         div[class="mobile-inline"] {display: inline-block !important;}
+        img[class="hide-mobile"]{display: none !important;}
         img[class="hero-image"] {margin:0 auto !important;width:100% !important;height:auto !important;}
         img[class="rotateIn"]{width: 60px !important;height: auto !important;}
         td[class="padding-top"]{padding-top: 25px !important;}
         span[class="no-wrap"] {white-space: nowrap !important;}
         img[class="info-image"] {margin:0 auto !important;}
         img[class="responsive-image"] {margin:0 auto !important;width:100% !important;height:auto !important;}
+        table[class="bordered-box"]{background-color:#ffffff !important; border:1px solid #222222; width:100% !important; max-width:290px !important;}
+        table[class="bordered-box-text"]{width:88% !important;}
         table[class="responsive-table"] {width:100%!important;}
+        td[class="bordered-box"]{padding-top:18px !important;}
         td[class="hide-600"]{display: none !important;}
         td[class="hide-mobile"]{display: none !important;}
         td[class="info-padding"]{padding-bottom:20px !important;}
@@ -115,13 +119,17 @@
 
     /* MEDIA QUERY SCREEN 350px */
     @media screen and (max-width: 350px), screen and (max-device-width: 350px) {
-        div[class="center-text"] {text-align: center !important;}
+        div[class="center-text"]{text-align: center !important;}
         div[class="video-wrap"]{height: 480px !important;}
-        div[class="mobile-inline"] {display: inline-block !important;}
-        img[class="hero-image"] {margin:0 auto !important;width:100% !important;height:auto !important;}
-        img[class="info-image"] {margin:0 auto !important;}
-        img[class="responsive-image"] {margin:0 auto !important;width:100% !important;height:auto !important;}
+        div[class="mobile-inline"]{display: inline-block !important;}
+        img[class="hide-mobile"]{display: none !important;}
+        img[class="hero-image"]{margin:0 auto !important;width:100% !important;height:auto !important;}
+        img[class="info-image"]{margin:0 auto !important;}
+        img[class="responsive-image"]{margin:0 auto !important;width:100% !important;height:auto !important;}
+        table[class="bordered-box"]{background-color:#ffffff !important; border:1px solid #222222; width:100% !important; max-width:290px !important;}
+        table[class="bordered-box-text"]{width:88% !important;}
         table[class="responsive-table-350"]{width:100%!important;}
+        td[class="bordered-box"]{padding-top:18px !important;}
         td[class="hide-600"]{display: none !important;}
         td[class="hide-mobile"]{display: none !important;}
         td[class="info-padding"]{padding-bottom:20px !important;}
@@ -129,7 +137,7 @@
         td[class="top-header"]{display: block !important; padding: 10px !important;}
         td[class="title-header"]{display: block !important; padding-bottom: 3px !important;}
         td[class="text-header"]{display: block !important; padding: 20px 15px !important;}
-        td[class="split-col"] {display: block !important;width: 100% !important;}
+        td[class="split-col"]{display: block !important;width: 100% !important;}
         a[class="font-decrease-26"], font[class="font-decrease-26"]{font-size: 26px !important;}
         a[class="font-decrease-24"], font[class="font-decrease-24"]{font-size: 24px !important;}
         a[class="font-decrease-22"], font[class="font-decrease-22"]{font-size: 22px !important;}
@@ -213,9 +221,13 @@
         div[class="center-text"] {text-align: center !important;}
         div[class="mobile-inline"] {display: inline-block !important;}
         span[class="no-wrap"] {white-space: nowrap !important;}
+        img[class="hide-mobile"]{display: none !important;}
         img[class="hero-image"] {margin:0 auto !important;width:100% !important;height:auto !important;}
         img[class="info-image"] {margin:0 auto !important;}
         img[class="responsive-image"] {margin:0 auto !important;width:100% !important;height:auto !important;}
+        table[class="bordered-box"]{background-color:#ffffff !important; border:1px solid #222222; width:100% !important; max-width:290px !important;}
+        table[class="bordered-box-text"]{width:88% !important;}
+        td[class="bordered-box"]{padding-top:18px !important;}
         td[class="hide-mobile"]{display: none !important;}
         td[class="hide-600"]{display: none !important;}
         td[class="info-padding"]{padding-bottom:20px !important;}
@@ -294,19 +306,19 @@
 <body bgcolor="#ffffff" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
 
 
-<table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" align="center" style="max-width:1200px">
+<table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" align="center" style="max-width:1200px; table-layout: fixed;">
     <tr>
-        <td align="center" valign="top" bgcolor="#ffffff" style="padding-top:0; padding-bottom:0px; padding-left:0; padding-right:0;" class="no-padding">
+        <td align="center" valign="top" bgcolor="#ffffff" style="padding-top:0; padding-bottom:0px; padding-left:0; padding-right:0;">
             <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="600" class="responsive-table-600">
                 <tr>
-                    <td bgcolor="#ffffff">
+                    <td align="center" valign="top" bgcolor="#ffffff">
                         <table border="0" cellspacing="0" cellpadding="0" align="center" width="420" class="responsive-table">
                             <tr>
                                 <td align="right" valign="top" style="padding-top:15px;padding-bottom:15px;" class="top-header">
                                     <table border="0" cellspacing="0" cellpadding="0" class="responsive-table">
                                         <tr>
                                             <td align="center" valign="top" style="line-height: 1.1;">
-                                                <font face="'Avenir-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif" style="font-size:11px; color:#222222; font-weight:200;" class="font-decrease-12">You're giving to: <b>The Red Cross</b></font>
+                                                <font face="'Avenir-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif" style="font-size:11px; color:#222222;" class="font-decrease-12">You're giving to: <b>The Red Cross</b></font>
                                             </td>
                                         </tr>
                                     </table>
@@ -366,7 +378,7 @@
                 </tr>
                 <tr>
                     <td align="center" valign="top" style="line-height:1.1; padding-top:20px; padding-bottom:10px;" class="no-padding-mobile">
-                        <font face="'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:24px; font-weight:200; text-transform:uppercase;" class="font-decrease-22">Beauty for <span class="no-wrap">the Greater Good</span></font>
+                        <font face="'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:24px; text-transform:uppercase;" class="font-decrease-22">Beauty for <span class="no-wrap">the Greater Good</span></font>
                     </td>
                 </tr>
                 <tr>
@@ -374,19 +386,19 @@
                         <table border="0" cellpadding="0" cellspacing="0" width="60%">
                             <tr>
                                 <td align="center" valign="top" style="line-height:1.2; padding-bottom:20px;">
-                                    <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:13px; font-weight:200;" class="font-decrease-14">BeautyKind is a new marketplace where beauty is our passion and kindness is our cause.</font>
+                                    <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:13px;" class="font-decrease-14">BeautyKind is a new marketplace where beauty is our passion and kindness is our cause.</font>
                                 </td>
                             </tr>
                             <tr>
                                 <td align="center" valign="top" style="line-height:1.2; padding-bottom:20px;">
-                                    <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:13px; font-weight:200;" class="font-decrease-14">Shop the best in beauty and discover new favorites, from skincare to hair care to prestige makeup.</font>
+                                    <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:13px;" class="font-decrease-14">Shop the best in beauty and discover new favorites, from skincare to hair care to prestige makeup.</font>
                                 </td>
                             </tr>
                         </table>
                         <table border="0" cellpadding="0" cellspacing="0" width="70%">
                             <tr>
                                 <td align="center" valign="top" style="line-height:1.2;">
-                                    <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:13px; font-weight:200;" class="font-decrease-14">Then, for every order you place,<br/>
+                                    <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:13px;" class="font-decrease-14">Then, for every order you place,<br/>
                                     BeautyKind will <b style="text-transform:uppercase;">donate</b> <img src="http://deg.io/webdev/beautykind/email/welcome/images/icon-heart.png" border="0" alt="Donate" width="12" height="11" vspace="0" hspace="0" style="width: 12px; height: 11px!important; border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: inline-block;"> 5% to the cause of your choice.<br/>
                                     Shopping with BeautyKind means you're doing your part &#8211; and that's a beautiful thing.</font>
                                 </td>
@@ -399,33 +411,66 @@
                         <table border="0" cellpadding="0" cellspacing="0" align="center" class="responsive-table-600">
                             <tr>
                                 <td align="center" valign="top" style="padding-bottom:15px;" class="split-col-600">
-                                    <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="max-width:296px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" class="bordered-box" style="background-color:#f7f7f7; max-width:185px;">
                                         <tr>
-                                            <td align="center" valign="top" bgcolor="#f7f7f7" style="line-height:1.1; padding-bottom: 21px;">
-                                                <img src="http://deg.io/webdev/beautykind/email/welcome/images/shop.jpg" width="185" height="125" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="" class="responsive-image-600"/>
-                                                <font face="'Avenir-Heavy','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:10px; font-weight:200; text-transform:uppercase;" class="font-decrease-12">Find the best brands in<br/>beauty. Discover new<br/>ones, too.</font>
+                                            <td align="center" valign="top" style="line-height:1;" class="bordered-box">
+                                                <img src="http://deg.io/webdev/beautykind/email/welcome/images/shop.jpg" width="185" height="84" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="" class="hide-mobile"/>
+                                                <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:24px; text-transform:uppercase;">Shop</font>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="padding-top:10px; padding-bottom:21px;">
+                                                <table border="0" cellpadding="0" cellspacing="0" align="center" width="75%" class="bordered-box-text">
+                                                    <tr>
+                                                        <td align="center" valign="top" style="line-height:1;">
+                                                            <font face="'Avenir-Heavy','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:10px; text-transform:uppercase;" class="font-decrease-12">Find the best brands in beauty. Discover new ones, too.</font>
+                                                        </td>
+                                                    </tr>
+                                                </table>
                                             </td>
                                         </tr>
                                     </table>
                                 </td>
                                 <td width="12" class="hide-600"></td>
                                 <td align="center" valign="top" style="padding-bottom:15px;" class="split-col-600">
-                                    <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="max-width:296px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" class="bordered-box" style="background-color:#f7f7f7; max-width:185px;">
                                         <tr>
-                                            <td align="center" valign="top" bgcolor="#f7f7f7" style="line-height:1.1; padding-bottom: 21px;">
-                                                <img src="http://deg.io/webdev/beautykind/email/welcome/images/give.jpg" width="185" height="125" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="" class="responsive-image-600"/>
-                                                <font face="'Avenir-Heavy','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:10px; font-weight:200; text-transform:uppercase;" class="font-decrease-12">Select the cause of your<br/>choice. Make an impact<br/>with your 5%.</font>
+                                            <td align="center" valign="top" style="line-height:1;" class="bordered-box">
+                                                <img src="http://deg.io/webdev/beautykind/email/welcome/images/give.jpg" width="185" height="84" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="" class="hide-mobile"/>
+                                                <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:24px; text-transform:uppercase;">Give</font>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="padding-top:10px; padding-bottom:21px;">
+                                                <table border="0" cellpadding="0" cellspacing="0" align="center" width="84%" class="bordered-box-text">
+                                                    <tr>
+                                                        <td align="center" valign="top" style="line-height:1;">
+                                                            <font face="'Avenir-Heavy','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:10px; text-transform:uppercase;" class="font-decrease-12">Select the cause of your choice. Make an impact with your 5%.</font>
+                                                        </td>
+                                                    </tr>
+                                                </table>
                                             </td>
                                         </tr>
                                     </table>
                                 </td>
                                 <td width="12" class="hide-600"></td>
                                 <td align="center" valign="top" style="padding-bottom:15px;" class="split-col-600">
-                                    <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" style="max-width:296px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" class="bordered-box" style="background-color:#f7f7f7; max-width:185px;">
                                         <tr>
-                                            <td align="center" valign="top" bgcolor="#f7f7f7" style="line-height:1.1; padding-bottom: 21px;">
-                                                <img src="http://deg.io/webdev/beautykind/email/welcome/images/share.jpg" width="185" height="125" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="" class="responsive-image-600"/>
-                                                <font face="'Avenir-Heavy','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:10px; font-weight:200; text-transform:uppercase;" class="font-decrease-12">Invite your friends to<br/>join. Be rewarded when<br/>they shop.</font>
+                                            <td align="center" valign="top" style="line-height:1;" class="bordered-box">
+                                                <img src="http://deg.io/webdev/beautykind/email/welcome/images/share.jpg" width="185" height="84" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="" class="hide-mobile"/>
+                                                <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:24px; text-transform:uppercase;">Share</font>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="padding-top:10px; padding-bottom:21px;">
+                                                <table border="0" cellpadding="0" cellspacing="0" align="center" width="80%" class="bordered-box-text">
+                                                    <tr>
+                                                        <td align="center" valign="top" style="line-height:1;">
+                                                            <font face="'Avenir-Heavy','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:10px; text-transform:uppercase;" class="font-decrease-12">Invite your friends to join. Be rewarded when they shop.</font>
+                                                        </td>
+                                                    </tr>
+                                                </table>
                                             </td>
                                         </tr>
                                     </table>
@@ -436,7 +481,7 @@
                 </tr>
                 <tr>
                     <td align="center" valign="top" style="letter-spacing:1px; line-height:1.2; padding-bottom:5px;">
-                        <font face="'Avenir-Next','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#55274f; font-size:18px; font-weight:200; text-transform:uppercase;" class="font-decrease-26"> <b>FREE SHIPPING</b> </font> <font face="'Avenir-Next','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#55274f; font-size:18px; font-weight:200; text-transform:uppercase;" class="font-decrease-16"><span class="no-wrap">On All Orders Over $50</span></font>
+                        <font face="'Avenir-Next','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#55274f; font-size:18px; text-transform:uppercase;" class="font-decrease-26"> <b>FREE SHIPPING</b> </font> <font face="'Avenir-Next','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#55274f; font-size:18px; text-transform:uppercase;" class="font-decrease-16"><span class="no-wrap">On All Orders Over $50</span></font>
                     </td>
                 </tr>
                 <tr>
@@ -490,9 +535,10 @@
                                     <a href="" target="_blank" style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; text-decoration:none;">How it works</a>
                                 </td>
                                 <td width="235" align="center" valign="top" style="padding-bottom:15px;" class="split-col">
-                                    <div class="mobile-inline" style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:16px; padding:0; margin:0;">BEAUTYKIND</div>
-                                    <div class="mobile-inline" style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:16px; padding:0; margin:0;">6101 W. Centinela Suite 394</div>
-                                    <div style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:16px; padding:0; margin:0;">Los Angeles, CA 23221</div>
+                                        <div class="mobile-inline" style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:16px; padding:0; margin:0;">BEAUTYKIND</div>
+                                        <div class="mobile-inline" style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:16px; padding:0; margin:0;">6101 W. Centinela Suite 394</div>
+                                        <div style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:16px; padding:0; margin:0;">Los Angeles, CA 23221</div>
+                                    </font>
                                 </td>
                                 <td width="80" align="left" valign="top" style="line-height:1.1; padding-bottom:15px;" class="split-col">
                                     <div class="center-text">
