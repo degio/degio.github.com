@@ -1,0 +1,846 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>BeautyKind</title>
+
+<style type="text/css">
+    /* /\/\/\/\/\/\/\/\/ CLIENT-SPECIFIC STYLES /\/\/\/\/\/\/\/\/ */
+    #outlook a{padding:0;} /* Force Outlook to provide a "view in browser" message */
+    .ReadMsgBody{width:100%;} .ExternalClass{width:100%;} /* Force Hotmail to display emails at full width */
+    /* Prevent Webkit and Windows Mobile platforms from changing default font sizes.*/ 
+    .ExternalClass {width:100%;} /* Force Hotmail to display emails at full width */  
+    .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height: 100%;}
+    body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%;} /* Prevent WebKit and 
+    /* Forces Hotmail to display normal line spacing. */ 
+    #bodyTable {margin:0; padding:0; width:100% !important; line-height: 100% !important;}
+    Windows mobile changing default text sizes */
+    table, td{mso-table-lspace:0pt; mso-table-rspace:0pt;} /* Remove spacing between tables in Outlook 2007 and up */
+    img{-ms-interpolation-mode:bicubic;} /* Allow smoother rendering of resized image in Internet Explorer */
+
+    /* /\/\/\/\/\/\/\/\/ RESET STYLES /\/\/\/\/\/\/\/\/ */
+    body{margin:0; padding:0;}
+    img{border:0; height:auto; line-height:100%; outline:none; text-decoration:none;}
+    table{border-collapse:collapse !important;}
+    a:link, a:active, a:visited, a .yshortcuts {color:#222222;}
+
+    body, #body_table, #body_cell{height:100% !important; margin:0; padding:0; width:100% !important;background-color:#ffffff;}
+    .padding-top {padding-top: 95px !important;}
+
+    .SlowfadeIn {
+        animation-name: SlowfadeIn;
+        -webkit-animation-name: SlowfadeIn;
+        animation-duration: 3s;
+        -webkit-animation-duration: 3s;
+    }
+    @keyframes SlowfadeIn {
+        0% {opacity: 0;}
+        60% {opacity: .8;}
+        100% {opacity: 1;}
+    }
+    @-webkit-keyframes SlowfadeIn {
+        0% {opacity: 0;}
+        60% {opacity: .8;}
+        100% {opacity: 1;}
+    }
+
+    .fadeInDown {
+        animation-name: fadeInDown;
+        -webkit-animation-name: fadeInDown;
+        animation-duration: 2s;
+        -webkit-animation-duration: 2s;
+    }
+    @keyframes fadeInDown {
+        0% {opacity: 0;transform: translateY(-30px);}
+        35% {opacity: 0;transform: translateY(-30px);}
+        100% {opacity: 1;transform: translateY(0);}
+    }
+    @-webkit-keyframes fadeInDown {
+        0% {opacity: 0;-webkit-transform: translateY(-30px);}
+        35% {opacity: 0;-webkit-transform: translateY(-30px);}
+        100% {opacity: 1;-webkit-transform: translateY(0);}
+    }
+
+    /* MEDIA QUERY SCREEN 600px */
+    @media screen and (max-width: 600px), screen and (max-device-width: 600px) {
+        img[class="hero-image"] {margin:0 auto !important;width:100% !important;height:auto !important;}
+        img[class="info-image"]{margin:0 auto !important;}
+        img[class="rotateIn"]{width: 107px !important;height: auto !important;}
+        img[class="video-hover"]{width: 100% !important;height: auto !important;}
+        img[class="responsive-image-600"] {margin:0 auto !important;width:100% !important;height:auto !important;}
+        span[class="no-wrap"]{white-space: nowrap !important;}
+        table[class="responsive-table-600"] {width:100%!important;}
+        td[class="block-padding"]{padding: 10px 5% 10px 5% !important;text-align: left;}
+        td[class="hide-600"]{display: none !important;}
+        td[class="section-padding"]{padding: 20px 15px !important;}
+        td[class="section-padding-nobottom"]{padding: 20px 20px 0px!important;}
+        td[class="no-padding"]{padding: 0px !important;}
+        td[class="padding-top"]{padding-top: 40px !important;}
+        td[class="text-header"]{display: block !important; padding: 20px 15px !important;}
+        td[class="split-col-600"] {display: block !important;width: 100% !important;}
+    }
+
+    /* MEDIA QUERY SCREEN 480px */
+    @media screen and (max-width: 480px), screen and (max-device-width: 480px) {
+        div[class="center-text"] {text-align: center !important;}
+        div[class="inbox-header"] {width:100% !important; max-width:280px !important; margin:0 auto !important; padding:0 !important; text-align: center !important;}
+        div[class="video-wrap"]{height: 480px !important;}
+        div[class="mobile-inline"] {display: inline-block !important;}
+        img[class="hide-mobile"]{display: none !important;}
+        img[class="hero-image"] {margin:0 auto !important;width:100% !important;height:auto !important;}
+        img[class="rotateIn"]{width: 60px !important;height: auto !important;}
+        td[class="padding-top"]{padding-top: 25px !important;}
+        span[class="no-wrap"] {white-space: nowrap !important;}
+        img[class="info-image"] {margin:0 auto !important;}
+        img[class="responsive-image"] {margin:0 auto !important;width:100% !important;height:auto !important;}
+        table[class="bordered-box"]{background-color:#ffffff !important; border:1px solid #222222; width:100% !important; max-width:290px !important;}
+        table[class="bordered-box-text"]{width:88% !important;}
+        table[class="responsive-table"] {width:100%!important;}
+        td[class="bordered-box"]{padding-top:18px !important;}
+        td[class="hide-600"]{display: none !important;}
+        td[class="hide-mobile"]{display: none !important;}
+        td[class="info-padding"]{padding-bottom:20px !important;}
+        td[class="mobile-menu"] {padding-top: 16px !important;}
+        td[class="no-padding-mobile"]{padding: 0 !important;}
+        td[class="top-header"]{display: block !important; padding: 10px !important; }
+        td[class="title-header"]{display: block !important; padding-bottom: 3px !important;}
+        td[class="text-header"]{display: block !important; padding: 20px 15px !important;}
+        td[class="split-col"] {display: block !important;width: 100% !important;}
+        a[class="font-decrease-26"], font[class="font-decrease-26"]{font-size: 26px !important;}
+        a[class="font-decrease-24"], font[class="font-decrease-24"]{font-size: 24px !important;}
+        a[class="font-decrease-22"], font[class="font-decrease-22"]{font-size: 22px !important;}
+        a[class="font-decrease-20"], font[class="font-decrease-20"]{font-size: 20px !important;}
+        a[class="font-decrease-18"], font[class="font-decrease-18"]{font-size: 18px !important;}
+        a[class="font-decrease-16"], font[class="font-decrease-16"]{font-size: 16px !important;}
+        a[class="font-decrease-14"], font[class="font-decrease-14"]{font-size: 14px !important;}
+        a[class="font-decrease-12"], font[class="font-decrease-12"]{font-size: 12px !important;}
+        a[class="font-decrease-10"], font[class="font-decrease-10"]{font-size: 10px !important;}
+        a[class="font-decrease-8"], font[class="font-decrease-8"]{font-size: 8px !important;}
+        a[href^="tel"], a[href^="sms"] {
+            text-decoration: none !important;
+            color: #519fd5 !important; /* or whatever your want */
+            pointer-events: none;
+            cursor: default;
+        }
+        .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+            text-decoration: none !important;
+            font-weight:bold !important;
+            color: #707070 !important; /* or whatever your want */
+            pointer-events: auto;
+            cursor: default;
+        }
+        div[class="bk-menu-btn"] {
+            background-color: #55274f !important;
+            border-bottom: 1px solid #6e4769;
+            display: block !important;
+            width: 100% !important;
+            text-align: center !important;
+        }
+        a[class="bk-menu-btn-link"] {
+            display: block !important;
+            color: #ffffff !important;
+            font-family: 'Avenir-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+            font-size: 15px !important;
+            letter-spacing: 1px !important;
+            line-height: 17px !important;
+            text-align: center !important;
+            vertical-align: middle !important;
+            text-decoration: none !important;
+            text-transform: uppercase !important;
+            margin: 0px !important;
+            padding: 18px 0;
+            height: 100% !important;
+            width: 100% !important;
+        }
+        div[class="show-mobile-text"] {
+            color: #333333 !important;
+            display: block !important;
+            font-family: 'Avenir-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+            font-size: 11px !important;
+            letter-spacing: 0px !important;
+            line-height: 1.2 !important;
+            margin: 0 !important;
+            overflow: visible !important;
+            padding: 0 !important;
+            text-decoration: none !important;
+            width: 100% !important;
+        }
+    }
+
+    /* MEDIA QUERY SCREEN 350px */
+    @media screen and (max-width: 350px), screen and (max-device-width: 350px) {
+        div[class="center-text"]{text-align: center !important;}
+        div[class="inbox-header"] {width:100% !important; max-width:280px !important; margin:0 auto !important; padding:0 !important; text-align: center !important;}
+        div[class="video-wrap"]{height: 480px !important;}
+        div[class="mobile-inline"]{display: inline-block !important;}
+        img[class="hide-mobile"]{display: none !important;}
+        img[class="hero-image"]{margin:0 auto !important;width:100% !important;height:auto !important;}
+        img[class="info-image"]{margin:0 auto !important;}
+        img[class="responsive-image"]{margin:0 auto !important;width:100% !important;height:auto !important;}
+        table[class="bordered-box"]{background-color:#ffffff !important; border:1px solid #222222; width:100% !important; max-width:290px !important;}
+        table[class="bordered-box-text"]{width:88% !important;}
+        table[class="responsive-table-350"]{width:100%!important;}
+        td[class="bordered-box"]{padding-top:18px !important;}
+        td[class="hide-600"]{display: none !important;}
+        td[class="hide-mobile"]{display: none !important;}
+        td[class="info-padding"]{padding-bottom:20px !important;}
+        td[class="no-padding-mobile"]{padding: 0 !important;}
+        td[class="top-header"]{display: block !important; padding: 10px !important;}
+        td[class="title-header"]{display: block !important; padding-bottom: 3px !important;}
+        td[class="text-header"]{display: block !important; padding: 20px 15px !important;}
+        td[class="split-col"]{display: block !important;width: 100% !important;}
+        a[class="font-decrease-26"], font[class="font-decrease-26"]{font-size: 26px !important;}
+        a[class="font-decrease-24"], font[class="font-decrease-24"]{font-size: 24px !important;}
+        a[class="font-decrease-22"], font[class="font-decrease-22"]{font-size: 22px !important;}
+        a[class="font-decrease-20"], font[class="font-decrease-20"]{font-size: 20px !important;}
+        a[class="font-decrease-18"], font[class="font-decrease-18"]{font-size: 18px !important;}
+        a[class="font-decrease-16"], font[class="font-decrease-16"]{font-size: 16px !important;}
+        a[class="font-decrease-14"], font[class="font-decrease-14"]{font-size: 14px !important;}
+        a[class="font-decrease-12"], font[class="font-decrease-12"]{font-size: 12px !important;}
+        a[class="font-decrease-10"], font[class="font-decrease-10"]{font-size: 10px !important;}
+        a[class="font-decrease-8"], font[class="font-decrease-8"]{font-size: 8px !important;}
+        a[href^="tel"], a[href^="sms"] {
+            text-decoration: none !important;
+            color: #519fd5 !important; /* or whatever your want */
+            pointer-events: none;
+            cursor: default;
+        }
+        .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+            text-decoration: none !important;
+            font-weight:bold !important;
+            color: #707070 !important; /* or whatever your want */
+            pointer-events: auto;
+            cursor: default;
+        }
+    }
+
+    /* FIREFOX MEDIA QUERY */
+    @-moz-document url-prefix() {
+        div[class="gmail-hide"]{display: block !important;max-height: none !important;overflow: visible !important;}
+        div[class="video-wrap"]{height: 690px;position: relative;overflow: hidden;padding:0;margin:0;}
+        div[class="overlay"]{height: 100%;position: relative;min-height: 100%;margin: 0 auto;padding: 0 20px;z-index:3;}
+        img[class="info-image"] {margin:0 auto !important;}
+        span[class="no-wrap"] {white-space: nowrap !important;}
+        td[class="info-padding"]{padding-bottom:20px !important;}
+        .tcdc-cta:hover {background-color:rgba(255,255,255,0.3) !important;}
+    }
+
+    /* WEBKIT, CHROME, SAFARI MEDIA QUERY */
+    @media screen and (-webkit-min-device-pixel-ratio: 0) {
+        div[class="video-wrap"]{height:100%;height:720px;position:relative;overflow:hidden;padding:0;margin:0;}
+        div[class="overlay"]{height: 100%;position: relative;min-height: 100%;margin: 0 auto;padding: 0 20px;z-index:3;}
+        td[class="no-padding"]{padding: 0 !important;}
+        td[class="title"]{display: block !important; padding-top: 35px;}
+        td[class="webkit-hide"]{display: none !important;}
+        video[class="video"]{
+            display:inline-block !important;
+            min-height: 100%;
+            min-width: 100%;
+            height: auto;
+            width: auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            z-index: 2;
+        }
+        .tcdc-cta:hover {background-color:rgba(255,255,255,0.3) !important;}
+    }
+
+    /* WEBKIT, CHROME, SAFARI MEDIA QUERY @ 600px */
+    @media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 600px) {
+        div[class="video-wrap"]{height: 670px !important;}
+        video[class="video"]{
+            display:inline-block !important;
+            min-height: 100%;
+            min-width: 100%;
+            height: auto;
+            width: auto;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translateX(-50%) translateY(-50%);
+            z-index: 2;
+        }
+    }
+
+    /* WEBKIT, CHROME, SAFARI MEDIA QUERY @ 480px*/
+    @media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 480px) {
+        /* /\/\/\/\/\/\/ CLIENT-SPECIFIC MOBILE STYLES /\/\/\/\/\/\/ */
+        body, table, td, p, a, li, blockquote{-webkit-text-size-adjust:none !important;} /* Prevent Webkit platforms from changing default text sizes */
+        body{width:100% !important; min-width:100% !important;} /* Prevent iOS Mail from adding padding to the body */
+        div[class="center-text"] {text-align: center !important;}
+        div[class="inbox-header"] {width:100% !important; max-width:280px !important; margin:0 auto !important; padding:0 !important; text-align: center !important;}
+        div[class="mobile-inline"] {display: inline-block !important;}
+        span[class="no-wrap"] {white-space: nowrap !important;}
+        img[class="hide-mobile"]{display: none !important;}
+        img[class="hero-image"] {margin:0 auto !important;width:100% !important;height:auto !important;}
+        img[class="info-image"] {margin:0 auto !important;}
+        img[class="responsive-image"] {margin:0 auto !important;width:100% !important;height:auto !important;}
+        table[class="bordered-box"]{background-color:#ffffff !important; border:1px solid #222222; width:100% !important; max-width:290px !important;}
+        table[class="bordered-box-text"]{width:88% !important;}
+        td[class="bordered-box"]{padding-top:18px !important;}
+        td[class="hide-mobile"]{display: none !important;}
+        td[class="hide-600"]{display: none !important;}
+        td[class="info-padding"]{padding-bottom:20px !important;}
+        td[class="no-padding-mobile"]{padding: 0 !important;}
+        td[class="top-header"]{display: block !important; padding: 10px !important;}
+        td[class="title-header"]{display: block !important; padding-bottom: 3px !important;}
+        td[class="text-header"]{display: block !important; padding: 20px 15px !important;}
+        td[class="split-col"] {display: block !important;width: 100% !important;}
+        td[class="section-padding"] {padding: 20px 15px !important;}
+        a[class="font-decrease-26"], font[class="font-decrease-26"]{font-size: 26px !important;}
+        a[class="font-decrease-24"], font[class="font-decrease-24"]{font-size: 24px !important;}
+        a[class="font-decrease-22"], font[class="font-decrease-22"]{font-size: 22px !important;}
+        a[class="font-decrease-20"], font[class="font-decrease-20"]{font-size: 20px !important;}
+        a[class="font-decrease-18"], font[class="font-decrease-18"]{font-size: 18px !important;}
+        a[class="font-decrease-16"], font[class="font-decrease-16"]{font-size: 16px !important;}
+        a[class="font-decrease-14"], font[class="font-decrease-14"]{font-size: 14px !important;}
+        a[class="font-decrease-12"], font[class="font-decrease-12"]{font-size: 12px !important;}
+        a[class="font-decrease-10"], font[class="font-decrease-10"]{font-size: 10px !important;}
+        a[class="font-decrease-8"], font[class="font-decrease-8"]{font-size: 8px !important;}
+        a[href^="tel"], a[href^="sms"] {
+            text-decoration: none !important;
+            color: #519fd5 !important; /* or whatever your want */
+            pointer-events: none;
+            cursor: default;
+        }
+        .mobile_link a[href^="tel"], .mobile_link a[href^="sms"] {
+            text-decoration: none !important;
+            font-weight:bold !important;
+            color: #707070 !important; /* or whatever your want */
+            pointer-events: auto;
+            cursor: default;
+        }
+    }
+
+    /* iPad MEDIA QUERY */
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {}
+
+    /* iPad 1 & 2, iPad MINI MEDIA QUERY */
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {}
+
+    /* RETINA iPad MEDIA QUERY */
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {}
+
+    /* iPhone 5 MEDIA QUERY */
+    @media screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 1){}
+
+    /* iPhone 5S MEDIA QUERY */
+    @media screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2){}
+
+    /* iPhone 2G/3G/3GS MEDIA QUERY */
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 1){}
+
+    /* iPhone 4/4S MEDIA QUERY */
+    @media screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2){}
+</style>
+</head>
+<body bgcolor="#ffffff" leftmargin="0" marginwidth="0" topmargin="0" marginheight="0" offset="0">
+
+
+<table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" align="center" style="max-width:1200px; table-layout: fixed;">
+    <tr>
+        <td align="center" valign="top" bgcolor="#ffffff" style="padding-top:0; padding-bottom:0px; padding-left:0; padding-right:0;">
+            <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="600" class="responsive-table-600">
+                <tr>
+                    <td align="center" valign="top" bgcolor="#ffffff">
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" width="420" class="responsive-table">
+                            <tr>
+                                <td align="center" valign="top" style="padding-top:20px;padding-bottom:12px;">
+                                <table border="0" cellspacing="0" cellpadding="0" width="100%">
+                                    <tr>
+                                        <td width="60%" align="left" valign="bottom" style="line-height:1;" class="split-col">
+                                            <div class="inbox-header">
+                                                <font face="'Avenir-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif" style="font-size:11px; color:#222222;" class="font-decrease-12">Beauty for the Greater Good</font>
+                                            </div>
+                                        </td>
+                                        <td width="40%" align="right" valign="bottom" style="line-height:1;" class="split-col">
+                                            <div class="inbox-header">
+                                                <font face="'Avenir-Medium', 'Helvetica Neue', Helvetica, Arial, sans-serif" style="font-size:11px; color:#222222;" class="font-decrease-12">You're giving to: <b>The Red Cross</b></font>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="top" style="border-top: 1px solid #e6dfe5; padding-top:10px; padding-bottom:16px;" class="hide-mobile">
+                                    <table border="0" cellspacing="0" cellpadding="0" width="100%" style="max-width:420px;">
+                                        <tr>
+                                            <td align="left" style="padding-right:14px;" class="no-padding-mobile">
+                                                <a href="" target="_blank" style="color:#222222; font-family: 'Avenir-Black', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:11px; text-decoration:none; text-transform:uppercase;"><b>Makeup</b></a>
+                                            </td>
+                                            <td align="center" style="padding-left:14px; padding-right:14px;" class="no-padding-mobile">
+                                                <a href="" target="_blank" style="color:#222222; font-family: 'Avenir-Black', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:11px; text-decoration:none; text-transform:uppercase;"><b>Skincare</b></a>
+                                            </td>
+                                            <td align="center" style="padding-left:14px; padding-right:14px;" class="no-padding-mobile">
+                                                <a href="" target="_blank" style="color:#222222; font-family: 'Avenir-Black', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:11px; text-decoration:none; text-transform:uppercase;" class="font-decrease-10"><b>Hair</b></a>
+                                            </td>
+                                            <td align="center" style="padding-left:14px; padding-right:14px;" class="no-padding-mobile">
+                                                <a href="" target="_blank" style="color:#222222; font-family: 'Avenir-Black', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:11px; text-decoration:none; text-transform:uppercase;" class="font-decrease-10"><b>Fragrance</b></a>
+                                            </td>
+                                            <td align="center" style="padding-left:14px; padding-right:14px;" class="no-padding-mobile">
+                                                <a href="" target="_blank" style="color:#222222; font-family: 'Avenir-Black', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:11px; text-decoration:none; text-transform:uppercase;" class="font-decrease-10"><b>Brands</b></a>
+                                            </td>
+                                            <td align="right" style="padding-left:14px;" class="no-padding-mobile">
+                                                <a href="" target="_blank" style="color:#222222; font-family: 'Avenir-Black', 'Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:11px; text-decoration:none; text-transform:uppercase;" class="font-decrease-10"><b>Causes</b></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="top" style="padding-top:20px; padding-bottom:33px;">
+                                    <div class="fadeInDown">
+                                    <a href="" title="" target="_blank">
+                                        <img src="images/logo-beautykind.png" width="153" height="70" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="BeautyKind" />
+                                    </a>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="100%" align="center" style="max-width:1200px">
+    <tr>
+        <td bgcolor="#ffffff" align="center" valign="top">
+            <table border="0" cellpadding="0" cellspacing="0" bgcolor="#ffffff" width="600" class="responsive-table-600">
+                <tr>
+                    <td align="center" valign="top" style="padding-top:20px; padding-bottom:30px;">
+                        <a href="" title="" target="_blank">
+                            <img src="images/hero.jpg" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="" class="hero-image"/>
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" style="line-height:1.1;padding-top:15px;" class="no-padding-mobile">
+                        <font face="'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:24px;" class="font-decrease-22">You did your part, <span class="no-wrap">now enjoy your products!</span></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="padding-top:20px; padding-bottom:25px; padding-left:45px; padding-right:45px;" class="section-padding">
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td align="left" valign="top" style="line-height:1.2; padding-bottom:20px;">
+                                    <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#333333; font-size:13px;">Thank you for shopping with BeautyKind, Hayley. You’ve done something beautiful not only for yourself but also for <b>The Red Cross</b>, where your 5% will be donated.</font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top" style="line-height:1.2;padding-bottom:4px;">
+                                    <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#333333; font-size:13px;"><b>We wanted to let you know:</b></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td width="14" align="left" valign="top" style="line-height:1.2;">
+                                    <font face="'Avenir-Medium', Arial, sans-serif" style="color:#333333; font-size:13px; font-weight:700;">&#8226;</font>
+                                </td>
+                                <td align="left" valign="top" style="line-height:1.2; padding-bottom:4px;">
+                                    <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#333333; font-size:13px;">We received your order and it’s currently being processed.</font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td width="14" align="left" valign="top" style="line-height:1.2;">
+                                    <font face="'Avenir-Medium', Arial, sans-serif" style="color:#333333; font-size:13px; font-weight:700;">&#8226;</font>
+                                </td>
+                                <td align="left" valign="top" style="line-height:1.2; padding-bottom:24px;">
+                                    <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#333333; font-size:13px;">We'll send you an email you as soon as it ships.</font>
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td align="left" valign="top" style="line-height:1.2; padding-bottom:10px;" class="no-padding-mobile">
+                                    <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#333333; font-size:13px;">In the meantime, you can also view the details of your order below.</font>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top" style="line-height:1.2; padding-top:40px; padding-bottom:5px; border-bottom:1px solid #d9d9d9;">
+                                    <div class="center-text">
+                                        <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:22px;">ORDER # XXXXXXX</font>
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td width="40%" align="left" valign="top" style="padding-top:12px;" class="split-col">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="line-height:1.2; padding-bottom:4px;">
+                                            <div class="center-text">
+                                                <font face="'Avenir-Black','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#333333; font-size:11px; line-height:1.4; text-transform:uppercase;"><b>Ship To:</b></font>
+                                            </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top" style="line-height:1.2;">
+                                                <div class="center-text" style="color:#333333; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; line-height:1.2;">
+                                                Hayley Osher<br/>
+                                                465 Main Street APT 5<br/>
+                                                VENICE, CA 90291
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td width="37%" align="left" valign="top" style="padding-top:12px;" class="split-col">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="line-height:1.2; padding-bottom:4px;">
+                                            <div class="center-text">
+                                                <font face="'Avenir-Black','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#333333; font-size:11px; line-height:1.4; text-transform:uppercase;"><b>Shipping Method:</b></font>
+                                            </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top" style="line-height:1.1;">
+                                                <div class="center-text" style="color:#333333; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; line-height:1.1;">
+                                                Standard
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td width="23%" align="left" valign="top" style="padding-top:12px;" class="split-col">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td align="left" valign="top" style="line-height:1.2; padding-bottom:4px;">
+                                            <div class="center-text">
+                                                <font face="'Avenir-Black','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#333333; font-size:11px; line-height:1.4; text-transform:uppercase;"><b>Card Info:</b></font>
+                                            </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="left" valign="top" style="line-height:1.1;">
+                                                <div class="center-text" style="color:#333333; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; line-height:1.1;">
+                                                xxxx-xxxx-xxxx-1234
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td width="100%" height="16"></td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-top:1px solid #222222; border-bottom:1px solid #222222;">
+                            <tr>
+                                <td width="55%" height="23" align="left" valign="middle" style="line-height:1;">
+                                    <font face="'Avenir-Black','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:11px; text-transform:uppercase;"><b>Item</b></font>
+                                </td>
+                                <td width="23%" height="23" align="center" valign="middle" style="line-height:1;" class="hide-mobile">
+                                    <font face="'Avenir-Black','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:11px; text-transform:uppercase;"><b>Price (Each)</b></font>
+                                </td>
+                                <td width="5%" height="23" align="center" valign="middle" style="line-height:1;" class="hide-mobile">
+                                    <font face="'Avenir-Black','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:11px; text-transform:uppercase;"><b>Qty</b></font>
+                                </td>
+                                <td width="17%" height="23" align="right" valign="middle" style="line-height:1;">
+                                    <font face="'Avenir-Black','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:11px; text-transform:uppercase;"><b>Subtotal</b></font>
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-bottom:1px solid #d9d9d9;">
+                            <tr>
+                                <td width="55%" align="left" valign="top" style="padding-top:16px; padding-bottom:16px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td width="80" align="left" valign="middle">
+                                                <a href="" title="" target="_blank">
+                                                    <img src="images/product-1.jpg" width="72" height="55" vspace="0" hspace="0" style="width:72px; height:auto !important; border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt=""/>
+                                                </a>
+                                            </td>
+                                            <td align="left" valign="top" style="line-height:1.2;">
+                                                <div style="color:#333333; font-family:'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; line-height:1.2;">
+                                                    Starry Sky Eyeshadow
+                                                </div>
+                                                <div class="show-mobile-text" style="color:#ffffff;width:0px;overflow:hidden;display:none;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">
+                                                    Price (each): $12
+                                                </div>
+                                                <div class="show-mobile-text" style="color:#ffffff;width:0px;overflow:hidden;display:none;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">
+                                                    Qty: 1
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td width="23%" align="center" valign="top" style="color:#333333; font-family:'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; line-height:1.2; padding-top:16px; padding-bottom:16px;" class="hide-mobile">
+                                    $12.00
+                                </td>
+                                <td width="5%" align="center" valign="top" style="color:#333333; font-family:'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; line-height:1.2; padding-top:16px; padding-bottom:16px;" class="hide-mobile">
+                                    1
+                                </td>
+                                <td width="17%" align="right" valign="top" style="color:#333333; font-family:'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; line-height:1.2; padding-top:16px; padding-bottom:16px;">
+                                    $12.00
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="border-bottom:1px solid #d9d9d9;">
+                            <tr>
+                                <td width="55%" align="left" valign="top" style="padding-top:16px; padding-bottom:16px;">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tr>
+                                            <td width="80" align="left" valign="middle">
+                                                <a href="" title="" target="_blank">
+                                                    <img src="images/product-2.jpg" width="72" height="55" vspace="0" hspace="0" style="width:72px; height:auto !important; border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt=""/>
+                                                </a>
+                                            </td>
+                                            <td align="left" valign="top" style="line-height:1.2;">
+                                                <div style="color:#333333; font-family:'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; line-height:1.2;">
+                                                    Starry Sky Eyeshadow
+                                                </div>
+                                                <div class="show-mobile-text" style="color:#ffffff;width:0px;overflow:hidden;display:none;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">
+                                                    Price (each): $12
+                                                </div>
+                                                <div class="show-mobile-text" style="color:#ffffff;width:0px;overflow:hidden;display:none;font-size:1px;line-height:1px;mso-line-height-rule:exactly;">
+                                                    Qty: 1
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td width="23%" align="center" valign="top" style="color:#333333; font-family:'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; line-height:1.2; padding-top:16px; padding-bottom:16px;" class="hide-mobile">
+                                    $12.00
+                                </td>
+                                <td width="5%" align="center" valign="top" style="color:#333333; font-family:'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; line-height:1.2; padding-top:16px; padding-bottom:16px;" class="hide-mobile">
+                                    1
+                                </td>
+                                <td width="17%" align="right" valign="top" style="color:#333333; font-family:'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; line-height:1.2; padding-top:16px; padding-bottom:16px;">
+                                    $12.00
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td width="83%" align="right" valign="top" style="color:#333333; font-family:'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; line-height:1.3; padding-top:10px; padding-bottom:35px;">
+                                    Subtotal<br/>
+                                    Tax<br/>
+                                    Shipping<br/>
+                                    TOTAL
+                                </td>
+                                <td width="17%" align="right" valign="top" style="color:#333333; font-family:'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:11px; line-height:1.3; padding-left:5px; padding-top:10px; padding-bottom:35px;">
+                                    $24.00<br/>
+                                    $2.00<br/>
+                                    FREE<br/>
+                                    $26.00
+                                </td>
+                            </tr>
+                        </table>
+                        <table border="0" cellpadding="0" cellspacing="0" align="center" width="300" class="responsive-table" style="border-left:3px solid #f0ecf1; border-right:3px solid #f0ecf1; border-top:3px solid #f0ecf1; border-bottom:3px solid #f0ecf1;">
+                            <tr>
+                                <td align="center" valign="middle" style="line-height:1.2; padding-left:15px; padding-right:15px; padding-top:16px; padding-bottom:16px;">
+                                    <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#333333; font-size:13px;">
+                                        If you have any questions,<br/>
+                                        please contact the BeautyKind Care Team 
+                                        <span class="no-wrap"><b>Monday – Friday, XAM – XPM,</b></span><br/>
+                                        <b>at XXX-XXX-XXXX</b>.
+                                    </font>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" style="padding-top:35px; padding-bottom:40px;" class="section-padding">
+                        <table border="0" cellpadding="0" cellspacing="0" align="center" class="responsive-table-600">
+                            <tr>
+                                <td align="center" valign="top" style="padding-bottom:15px;" class="split-col-600">
+                                    <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" class="bordered-box" style="background-color:#f7f7f7; max-width:185px;">
+                                        <tr>
+                                            <td align="center" valign="top" style="line-height:1;" class="bordered-box">
+                                                <img src="images/shop.jpg" width="185" height="84" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="" class="hide-mobile"/>
+                                                <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:24px; text-transform:uppercase;">Shop</font>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="padding-top:10px; padding-bottom:21px;">
+                                                <table border="0" cellpadding="0" cellspacing="0" align="center" width="75%" class="bordered-box-text">
+                                                    <tr>
+                                                        <td align="center" valign="top" style="line-height:1.1; mso-line-height-rule:exactly;">
+                                                            <font face="'Avenir-Heavy','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:10px; text-transform:uppercase;" class="font-decrease-12">Find the best brands in beauty. Discover new ones, too.</font>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td width="12" class="hide-600"></td>
+                                <td align="center" valign="top" style="padding-bottom:15px;" class="split-col-600">
+                                    <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" class="bordered-box" style="background-color:#f7f7f7; max-width:185px;">
+                                        <tr>
+                                            <td align="center" valign="top" style="line-height:1;" class="bordered-box">
+                                                <img src="images/give.jpg" width="185" height="84" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="" class="hide-mobile"/>
+                                                <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:24px; text-transform:uppercase;">Give</font>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="padding-top:10px; padding-bottom:21px;">
+                                                <table border="0" cellpadding="0" cellspacing="0" align="center" width="84%" class="bordered-box-text">
+                                                    <tr>
+                                                        <td align="center" valign="top" style="line-height:1.1; mso-line-height-rule:exactly;">
+                                                            <font face="'Avenir-Heavy','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:10px; text-transform:uppercase;" class="font-decrease-12">Select the cause of your choice. Make an impact with your 5%.</font>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td width="12" class="hide-600"></td>
+                                <td align="center" valign="top" style="padding-bottom:15px;" class="split-col-600">
+                                    <table border="0" cellpadding="0" cellspacing="0" align="center" width="100%" class="bordered-box" style="background-color:#f7f7f7; max-width:185px;">
+                                        <tr>
+                                            <td align="center" valign="top" style="line-height:1;" class="bordered-box">
+                                                <img src="images/share.jpg" width="185" height="84" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="" class="hide-mobile"/>
+                                                <font face="'Avenir-Medium','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:24px; text-transform:uppercase;">Share</font>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td align="center" valign="top" style="padding-top:10px; padding-bottom:21px;">
+                                                <table border="0" cellpadding="0" cellspacing="0" align="center" width="80%" class="bordered-box-text">
+                                                    <tr>
+                                                        <td align="center" valign="top" style="line-height:1.1; mso-line-height-rule:exactly;">
+                                                            <font face="'Avenir-Heavy','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#222222; font-size:10px; text-transform:uppercase;" class="font-decrease-12">Invite your friends to join. Be rewarded when they shop.</font>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" style="letter-spacing:1px; line-height:1.2; padding-bottom:5px;">
+                        <font face="'Avenir-Next','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#55274f; font-size:18px; text-transform:uppercase;" class="font-decrease-26"> <b>FREE SHIPPING</b> </font> <font face="'Avenir-Next','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#55274f; font-size:18px; text-transform:uppercase;" class="font-decrease-16"><span class="no-wrap">On All Orders Over $50</span></font>
+                    </td>
+                </tr>
+                <tr>
+                    <td height="1" bgcolor="#dbd0e1" style="font-size:1px;line-height:1px;mso-line-height-rule:exactly;" class="hide-mobile">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td bgcolor="#ffffff" align="center" style="font-size:1px;line-height:1px;mso-line-height-rule:exactly;" class="mobile-menu">
+                        <div class="bk-menu-btn" style="color:#ffffff;width:0px;overflow:hidden;display:none;">
+                            <a href="" target="_blank" class="bk-menu-btn-link" style="color:#ffffff;font-size:1px;">Makeup</a>
+                        </div>
+                        <div class="bk-menu-btn" style="color:#ffffff;width:0px;overflow:hidden;display:none;">
+                            <a href="" target="_blank" class="bk-menu-btn-link" style="color:#ffffff;font-size:1px;">Skincare</a>
+                        </div>
+                        <div class="bk-menu-btn" style="color:#ffffff;width:0px;overflow:hidden;display:none;">
+                            <a href="" target="_blank" class="bk-menu-btn-link" style="color:#ffffff;font-size:1px;">Hair</a>
+                        </div>
+                        <div class="bk-menu-btn" style="color:#ffffff;width:0px;overflow:hidden;display:none;">
+                            <a href="" target="_blank" class="bk-menu-btn-link" style="color:#ffffff;font-size:1px;">Fragrance</a>
+                        </div>
+                        <div class="bk-menu-btn" style="color:#ffffff;width:0px;overflow:hidden;display:none;">
+                            <a href="" target="_blank" class="bk-menu-btn-link" style="color:#ffffff;font-size:1px;">Brands</a>
+                        </div>
+                        <div class="bk-menu-btn" style="color:#ffffff;width:0px;overflow:hidden;display:none;">
+                            <a href="" target="_blank" class="bk-menu-btn-link" style="color:#ffffff;font-size:1px;">Causes</a>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%" align="center" style="max-width:1200px">
+    <tr>
+        <td bgcolor="#ffffff" align="center" valign="top" style="padding-top:20px;">
+            <table border="0" cellspacing="0" cellpadding="0" width="600" align="center" class="responsive-table-600">
+                <tr>
+                    <td align="center" valign="top" style="padding-bottom:13px;">
+                        <a href="" title="" target="_blank">
+                            <img src="images/logo-beautykind-symbol.png" width="28" height="28" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="BeautyKind" />
+                        </a>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top">
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" width="380" class="responsive-table">
+                            <tr>
+                                <td width="90" align="center" valign="top" style="padding-bottom:15px;" class="split-col">
+                                    <a href="" target="_blank" style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:16px; text-decoration:none;">About Us</a>
+                                    <br/>
+                                    <a href="" target="_blank" style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:16px; text-decoration:none;">How it works</a>
+                                    <br/>
+                                    <a href="" target="_blank" style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:16px; text-decoration:none;">FAQs</a>
+                                </td>
+                                <td width="200" align="center" valign="top" style="padding-bottom:15px;" class="split-col">
+                                    <div class="mobile-inline" style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:16px; padding:0; margin:0;">BEAUTYKIND</div>
+                                    <div class="mobile-inline" style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:16px; padding:0; margin:0;">6101 W. Centinela Suite 394</div>
+                                    <div style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:16px; padding:0; margin:0;">Los Angeles, CA 90230</div>
+                                </td>
+                                <td width="90" align="center" valign="top" style="padding-bottom:15px;" class="hide-mobile">
+                                    <a href="" target="_blank" style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:16px; text-decoration:none;">Customer Care</a>
+                                    <br/>
+                                    <a href="" target="_blank" style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:16px; text-decoration:none;">Shipping</a>
+                                    <br/>
+                                    <a href="" target="_blank" style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; line-height:16px; text-decoration:none;">Returns</a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" style="padding-bottom:20px;">
+                        <table border="0" cellspacing="0" cellpadding="0" align="center" width="220">
+                            <tr>
+                                <td align="center" valign="middle" style="padding-right:35px;">
+                                    <a href="" title="Facebook" target="_blank">
+                                        <img src="images/icon-facebook.png" width="8" height="16" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="Facebook" />
+                                    </a>
+                                </td>
+                                <td align="center" valign="middle" style="padding-right:35px;">
+                                    <a href="" title="Twitter" target="_blank">
+                                        <img src="images/icon-twitter.png" width="17" height="15" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="Twitter" />
+                                    </a>
+                                </td>
+                                <td align="center" valign="middle" style="padding-right:35px;">
+                                    <a href="" title="Instagram" target="_blank">
+                                        <img src="images/icon-instagram.png" width="15" height="15" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="Instagram" />
+                                    </a>
+                                </td>
+                                <td align="center" valign="middle" style="padding-right:35px;">
+                                    <a href="" title="Pinterest" target="_blank">
+                                        <img src="images/icon-pinterest.png" width="19" height="19" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="Pinterest" />
+                                    </a>
+                                </td>
+                                <td align="center" valign="middle">
+                                    <a href="" title="Youtube" target="_blank">
+                                        <img src="images/icon-youtube.png" width="21" height="15" vspace="0" hspace="0" style="border-left-width: 0; border-bottom-width: 0; border-right-width: 0; border-top-width: 0; outline: none; text-decoration: none; display: block;" alt="Youtube" />
+                                    </a>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" style="line-height:1.2; padding-bottom:15px;">
+                        <a href="" target="_blank" style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; text-decoration:underline;">Privacy Policy</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="" target="_blank" style="color:#999999; font-family:'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif; font-size:10px; text-decoration:underline;">Unsubscribe</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" style="line-height:1.2; padding-bottom:60px;">
+                        <font face="'Avenir-Roman','Helvetica Neue', Helvetica, Arial, sans-serif" style="color:#999999; font-size:10px;">Copyright &#169; 2014 Beauty Kind, LLC. All Rights Reserved.</font>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
