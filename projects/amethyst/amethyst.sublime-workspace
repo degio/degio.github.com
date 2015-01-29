@@ -1,0 +1,426 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"gly",
+				"glyphicon"
+			],
+			[
+				"no",
+				"nowrap"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"h",
+				"crosshair"
+			],
+			[
+				"p",
+				"help"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "style-guide/index2.html",
+			"settings":
+			{
+				"buffer_size": 55765,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style-guide/css/slider.css",
+			"settings":
+			{
+				"buffer_size": 183,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "style-guide/slick/slick.css",
+			"settings":
+			{
+				"buffer_size": 4124,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dgamez/git/degio.github.com/projects/amethyst/style-guide/index.html",
+		"/Users/dgamez/Desktop/alexis",
+		"/Users/dgamez/Documents/email stuff/UCR-1790 USAA Insurance Winback Email HTML/BOOMER.html",
+		"/Users/dgamez/Documents/email stuff/TCDC Alerts Weekly Digest Email/index.html",
+		"/Users/dgamez/Documents/email stuff/TC-9415 Member Engagement emails/day1.html",
+		"/Users/dgamez/Documents/email stuff/Sell My Car Email/index.html",
+		"/Users/dgamez/git/degio.github.com/projects/blackandnylon/index.html",
+		"/Users/dgamez/git/degio.github.com/projects/blackandnylon/css/style-guide.css",
+		"/Users/dgamez/git/degio.github.com/style-guide/js/bootstrap.js",
+		"/Users/dgamez/git/degio.github.com/projects/blackandnylon/css/global.css",
+		"/Users/dgamez/git/degio.github.com/style-guide/index.html",
+		"/Users/dgamez/git/degio.github.com/style-guide/css/style-guide.css",
+		"/Users/dgamez/git/degio.github.com/style-guide/css/global.css",
+		"/Users/dgamez/Documents/amethyst.sublime-project",
+		"/Users/dgamez/git/degio.github.com/webdev/rocknsugar/style-guide/index.html",
+		"/Users/dgamez/Downloads/themeforest-6603795-john-does-blog-clean-wordpress-blog-theme-/JOHNDOEBLOG-theme/includes/theme_shortcodes/tinymce/editor_plugin.php",
+		"/Users/dgamez/git/dmint.github.com/menu/index.html",
+		"/Users/dgamez/git/degio.github.com/webdev/rocknsugar/index.html",
+		"/Users/dgamez/git/dmint.github.com/about/index.html",
+		"/Users/dgamez/git/dmint.github.com/gallery/index.html",
+		"/Users/dgamez/git/degio.github.com/webdev/rocknsugar/js/rock.js",
+		"/Users/dgamez/git/dmint.github.com/contact/index.html",
+		"/Users/dgamez/git/dmint.github.com/index.html",
+		"/Users/dgamez/Downloads/Responsys Queries/cart abandonment.sql"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"show-mobile-text",
+			"section-padding",
+			"bk-menu-btn",
+			"no-padding",
+			"section-padding",
+			"src=\"http://deg.io/webdev/beautykind/email/welcome/images/",
+			"tcdc",
+			" font-weight:200;",
+			"split-col",
+			"mobile-menu",
+			"cell",
+			"section-padding",
+			"top-header",
+			"top-header\ntop-header",
+			"hide-mobile",
+			"split-col",
+			"-600",
+			"responsive-table",
+			"640",
+			"#f8f8f8",
+			"class=\"hide-640\"",
+			"width=\"640\"",
+			"640",
+			"jm-menu-btn",
+			"cell",
+			".cell",
+			"=\n",
+			"=2E",
+			"=\n",
+			"=09",
+			"=\n",
+			"=",
+			"= ",
+			"=\n",
+			"=23",
+			"=\n",
+			"=40",
+			"=20",
+			"=7B",
+			"=5D",
+			"=5B",
+			"=7D",
+			"=21",
+			"=3D",
+			"=22",
+			"=3D",
+			"=20",
+			"=3D\"",
+			"=\n",
+			"=09",
+			"href=\"javascript:;\"",
+			"dropdown",
+			"dropdown-toggle",
+			"list-style",
+			"-rns",
+			"rs-",
+			"rns-",
+			"Amethyst",
+			"rock",
+			"Jungle sugar girls rock!",
+			"Open Sans ",
+			"Didact Gothic ",
+			"Cinzel ",
+			"h1",
+			"992px",
+			"@media",
+			"navbar-header",
+			"background: #000;",
+			"border-color: #000;",
+			"background-color: #000;",
+			"navbar-default",
+			"navbar-link",
+			"navbar-header",
+			".navbar-header",
+			"align",
+			"class=\"\"",
+			"class=\"\"\nclass=\"\"",
+			"aligncenter",
+			"align center",
+			"align none",
+			"align",
+			"the_post_thumbnail()",
+			"class=\"\"",
+			"alignnone",
+			"class=\"\"",
+			"class",
+			"<img class=\"",
+			"class=\"align",
+			"class=\"alignnone",
+			"<!-- Post Content -->",
+			"$content",
+			"<div class=\"excerpt\">",
+			"<div class=\"",
+			"< div class=\"",
+			"content",
+			"<img class=",
+			"<img class=\"alignnone",
+			"<div class=\"excerpt\">",
+			".alignnone",
+			"id=\"filters\"",
+			"<div id=\"filters\"",
+			"categories",
+			"100px",
+			"test",
+			"PhotoHeight-HighRes",
+			"data-photo-width",
+			"SearchPage",
+			"post"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"src=\"images/",
+			"",
+			"#ffffff",
+			"class=\"hide-600\"",
+			"width=\"600\"",
+			"",
+			".",
+			"",
+			"#",
+			"",
+			"@",
+			"",
+			"{",
+			"]",
+			"[",
+			"{",
+			"}",
+			"!",
+			"=",
+			"\"",
+			"=",
+			"",
+			"=\"",
+			"",
+			"href=\"\"",
+			"-bn",
+			"bn-",
+			"Black + Nylon",
+			"Gem stones are very shiny!",
+			"'Open Sans' ",
+			"'Didact Gothic' ",
+			"'Cinzel' ",
+			"background: #222;",
+			"border-color: #222;",
+			"background-color: #222;"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "style-guide/index2.html",
+					"settings":
+					{
+						"buffer_size": 55765,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								387,
+								387
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "style-guide/css/slider.css",
+					"settings":
+					{
+						"buffer_size": 183,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								97,
+								97
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style-guide/slick/slick.css",
+					"settings":
+					{
+						"buffer_size": 4124,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2499,
+								2499
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 164.0,
+	"status_bar_visible": true
+}

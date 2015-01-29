@@ -1,0 +1,40 @@
+#slider {
+	box-sizing: border-box;
+	width: 100%;
+	position: relative;
+	float: left;
+	clear: both;
+}
+
+#slider div {
+	width: 100%;
+	background-position: 0% 0%, center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#slider .slide-content {
+	width: 100%;
+	height: 0;
+	padding-bottom: 50%;
+}
+
+#slider .slide1 {
+	background-image: url(../mockup/mm_slide_1.jpg);
+}
+#slider .slide2 {
+	background-image: url(../mockup/mm_slide_2.jpg);
+}
+#slider .slide3 {
+	background-image: url(../mockup/mm_slide_3.jpg);
+}
+
+
+#slider.container-fluid {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.container .jumbotron {
+	margin-top: 100px;
+}
